@@ -24,13 +24,13 @@
             android:layout_marginStart="@dimen/about_header_icon_margin_start_end"
             android:layout_marginTop="@dimen/about_header_icon_margin_top"
             android:layout_marginEnd="@dimen/about_header_icon_margin_start_end"
-            android:contentDescription="@string/app_name"
+            android:contentDescription="LeOSearch"
             android:importantForAccessibility="no"
-            app:srcCompat="?fenixLogo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.75" />
+            app:layout_constraintWidth_percent="0.75"
+            app:srcCompat="?attr/fenixWordmarkText" />
 
         <TextView
             android:id="@+id/about_content"
