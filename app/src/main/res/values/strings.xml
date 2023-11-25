@@ -301,7 +301,7 @@
     <!-- Notification pre-permission dialog -->
     <!-- Enable notification pre permission dialog title
         The first parameter is the name of the app defined in app_name (for example: Fenix) -->
-    <string name="onboarding_home_enable_notifications_title">Notifications help you do more with %s</string>
+    <string name="onboarding_home_enable_notifications_title">Notifications help you do more with LeOSium</string>
     <!-- Enable notification pre permission dialog description with rationale
         The first parameter is the name of the app defined in app_name (for example: Fenix) -->
     <string name="onboarding_home_enable_notifications_description">Sync your tabs between devices, manage downloads, get tips about making the most of %s’s privacy protection, and more.</string>
@@ -346,13 +346,13 @@
     <string name="juno_onboarding_enable_notifications_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">Notifications help you do more with LeOSium</string>
     <!-- Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
         Note: The word "LeOSium" should NOT be translated -->
-    <string name="juno_onboarding_enable_notifications_title_nimbus_2">Notifications help you stay safer with Firefox</string>
+    <string name="juno_onboarding_enable_notifications_title_nimbus_2">Notifications help you stay safer with LeOSium</string>
     <!-- Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
        Note: The word "Firefox" should NOT be translated -->
     <string name="juno_onboarding_enable_notifications_description_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">Send tabs between devices, manage downloads, and get tips on getting the most out of LeOSium.</string>
     <!-- Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_enable_notifications_description_nimbus_2">Securely send tabs between your devices and discover other privacy features in Firefox.</string>
+    <string name="juno_onboarding_enable_notifications_description_nimbus_2">Securely send tabs between your devices and discover other privacy features in LeOSium.</string>
     <!-- Text for the button to request notification permission on the device -->
     <string name="juno_onboarding_enable_notifications_positive_button" tools:ignore="UnusedResources">Turn on notifications</string>
     <!-- Text for the button dismiss the screen and move on with the flow -->
@@ -672,7 +672,7 @@
     <!-- Title of the Nimbus message for add-ons general availability-->
     <string name="addon_ga_message_title" tools:ignore="UnusedResources">New add-ons now available</string>
     <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here-->
-    <string name="addon_ga_message_body" tools:ignore="UnusedResources">Check out 100+ new extensions that let you make Firefox your own.</string>
+    <string name="addon_ga_message_body" tools:ignore="UnusedResources">Check out 100+ new extensions that let you make LeOSium your own.</string>
     <!-- Button text of the Nimbus message for add-ons general availability. -->
     <string name="addon_ga_message_button" tools:ignore="UnusedResources">Explore add-ons</string>
 
@@ -738,7 +738,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">Received tabs</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">Notifications for tabs received from other Firefox devices.</string>
+    <string name="fxa_received_tab_channel_description">Notifications for tabs received from other LeOSium devices.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Tab Received</string>
     <!-- %s is the device name -->
@@ -1302,10 +1302,10 @@
     <string name="notification_marketing_channel_name">Marketing</string>
     <!-- Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">Firefox is fast and private</string>
+    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">LeOSium is fast and private</string>
     <!-- Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">Make Firefox your default browser</string>
+    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">Make LeOSium your default browser</string>
     <!-- Title shown in the notification that pops up to re-engage the user -->
     <string name="notification_re_engagement_title">Try private browsing</string>
     <!-- Text shown in the notification that pops up to re-engage the user.
@@ -1324,7 +1324,7 @@
     <!-- Survey -->
     <!-- Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_survey_message_text">Please help make Firefox better by taking a short survey.</string>
+    <string name="nimbus_survey_message_text">Please help make LeOSium better by taking a short survey.</string>
     <!-- Preference for taking the short survey. -->
     <string name="preferences_take_survey">Take Survey</string>
     <!-- Preference for not taking the short survey. -->
