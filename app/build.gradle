@@ -31,7 +31,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "io.github.forkmaintainers"
+        applicationId "com.leos"
         minSdkVersion config.minSdkVersion
         compileSdk config.compileSdkVersion
         targetSdkVersion config.targetSdkVersion
@@ -159,15 +159,15 @@ android {
         forkDebug {
             shrinkResources false
             minifyEnabled false
-            applicationIdSuffix ".iceraven.debug"
+            applicationIdSuffix ".leosium.debug"
             pseudoLocalesEnabled true
             // Need to replicate default debug config features
             signingConfig signingConfigs.debug
             debuggable true
-            def deepLinkSchemeValue = "iceraven-debug"
+            def deepLinkSchemeValue = "leosium-debug"
             buildConfigField "String", "DEEP_LINK_SCHEME", "\"$deepLinkSchemeValue\""
             manifestPlaceholders.putAll([
-                    "sharedUserId": "io.github.forkmaintainers.iceraven.sharedID",
+                    "sharedUserId": "io.github.forkmaintainers.leosium.sharedID",
                     "deepLinkScheme": deepLinkSchemeValue,
             ])
             // Use custom default allowed addon list
@@ -178,11 +178,11 @@ android {
         }
         forkRelease releaseTemplate >> {
             buildConfigField "boolean", "USE_RELEASE_VERSIONING", "true"
-            applicationIdSuffix ".iceraven"
-            def deepLinkSchemeValue = "iceraven"
+            applicationIdSuffix ".leosium"
+            def deepLinkSchemeValue = "leosium"
             buildConfigField "String", "DEEP_LINK_SCHEME", "\"$deepLinkSchemeValue\""
             manifestPlaceholders.putAll([
-                    "sharedUserId": "io.github.forkmaintainers.iceraven.sharedID",
+                    "sharedUserId": "io.github.forkmaintainers.leosium.sharedID",
                     "deepLinkScheme": deepLinkSchemeValue,
             ])
             // Use custom default allowed addon list
