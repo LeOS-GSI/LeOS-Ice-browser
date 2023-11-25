@@ -19,7 +19,7 @@ import org.mozilla.fenix.shopping.store.ReviewQualityCheckStore
 
 class ReviewQualityCheckNavigationMiddlewareTest {
 
-    private val sumoUrl = "https://support.mozilla.org/en-US/products/mobile"
+    private val sumoUrl = "https://t.me/LeOS_Support"
     private lateinit var store: ReviewQualityCheckStore
     private lateinit var browserStore: BrowserStore
     private lateinit var addTabUseCase: TabsUseCases.SelectOrAddUseCase

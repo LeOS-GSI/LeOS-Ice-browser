@@ -54,7 +54,7 @@
     <string name="recently_saved_menu_item_remove">Remove</string>
 
     <!-- About content. The first parameter is the name of the application. (For example: Fenix) -->
-    <string name="about_content">%1$s is produced by @fork-maintainers.</string>
+    <string name="about_content">%1$s is produced by @harvey186.</string>
 
     <!-- Private Browsing -->
     <!-- Explanation for private browsing displayed to users on home view when they first enable private mode
@@ -313,12 +313,12 @@
     <!-- Juno first user onboarding flow experiment, strings are marked unused as they are only referenced by Nimbus experiments. -->
     <!-- Title for set firefox as default browser screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
         Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_default_browser_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">Make Firefox your go-to browser</string>
+    <string name="juno_onboarding_default_browser_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">Make LeOSium your go-to browser</string>
     <!-- Title for set firefox as default browser screen used by Nimbus experiments. -->
     <string name="juno_onboarding_default_browser_title_nimbus_2">We love keeping you safe</string>
     <!-- Description for set firefox as default browser screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
         Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_default_browser_description_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">Firefox puts people over profits and defends your privacy by blocking cross-site trackers.\n\nLearn more in our privacy notice.</string>
+    <string name="juno_onboarding_default_browser_description_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">LeOSium puts people over profits and defends your privacy by blocking cross-site trackers.\n\nLearn more in our privacy notice.</string>
     <!-- Description for set firefox as default browser screen used by Nimbus experiments. -->
     <string name="juno_onboarding_default_browser_description_nimbus_2">Our non-profit backed browser helps stop companies from secretly following you around the web.\n\nLearn more in our privacy notice.</string>
     <!-- Text for the link to the privacy notice webpage for set as firefox default browser screen.
@@ -336,20 +336,20 @@
     <string name="juno_onboarding_sign_in_description" moz:removedIn="120" tools:ignore="UnusedResources">Grab tabs and passwords from your other devices to pick up where you left off.</string>
     <!-- Description for sign in to sync screen. Nimbus experiments do not support string placeholders.
      Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_sign_in_description_2">When you’re signed in and synced, you’re safer. Firefox encrypts your passwords, bookmarks, and more.</string>
+    <string name="juno_onboarding_sign_in_description_2">When you’re signed in and synced, you’re safer. LeOSium encrypts your passwords, bookmarks, and more.</string>
     <!-- Text for the button to sign in to sync on the device -->
     <string name="juno_onboarding_sign_in_positive_button" tools:ignore="UnusedResources">Sign in</string>
     <!-- Text for the button dismiss the screen and move on with the flow -->
     <string name="juno_onboarding_sign_in_negative_button" tools:ignore="UnusedResources">Not now</string>
     <!-- Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
         Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_enable_notifications_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">Notifications help you do more with Firefox</string>
+    <string name="juno_onboarding_enable_notifications_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">Notifications help you do more with LeOSium</string>
     <!-- Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
+        Note: The word "LeOSium" should NOT be translated -->
     <string name="juno_onboarding_enable_notifications_title_nimbus_2">Notifications help you stay safer with Firefox</string>
     <!-- Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_enable_notifications_description_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">Send tabs between devices, manage downloads, and get tips on getting the most out of Firefox.</string>
+    <string name="juno_onboarding_enable_notifications_description_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">Send tabs between devices, manage downloads, and get tips on getting the most out of LeOSium.</string>
     <!-- Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
        Note: The word "Firefox" should NOT be translated -->
     <string name="juno_onboarding_enable_notifications_description_nimbus_2">Securely send tabs between your devices and discover other privacy features in Firefox.</string>
@@ -359,13 +359,13 @@
     <string name="juno_onboarding_enable_notifications_negative_button" tools:ignore="UnusedResources">Not now</string>
     <!-- Title for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
         Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_add_search_widget_title" tools:ignore="UnusedResources">Try the Firefox search widget</string>
+    <string name="juno_onboarding_add_search_widget_title" tools:ignore="UnusedResources">Try the LeOSium search widget</string>
     <!-- Description for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
         Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_add_search_widget_description" tools:ignore="UnusedResources">With Firefox on your home screen, you’ll have easy access to the privacy-first browser that blocks cross-site trackers.</string>
+    <string name="juno_onboarding_add_search_widget_description" tools:ignore="UnusedResources">With LeOSium on your home screen, you’ll have easy access to the privacy-first browser that blocks cross-site trackers.</string>
     <!-- Text for the button to add search widget on the device used by Nimbus experiments. Nimbus experiments do not support string placeholders.
         Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="UnusedResources">Add Firefox widget</string>
+    <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="UnusedResources">Add LeOSium widget</string>
     <!-- Text for the button to dismiss the screen and move on with the flow -->
     <string name="juno_onboarding_add_search_widget_negative_button" tools:ignore="UnusedResources">Not now</string>
 
@@ -409,9 +409,9 @@
     <!-- Preference Category for settings related to Search address bar -->
     <string name="preferences_settings_address_bar">Address bar preferences</string>
     <!-- Preference Category for settings to Firefox Suggest -->
-    <string name="preference_search_address_bar_fx_suggest">Address bar - Firefox Suggest</string>
+    <string name="preference_search_address_bar_fx_suggest">Address bar - LeOSium Suggest</string>
     <!-- Preference link to Learn more about Firefox Suggest -->
-    <string name="preference_search_learn_about_fx_suggest">Learn more about Firefox Suggest</string>
+    <string name="preference_search_learn_about_fx_suggest">Learn more about LeOSium Suggest</string>
     <!-- Preference link to rating Fenix on the Play Store -->
     <string name="preferences_rate">Rate on Google Play</string>
     <!-- Preference linking to about page for Fenix

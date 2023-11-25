@@ -8,8 +8,8 @@ Firefox for Android is the first step in building a better mobile browser: one t
 
 ## User support
 
-* Support articles: https://support.mozilla.org/en-US/products/mobile
-* Support forum: https://support.mozilla.org/en-US/questions/mobile
+* Support articles: https://t.me/LeOS_Support
+* Support forum: https://t.me/LeOS_Support
 
 ## Download
 

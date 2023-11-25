@@ -140,17 +140,6 @@ class AboutFragment : Fragment(), AboutPageListener {
             ),
             AboutPageItem(
                 AboutItem.ExternalLink(
-                    SUPPORT,
-                    SupportUtils.getSumoURLForTopic(context, SupportUtils.SumoTopic.HELP),
-                ),
-                getString(R.string.about_support),
-            ),
-            AboutPageItem(
-                AboutItem.Crashes,
-                getString(R.string.about_crashes),
-            ),
-            AboutPageItem(
-                AboutItem.ExternalLink(
                     PRIVACY_NOTICE,
                     SupportUtils.getMozillaPageUrl(SupportUtils.MozillaPage.PRIVATE_NOTICE),
                 ),

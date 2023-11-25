@@ -26,9 +26,9 @@ object SupportUtils {
     const val POCKET_TRENDING_URL = "https://getpocket.com/fenix-top-articles"
     const val WIKIPEDIA_URL = "https://www.wikipedia.org/"
     const val FENIX_PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=${BuildConfig.APPLICATION_ID}"
-    const val GOOGLE_URL = "https://www.google.com/"
+    const val GOOGLE_URL = "https://leosearch.ddns.net/"
     const val BAIDU_URL = "https://m.baidu.com/"
-    const val JD_URL = "https://union-click.jd.com/jdc" +
+    const val JD_URL = "https://unionX-click.jd.com/jdc" +
         "?e=&p=AyIGZRprFDJWWA1FBCVbV0IUWVALHFRBEwQAQB1AWQkFVUVXfFkAF14lRFRbJXstVWR3WQ1rJ08AZnhS" +
         "HDJBYh4LZR9eEAMUBlccWCUBEQZRGFoXCxc3ZRteJUl8BmUZWhQ" +
         "AEwdRGF0cMhIAVB5ZFAETBVAaXRwyFQdcKydLSUpaCEtYFAIXN2UrWCUyIgdVK1slXVZaCCtZFAMWDg%3D%3D"
@@ -38,7 +38,7 @@ object SupportUtils {
     const val MEITUAN_URL = "https://tb.j5k6.com/6ZSOp"
     const val GOOGLE_US_URL = "https://www.google.com/webhp?client=firefox-b-1-m&channel=ts"
     const val GOOGLE_XX_URL = "https://www.google.com/webhp?client=firefox-b-m&channel=ts"
-    const val WHATS_NEW_URL = "https://github.com/fork-maintainers/iceraven-browser/releases"
+    const val WHATS_NEW_URL = "https://github.com/LeOS-GSI/LeOS-Ice-browser/releases"
 
     enum class SumoTopic(internal val topicStr: String) {
         HELP("faq-android"),
