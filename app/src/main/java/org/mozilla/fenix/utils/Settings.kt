@@ -733,12 +733,12 @@ class Settings(private val appContext: Context) : PreferencesHolder {
 
     val useStandardTrackingProtection by booleanPreference(
         appContext.getPreferenceKey(R.string.pref_key_tracking_protection_standard_option),
-        true,
+        false,
     )
 
     val useStrictTrackingProtection by booleanPreference(
         appContext.getPreferenceKey(R.string.pref_key_tracking_protection_strict_default),
-        false,
+        true,
     )
 
     val useCustomTrackingProtection by booleanPreference(
