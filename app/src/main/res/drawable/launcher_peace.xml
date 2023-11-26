@@ -1,9 +1,9 @@
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
-   - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:width="323dp" android:height="450dp" android:viewportWidth="123" android:viewportHeight="145">
- <path
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="135dp"
+    android:height="135dp"
+    android:viewportWidth="135"
+    android:viewportHeight="135">
+  <path
       android:pathData="M84.5,2.5C98.21,2.38 103.71,9.04 101,22.5C98.03,32.7 95.53,43.03 93.5,53.5C98.79,54.06 102.62,56.73 105,61.5C120.06,100.83 107.23,124.5 66.5,132.5C49.27,131.61 36.1,123.94 27,109.5C22.03,100.24 22.37,91.24 28,82.5C29.72,81.15 31.55,79.98 33.5,79C28.59,71.1 30.26,64.76 38.5,60C42.69,59.36 46.69,59.69 50.5,61C41.96,50.77 34.79,39.6 29,27.5C26.27,21.59 25.94,15.59 28,9.5C33.27,3.32 39.43,2.15 46.5,6C49.95,9.73 52.78,13.9 55,18.5C59.85,28.01 64.51,37.68 69,47.5C71.34,35.17 74,22.84 77,10.5C78.39,6.68 80.89,4.01 84.5,2.5Z"
       android:strokeAlpha="0.452"
       android:fillColor="#0b0b0a"
