@@ -530,23 +530,23 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">Intenta conectarse automáticamente a sitios usando el protocolo de cifrado HTTPS para mayor seguridad.</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">Desactivado</string>
-    <!-- Summary of https only preference if https only is set to on in all tabs -->
+    <!-- Summary of http only preference if http only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">Sí, en todas las pestañas</string>
-    <!-- Summary of https only preference if https only is set to on in private tabs only -->
+    <!-- Summary of http only preference if http only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">Sí, en pestañas privadas</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">Conocer más</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">Conocer más</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">Habilitar en todas las pestañas</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">Habilitar solo en pestañas privadas</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Sitio seguro no disponible</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Lo más probable es que el sitio web simplemente no sea compatible con HTTPs.</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">Sin embargo, también es posible que un atacante esté involucrado. Si continúa al sitio web, no debe ingresar ninguna información sensible. Si continúa, el modo solo HTTPS se desactivará temporalmente para el sitio.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Accesibilidad</string>
@@ -1440,7 +1440,7 @@
     <string name="qr_scanner_dialog_positive">ALLOW</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">DENY</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">Dirección web inválida.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">Aceptar</string>
@@ -1553,7 +1553,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Escanear el código</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[En tu computadora, abrí Firefox y andá a <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[En tu computadora, abrí Firefox y andá a <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Listo para escanear</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1977,7 +1977,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">URL a usar para la búsqueda</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Reemplazar la consulta con &quot;%s&quot;. Ejemplo:\n https://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Reemplazar la consulta con &quot;%s&quot;. Ejemplo:\n http://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Detalles del motor de búsqueda personalizado</string>
@@ -1987,7 +1987,7 @@
     <!-- Placeholder text shown in the Search Suggestion String TextField before a user enters text -->
     <string name="search_add_custom_engine_suggest_string_hint">URL de la API de sugerencias de búsqueda</string>
     <!-- Description text for the Search Suggestion String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">Reemplazar la consulta con “%s”. Ejemplo:\nhttps://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
+    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">Reemplazar la consulta con “%s”. Ejemplo:\nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
     <!-- The text for the "Save" button for saving a custom search engine -->
     <string name="search_custom_engine_save_button">Guardar</string>
 
@@ -2079,10 +2079,10 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Ya existe un inicio de sesión con ese nombre de usuario</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">La dirección web debe contener &quot;https://&quot; o &quot;http://&quot;</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">La dirección web debe contener &quot;http://&quot; o &quot;http://&quot;</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Se requiere nombre de host válido</string>
 

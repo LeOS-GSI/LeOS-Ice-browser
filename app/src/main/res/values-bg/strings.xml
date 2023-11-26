@@ -298,10 +298,10 @@
 
     <!-- Summary of tracking protection preference if tracking protection is set to on -->
     <string name="preferences_https_only_on" moz:removedIn="111" tools:ignore="UnusedResources">Включено</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">Изключено</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">Научете повече</string>
+    <string name="preferences_https_only_learn_more">Научете повече</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Достъпност</string>
     <!-- Preference to override the Firefox Account server -->
@@ -984,7 +984,7 @@
     <string name="qr_scanner_dialog_positive">РАЗРЕШАВАНЕ</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">ЗАБРАНЯВАНЕ</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">Адресът е недействителен.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">Добре</string>
@@ -1104,7 +1104,7 @@
     <string name="sync_scan_code">Сканиране на код</string>
 
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Отворете Firefox на вашият компютър и посетете <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Отворете Firefox на вашият компютър и посетете <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">В готовност за сканиране</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1450,7 +1450,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">Низ за търсене, който да се използва</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Заменете заявката с „%s“. Пример:\nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Заменете заявката с „%s“. Пример:\nhttp://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Данни за търсещата машина на потребителя</string>
 
@@ -1532,11 +1532,11 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Регистрация с това потребителско име вече съществува</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
 
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">Адресът трябва да съдържа „https://“ или „http://“</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">Адресът трябва да съдържа „http://“ или „http://“</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Необходимо е валидно име на хост</string>
 

@@ -515,23 +515,23 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">Ба таври худкор кӯшиш мекунад, ки ба сомонаҳо бо истифода аз протоколи рамзгузории HTTPS барои баланд бардоштани амният пайваст шавад.</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">Ғайрифаъол</string>
-    <!-- Summary of https only preference if https only is set to on in all tabs -->
+    <!-- Summary of http only preference if http only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">Фаъол дар ҳамаи варақаҳо</string>
-    <!-- Summary of https only preference if https only is set to on in private tabs only -->
+    <!-- Summary of http only preference if http only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">Фаъол дар варақаҳои хусусӣ</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">Маълумоти бештар</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">Маълумоти бештар</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">Фаъол кардан дар ҳамаи варақаҳо</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">Фаъол кардан танҳо дар варақаҳои хусусӣ</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Сомонаи бехатар дастрас нест</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Эҳтимол, сомона танҳо пайвасти «HTTP»-ро дастгирӣ намекунад.</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">Бо вуҷуди ин, инчунин, мумкин аст, ки ҳамлакунанда дахолат мекунад. Агар шумо кори худро бо сомона идома диҳед, шумо набояд ягон маълумоти ҳассоси шахсиро ворид намоед. Агар шумо идома диҳед, реҷаи «Танҳо HTTPS» барои сомона муваққатан ғайрифаъол мешавад.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Қобилияти дастрасӣ</string>
@@ -1416,7 +1416,7 @@
     <string name="qr_scanner_dialog_positive">ИҶОЗАТ ДОДАН</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">РАД КАРДАН</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">Нишонии сомона нодуруст аст.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">ХУБ</string>
@@ -1531,7 +1531,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Рамзро скан кунед</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Дар компютери худ Firefox-ро кушоед ва ба <b>https://firefox.com/pair</b> гузаред]]></string>
+    <string name="sign_in_instructions"><![CDATA[Дар компютери худ Firefox-ро кушоед ва ба <b>http://firefox.com/pair</b> гузаред]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Барои аксбардорӣ омода аст</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1953,7 +1953,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">Нишонии URL, ки барои ҷустуҷӯ истифода мешавад</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Сатри дархостро бо “%s” иваз намоед. Масалан:\nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Сатри дархостро бо “%s” иваз намоед. Масалан:\nhttp://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Тафсилот дар бораи низоми ҷустуҷӯии фармоишӣ</string>
 
@@ -1962,7 +1962,7 @@
     <!-- Placeholder text shown in the Search Suggestion String TextField before a user enters text -->
     <string name="search_add_custom_engine_suggest_string_hint">Нишонии URL-и API-и пешниҳоди ҷустуҷӯ</string>
     <!-- Description text for the Search Suggestion String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">Дархостро ба қимати «%s» иваз намоед. Барои мисол:\nhttps://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
+    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">Дархостро ба қимати «%s» иваз намоед. Барои мисол:\nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
     <!-- The text for the "Save" button for saving a custom search engine -->
     <string name="search_custom_engine_save_button">Нигоҳ доштан</string>
 
@@ -2054,10 +2054,10 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Воридшавӣ бо ин номи корбар аллакай вуҷуд дорад</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">Нишонии сомона бояд &quot;https://&quot; ё &quot;http://&quot;-ро дар бар гирад</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">Нишонии сомона бояд &quot;http://&quot; ё &quot;http://&quot;-ро дар бар гирад</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Номи сервери дуруст лозим аст</string>
 

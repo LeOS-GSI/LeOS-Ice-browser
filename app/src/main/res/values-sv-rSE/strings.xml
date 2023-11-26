@@ -530,23 +530,23 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">Försöker automatiskt ansluta till webbplatser med HTTPS-krypteringsprotokollet för ökad säkerhet.</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">Av</string>
-    <!-- Summary of https only preference if https only is set to on in all tabs -->
+    <!-- Summary of http only preference if http only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">På i alla flikar</string>
-    <!-- Summary of https only preference if https only is set to on in private tabs only -->
+    <!-- Summary of http only preference if http only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">På i privata flikar</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">Läs mer</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">Läs mer</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">Aktivera i alla flikar</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">Aktivera endast i privata flikar</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Säker webbplats är inte tillgänglig</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Troligtvis stöder webbplatsen helt enkelt inte HTTPs.</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">Men det är också möjligt att en angripare är inblandad. Om du fortsätter till webbplatsen ska du inte ange någon känslig information. Om du fortsätter kommer endast HTTPS-läget att stängas av tillfälligt för webbplatsen.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Hjälpmedel</string>
@@ -1433,7 +1433,7 @@
     <string name="qr_scanner_dialog_positive">TILLÅT</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">NEKA</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">Webbadressen är inte giltig.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">OK</string>
@@ -1546,7 +1546,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Skanna QR-kod</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Öppna Firefox på din dator och gå till <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Öppna Firefox på din dator och gå till <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Redo att skanna</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1968,7 +1968,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">URL att använda för sökning</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Byt ut frågan med “%s”. Exempel:\nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Byt ut frågan med “%s”. Exempel:\nhttp://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Information om anpassad sökmotor</string>
@@ -1978,7 +1978,7 @@
     <!-- Placeholder text shown in the Search Suggestion String TextField before a user enters text -->
     <string name="search_add_custom_engine_suggest_string_hint">Sökförslag API URL</string>
     <!-- Description text for the Search Suggestion String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">Ersätt frågan med &quot;%s&quot;. Exempel:\nhttps://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
+    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">Ersätt frågan med &quot;%s&quot;. Exempel:\nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
     <!-- The text for the "Save" button for saving a custom search engine -->
     <string name="search_custom_engine_save_button">Spara</string>
 
@@ -2070,10 +2070,10 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">En inloggning med det användarnamnet finns redan</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">Webbadressen måste innehålla &quot;https://&quot; eller &quot;http://&quot;</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">Webbadressen måste innehålla &quot;http://&quot; eller &quot;http://&quot;</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Giltigt värdnamn krävs</string>
 

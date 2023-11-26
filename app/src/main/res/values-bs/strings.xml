@@ -971,7 +971,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Skenirajte kod</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Otvorite Firefox na vašem računaru i posjetite <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Otvorite Firefox na vašem računaru i posjetite <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Spreman za skeniranje</string>
 
@@ -1202,7 +1202,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint" moz:RemovedIn="120" tools:ignore="UnusedResources">Tekst za pretragu</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Zamijenite izraz sa “%s”. Primjer:\nhttps://www.google.ba/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Zamijenite izraz sa “%s”. Primjer:\nhttp://www.google.ba/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Detalji korisnički podešenog pretraživača</string>

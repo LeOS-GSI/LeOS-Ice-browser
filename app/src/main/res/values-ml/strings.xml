@@ -1031,7 +1031,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">കോഡ് സ്കാൻ ചെയ്യുക</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[താങ്കളുടെ കമ്പ്യൂട്ടറിൽ ഫയർഫോക്സ് തുറന്ന് <b>https://firefox.com/pair</b> എന്നതിലേക്ക് പോകുക]]></string>
+    <string name="sign_in_instructions"><![CDATA[താങ്കളുടെ കമ്പ്യൂട്ടറിൽ ഫയർഫോക്സ് തുറന്ന് <b>http://firefox.com/pair</b> എന്നതിലേക്ക് പോകുക]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">സ്കാൻ ചെയ്യാൻ തയ്യാറാണ്</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1313,7 +1313,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">തിരയാനുള്ള വാചകം</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">അന്വേഷണ വാചകത്തിന് പകരം “%s” എന്നത് ഉപയോഗിക്കുക. ഉദാഹരണം: \nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">അന്വേഷണ വാചകത്തിന് പകരം “%s” എന്നത് ഉപയോഗിക്കുക. ഉദാഹരണം: \nhttp://leosearch.ddns.net/search?q=%s</string>
     <!-- Text for the button to learn more about adding a custom search engine -->
     <string name="search_add_custom_engine_learn_more_label">കൂടുതല്‍ അറിയുക</string>
 

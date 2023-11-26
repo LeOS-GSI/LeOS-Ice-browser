@@ -438,23 +438,23 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">Autōmatycznie prōbuje łōnczyć sie ze strōnami z protokołym kodowanio HTTPS, coby zwiynkszyć bezpieczyństwo.</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">Wyłōnczōne</string>
-    <!-- Summary of https only preference if https only is set to on in all tabs -->
+    <!-- Summary of http only preference if http only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">Załōnczōne na wszyskich kartach</string>
-    <!-- Summary of https only preference if https only is set to on in private tabs only -->
+    <!-- Summary of http only preference if http only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">Załōnczōne na wszyskich prywatnych kartach</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">Przewiydz sie wiyncyj</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">Przewiydz sie wiyncyj</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">Załōncz we wszyskich kartach</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">Załōncz ino we prywatnych kartach</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Zabezpieczōno strōna niy ma dostympno</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Zdowo sie, że to strōna niy ôbsuguje HTTPS.</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">Może ale tyż sie rozchodzić ô jaki atak. Jak przyńdziesz na strōna, to niy ôstawiej na nij żodnych prywatnych informacyji. Jak na nia pudziesz, tryb &quot;Ino HTTPS&quot; czasowo sie wyłōnczy do tyj strōny. </string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Dostympność</string>
@@ -1273,7 +1273,7 @@
     <string name="qr_scanner_dialog_positive">POZWŌL</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">ZAKOŻ</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">Adresa strōny je felerno.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">OK</string>
@@ -1437,7 +1437,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Skanuj kod</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Ôdewrzij Firefoxa na kōmputrze i idź na strōna <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Ôdewrzij Firefoxa na kōmputrze i idź na strōna <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Fertich, coby skanować</string>
     <!-- Text shown for settings option for sign with pairing -->

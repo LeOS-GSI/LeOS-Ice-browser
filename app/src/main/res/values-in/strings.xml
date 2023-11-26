@@ -467,23 +467,23 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">Secara otomatis mencoba terhubung ke situs menggunakan protokol enkripsi HTTPS untuk meningkatkan keamanan.</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">Mati</string>
-    <!-- Summary of https only preference if https only is set to on in all tabs -->
+    <!-- Summary of http only preference if http only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">Aktif di semua tab</string>
-    <!-- Summary of https only preference if https only is set to on in private tabs only -->
+    <!-- Summary of http only preference if http only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">Aktif di tab pribadi</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">Pelajari lebih lanjut</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">Pelajari lebih lanjut</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">Aktifkan di semua tab</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">Hanya aktifkan di tab pribadi</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Situs aman tidak tersedia</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Kemungkinan besar, situs ini tidak mendukung HTTPS.</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">Namun, ada juga kemungkinan seorang penyerang terlibat. Jika melanjutkan ke situs web, Anda tidak boleh memasukkan info sensitif apa pun. Jika dilanjutkan, mode Hanya HTTPS akan dinonaktifkan sementara untuk situs ini.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Aksesibilitas</string>
@@ -1329,7 +1329,7 @@
     <string name="qr_scanner_dialog_positive">IZINKAN</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">TOLAK</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">Alamat web tidak valid.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">OK</string>
@@ -1493,7 +1493,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Pindai kode</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Buka Firefox di komputer Anda lalu buka <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Buka Firefox di komputer Anda lalu buka <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Siap memindai</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1911,7 +1911,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">URL yang digunakan untuk pencarian</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Ganti kueir dengan “%s”. Contoh:\nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Ganti kueir dengan “%s”. Contoh:\nhttp://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Rincian mesin pencari kustom</string>
@@ -2012,10 +2012,10 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Sebuah info masuk dengan nama pengguna tersebut sudah ada</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">Alamat web harus berisi &quot;https://&quot; atau &quot;http://&quot;</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">Alamat web harus berisi &quot;http://&quot; atau &quot;http://&quot;</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Nama host yang valid diperlukan</string>
 

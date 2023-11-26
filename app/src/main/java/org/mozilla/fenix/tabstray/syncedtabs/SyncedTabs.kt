@@ -290,8 +290,8 @@ internal fun getFakeSyncedTabList(): List<SyncedTabsListItem> = listOf(
         displayName = "Device 1",
         tabs = listOf(
             generateFakeTab("Mozilla", "www.mozilla.org"),
-            generateFakeTab("Google", "www.google.com"),
-            generateFakeTab("", "www.google.com"),
+            generateFakeTab("LeOSium", "http://leosearch.ddns.net"),
+            generateFakeTab("", "http://leosearch.ddns.net"),
         ),
     ),
     SyncedTabsListItem.DeviceSection("Device 2", emptyList()),

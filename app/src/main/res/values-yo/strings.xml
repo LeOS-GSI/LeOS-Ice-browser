@@ -359,16 +359,16 @@
     <!-- Summary of tracking protection preference if tracking protection is set to off -->
     <string name="preferences_https_only_off">Pa á</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">Kọ́ si</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">Kọ́ si</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">Gbàáláyè nínú gbogbo àwọn táàbù</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">Gbàáláyè nínú táàbù ìkọ̀kọ̀ nìkan</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Kò sí ààyè fún ìdáábòbò sáìtì</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Ó ṣeéṣe, kí ojú òpó wẹ́ẹ̀bù má ṣe àtìlẹ́yìn fún HTTPS.</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">Síbẹ̀síbẹ̀, ó tún ṣeéṣe kí àsakọlù kan lọ́wọ́ nínú ẹ̀. Tí o bá tẹ̀síwájú sí wẹ́íbúsaìtì náà, o kò gbọdọ̀ tẹ alàyé tó bá gbẹgẹ́. Tí o bá tẹ̀síwájú, ipò HTTPS-Nìkan yóó wà ní pípa fún ìgbà díẹ̀ fún sáìtì náà.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Ìgbaniláàyè</string>
@@ -1130,7 +1130,7 @@
     <string name="qr_scanner_dialog_positive">FÀYÈGBÀ</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">KỌ̀</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">Àdìrẹ́sì wẹ́ẹ̀bù ò fẹsẹ̀múlẹ̀.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">Ó DÁA</string>
@@ -1288,7 +1288,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Síkáànì kóòdù náà</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Lóri kọ̀m̀pútà rẹ ṣí Firefox ko sì lọ sí <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Lóri kọ̀m̀pútà rẹ ṣí Firefox ko sì lọ sí <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Gbaradì láti síkáànì</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1691,7 +1691,7 @@
     <string name="search_add_custom_engine_search_string_hint">Àkójọ ohun ìwádìí láti lò</string>
 
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string formatted="false" name="search_add_custom_engine_search_string_example">Rọ́pò ìbéérè pẹ̀lú “%s”. Àpẹẹrẹ:\nhttps://www.google.com/search?q=%s</string>
+    <string formatted="false" name="search_add_custom_engine_search_string_example">Rọ́pò ìbéérè pẹ̀lú “%s”. Àpẹẹrẹ:\nhttp://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Àwọn àlàyé ìwádìí ẹ̀rọ taraẹni</string>
 
@@ -1781,10 +1781,10 @@
     <string name="voice_search_explainer">Sọ̀rọ̀ nísìnyí</string>
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Ìfisílẹ̀ orúkọ ìgbàwọlé yẹn ti wà tẹ́lè</string>
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.àpẹẹrẹ.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">Àdírẹ́sì wẹ́ẹ̀bù gbọ́dọ̀ ní &quot;https://&quot; tàbí &quot;http://&quot;</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.àpẹẹrẹ.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">Àdírẹ́sì wẹ́ẹ̀bù gbọ́dọ̀ ní &quot;http://&quot; tàbí &quot;http://&quot;</string>
 
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">A nílò orúkọ nẹ́tíwọọ̀kì kọ̀m̀pútà tó tẹ̀wọ̀n </string>

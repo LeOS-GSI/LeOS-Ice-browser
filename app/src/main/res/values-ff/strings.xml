@@ -232,7 +232,7 @@
     <!-- Preference for adding private browsing shortcut -->
     <string name="preferences_add_private_browsing_shortcut">Ɓeydu sodorde banngogol suturo</string>
 
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">Ñifol</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Keɓogol</string>
@@ -939,7 +939,7 @@
     <string name="sync_scan_code">Niiwto kod oo</string>
 
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[E ordinateer maa, uddit Firefox e yah to <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[E ordinateer maa, uddit Firefox e yah to <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Hebiima niiwtaade</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1206,10 +1206,10 @@
     <!-- Voice search prompt description displayed after the user presses the voice search button -->
     <string name="voice_search_explainer">Haal jooni</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.yeru.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">Ñiiɓirde geese ena foti waɗde &quot;https://&quot; or &quot;http://&quot;</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.yeru.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">Ñiiɓirde geese ena foti waɗde &quot;http://&quot; or &quot;http://&quot;</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Innde lowre jaalɗunde ena waɗɗii</string>
 

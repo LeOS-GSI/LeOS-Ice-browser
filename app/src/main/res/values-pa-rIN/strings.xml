@@ -534,23 +534,23 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">ਵਾਧਾ ਕੀਤੀ ਸੁਰੱਖਿਆ ਲਈ HTTPS ਇੰਕ੍ਰਿਪਸ਼ਨ ਪਰੋਟੋਕਾਲ ਵਰਤ ਕੇ ਸਾਈਟਾਂ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਦੀ ਆਪਣੇ-ਆਪ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">ਬੰਦ</string>
-    <!-- Summary of https only preference if https only is set to on in all tabs -->
+    <!-- Summary of http only preference if http only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">ਸਭ ਟੈਬਾਂ ਉੱਤੇ</string>
-    <!-- Summary of https only preference if https only is set to on in private tabs only -->
+    <!-- Summary of http only preference if http only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">ਨਿੱਜੀ ਟੈਬਾਂ ਉੱਤੇ</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">ਹੋਰ ਜਾਣੋ</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">ਹੋਰ ਜਾਣੋ</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">ਸਾਰੀਆਂ ਟੈਬਾਂ ਵਿੱਚ ਸਮਰੱਥ ਕਰੋ</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">ਸਿਰਫ਼ ਨਿੱਜੀ ਟੈਬ ਵਿੱਚ ਸਮਰੱਥ ਕਰੋ</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">ਸੁਰੱਖਿਅਤ ਸਾਈਟ ਮੌਜੂਦ ਨਹੀਂ ਹੈ</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">ਬਹੁਤੀ ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਵੈੱਬਸਾਈਟ ਸਿਰਫ਼ HTTPS ਲਈ ਸਹਾਇਕ ਹੀ ਨਹੀਂ ਹੈ।</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">ਪਰ ਇਹ ਵੀ ਸੰਭਵ ਹੈ ਕਿ ਹਮਲਾਵਰ ਸ਼ਾਮਲ ਹੋਵੇ। ਜੇ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨਾਲ ਜਾਰੀ ਰੱਖਣਾ ਹੈ ਤਾਂ ਤੁਹਾਨੂੰ ਕੋਈ ਵੀ ਸੰਵੇਦਨਸ਼ੀਲ ਜਾਣਕਾਰੀ ਨਹੀਂ ਭਰਨੀ ਚਾਹੀਦੀ ਹੈ। ਜੇ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਹੈ ਤਾਂ ਇਸ ਸਾਈਟ ਲਈ ਸਿਰਫ਼-HTTPS ਮੋਡ ਨੂੰ ਆਰਜ਼ੀ ਤੌਰ ਉੱਤੇ ਬੰਦ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">ਅਸੈਸਬਿਲਟੀ</string>
@@ -1439,7 +1439,7 @@
     <string name="qr_scanner_dialog_positive">ਆਗਿਆ ਦਿਓ</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">ਨਾਂਹ ਕਰੋ</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">ਵੈੱਬ ਸਿਰਨਾਵਾਂ ਦਰੁਸਤ ਨਹੀਂ ਹੈ।</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">ਠੀਕ ਹੈ</string>
@@ -1554,7 +1554,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">ਕੋਡ ਸਕੈਨ ਕਰੋ</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[ਆਪਣੇ ਕੰਪਿਊਟਰ ‘ਤੇ ਫਾਇਰਫਾਕਸ ਖੋਲ੍ਹੋ ਅਤੇ <b>https://firefox.com/pair</b> ‘ਤੇ ਜਾਓ]]></string>
+    <string name="sign_in_instructions"><![CDATA[ਆਪਣੇ ਕੰਪਿਊਟਰ ‘ਤੇ ਫਾਇਰਫਾਕਸ ਖੋਲ੍ਹੋ ਅਤੇ <b>http://firefox.com/pair</b> ‘ਤੇ ਜਾਓ]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">ਸਕੈਨ ਕਰਨ ਲਈ ਤਿਆਰ</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1975,7 +1975,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">ਖੋਜਣ ਲਈ URL</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">“%s” ਨਾਲ ਕਿਊਰੀ ਨੂੰ ਤਬਦੀਲ ਕਰੋ। ਮਿਸਾਲ ਵਜੋਂ:\nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">“%s” ਨਾਲ ਕਿਊਰੀ ਨੂੰ ਤਬਦੀਲ ਕਰੋ। ਮਿਸਾਲ ਵਜੋਂ:\nhttp://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">ਕਸਟਮ ਖੋਜ ਇੰਜਣ ਵੇਰਵੇ</string>
@@ -1985,7 +1985,7 @@
     <!-- Placeholder text shown in the Search Suggestion String TextField before a user enters text -->
     <string name="search_add_custom_engine_suggest_string_hint">ਖੋਜ ਸੁਝਾਅ API URL</string>
     <!-- Description text for the Search Suggestion String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">ਖੋਜ ਨੂੰ “%s” ਨਾਲ ਬਦਲੋ। ਜਿਵੇਂ:\nhttps://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
+    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">ਖੋਜ ਨੂੰ “%s” ਨਾਲ ਬਦਲੋ। ਜਿਵੇਂ:\nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
     <!-- The text for the "Save" button for saving a custom search engine -->
     <string name="search_custom_engine_save_button">ਸੰਭਾਲੋ</string>
 
@@ -2076,10 +2076,10 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">ਉਸ ਵਰਤੋਂਕਾਰ ਨਾਲ ਲਾਗਇਨ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">ਵੈੱਬ ਸਿਰਨਾਵੇਂ ਵਿੱਚ &quot;https://&quot; ਜਾਂ &quot;http://&quot; ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">ਵੈੱਬ ਸਿਰਨਾਵੇਂ ਵਿੱਚ &quot;http://&quot; ਜਾਂ &quot;http://&quot; ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">ਵਾਜਬ ਹੋਸਟ-ਨਾਂ ਚਾਹੀਦਾ ਹੈ</string>
 

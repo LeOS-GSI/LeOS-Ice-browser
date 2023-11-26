@@ -1030,7 +1030,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">कोड स्कॅन करा</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[आपल्या संगणकावर Firefox उघडा आणि <b>https://firefox.com/pair</b> वर जा]]></string>
+    <string name="sign_in_instructions"><![CDATA[आपल्या संगणकावर Firefox उघडा आणि <b>http://firefox.com/pair</b> वर जा]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">स्कॅन करण्यास सज्ज</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1295,7 +1295,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">वापरण्यासाठी शोध स्ट्रिंग</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">क्वेरी “%s” ने बदला. उदा: \nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">क्वेरी “%s” ने बदला. उदा: \nhttp://leosearch.ddns.net/search?q=%s</string>
     <!-- Text for the button to learn more about adding a custom search engine -->
     <string name="search_add_custom_engine_learn_more_label">अधिक जाणा</string>
 

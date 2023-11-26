@@ -287,19 +287,19 @@
     <string name="preferences_https_only_summary">Kõrgendatud turvalisuse nimel üritatakse saitidega ühenduda ainult HTTPSi krüptitud protokolli vahendusel.</string>
     <!-- Summary of tracking protection preference if tracking protection is set to on -->
     <string name="preferences_https_only_on" moz:removedIn="111" tools:ignore="UnusedResources">Sees</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">Väljas</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">Rohkem teavet</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">Rohkem teavet</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">Lubatakse kõigil kaartidel</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">Lubatakse ainult privaatsetel kaartidel</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Turvaline sait pole saadaval</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Tõenäoliselt ei toeta see sait lihtsalt HTTPSi.</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">Siiski on võimalik, et sellega on seotud ka ründaja. Saidi külastamise jätkamisel ära sisesta tundliku teavet. Jätkamisel lülitatakse saidi jaoks ajutiselt ainult HTTPSi režiim välja.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Hõlbustus</string>
@@ -1046,7 +1046,7 @@
     <string name="qr_scanner_dialog_positive">LUBA</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">KEELA</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">Veebiaadress pole korrektne.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">Olgu</string>
@@ -1169,7 +1169,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Koodi skannimine</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Ava Firefox oma arvutis ja mine aadressile <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Ava Firefox oma arvutis ja mine aadressile <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Skannimiseks valmis</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1573,7 +1573,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">Kasutatav otsingustring</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Päringu asendamiseks kasuta “%s”. Näiteks \nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Päringu asendamiseks kasuta “%s”. Näiteks \nhttp://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Kohandatud otsingumootori üksikasjad</string>
 
@@ -1665,10 +1665,10 @@
     <string name="voice_search_explainer">Räägi nüüd</string>
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Sellise kasutajanimega kasutajakonto on juba olemas</string>
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">Aadress peab sisaldama &quot;https://&quot; või &quot;http://&quot;</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">Aadress peab sisaldama &quot;http://&quot; või &quot;http://&quot;</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Korrektne aadress on nõutud</string>
 

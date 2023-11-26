@@ -812,7 +812,7 @@
     <string name="sync_scan_code">குறியீட்டை வருடு</string>
 
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[உங்கள் கணினியில் பயர்பாக்சைத் திறந்து <b>https://firefox.com/pair</b> பக்கத்திற்கு செல்லவும்]]></string>
+    <string name="sign_in_instructions"><![CDATA[உங்கள் கணினியில் பயர்பாக்சைத் திறந்து <b>http://firefox.com/pair</b> பக்கத்திற்கு செல்லவும்]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">வருடத் தயார்</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1053,7 +1053,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">பயன்படுத்த வேண்டிய தேடல் தொடர்</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">வினவலை “%s” ஆக மாற்றுக. எ.கா:\nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">வினவலை “%s” ஆக மாற்றுக. எ.கா:\nhttp://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">தனிப்பயன் தேடுபொறி விவரங்கள்</string>
 

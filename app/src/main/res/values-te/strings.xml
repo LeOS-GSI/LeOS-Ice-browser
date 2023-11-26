@@ -247,12 +247,12 @@
     <string name="preferences_https_only_title">HTTPS-మాత్రమే రీతి</string>
 
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">ఇంకా తెలుసుకోండి</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">ఇంకా తెలుసుకోండి</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">అన్ని ట్యాబులలోనూ చేతనించు</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">అంతరంగిక ట్యాబులలో మాత్రమే చేతనించు</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">సురక్షిత సైటు అందుబాటులో లేదు</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">ప్రాప్యత</string>
@@ -918,7 +918,7 @@
     <string name="qr_scanner_dialog_positive">అనుమతించు</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">తిరస్కరించు</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">జాల చిరునామా సరైనది కాదు.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">సరే</string>
@@ -1051,7 +1051,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">కోడును స్కాను చేయండి</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[మీ కంప్యూటర్‌లో Firefox తెరిచి <b>https://firefox.com/pair</b>కు వెళ్లండి]]></string>
+    <string name="sign_in_instructions"><![CDATA[మీ కంప్యూటర్‌లో Firefox తెరిచి <b>http://firefox.com/pair</b>కు వెళ్లండి]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">స్కాన్ చేయడానికి సిద్ధంగా ఉంది</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1400,7 +1400,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">వాడాల్సిన శోధన పదబంధం</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">వెతుకుడు పదాన్ని “%s”తో పూరించండి. ఉదాహరణ:\nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">వెతుకుడు పదాన్ని “%s”తో పూరించండి. ఉదాహరణ:\nhttp://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">అభిమత శోధన యంత్ర వివరాలు</string>
 
@@ -1485,8 +1485,8 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">ఆ వాడుకరి పేరుతో ఒక ప్రవేశం ఇప్పటికే ఉంది</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
 
     <!-- Synced Tabs -->
     <!-- Text displayed to ask user to connect another device as no devices found with account -->

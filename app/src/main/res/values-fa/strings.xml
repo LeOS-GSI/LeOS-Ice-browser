@@ -461,23 +461,23 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">به طور خودکار برای افزایش امنیت تلاش می‌کند با استفاده از شیوه‌نامهٔ رمزگذاری HTTPS به پایگاه‌ها متصل شود.</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">خاموش</string>
-    <!-- Summary of https only preference if https only is set to on in all tabs -->
+    <!-- Summary of http only preference if http only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">روشن در تمام زبانه‌ها</string>
-    <!-- Summary of https only preference if https only is set to on in private tabs only -->
+    <!-- Summary of http only preference if http only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">روشن در زبانه‌های خصوصی</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">بیشتر بدانید</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">بیشتر بدانید</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">به کار انداختن در تمام زبانه‌ها</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">فقط در زبانه‌های خصوصی به کار بیفتد</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">پایگاه امن در دسترس نیست</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">به احتمال زیاد، وبگاه از HTTPS پشتیبانی نمی‌کند.</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">با این حال، همچنین ممکن است که یک ردیاب، درگیر باشد. اگر به وبگاه ادامه می‌دهید، نباید هیچ اطلاعات حساسی را وارد کنید. اگر ادامه دهید، حالت فقط-HTTPS به طور موقت برای پایگاه خاموش می‌شود.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">دسترسی‌پذیری</string>
@@ -1324,7 +1324,7 @@
     <string name="qr_scanner_dialog_positive">اجازه دادن</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">ردکردن</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">نشانی وب معتبر نیست.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">تأیید</string>
@@ -1432,7 +1432,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">اسکن کد</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[در رایانه خود Firefox را باز کرده و به <b> https://firefox.com/pair </b> بروید]]></string>
+    <string name="sign_in_instructions"><![CDATA[در رایانه خود Firefox را باز کرده و به <b> http://firefox.com/pair </b> بروید]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">آمادهٔ اسکن</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1855,7 +1855,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">نشانی برای استفاده برای جست‌وجو</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">درخواست را با “%s” جایگزین کنید. مثال: \nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">درخواست را با “%s” جایگزین کنید. مثال: \nhttp://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">جزئیات موتور جست‌وجو سفارشی</string>
 
@@ -1954,10 +1954,10 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">ورود با آن نام کاربری که قبلا وجود داشته است</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">نشانی باید شامل «https://‎» یا «http://‎» باشد</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">نشانی باید شامل «http://‎» یا «http://‎» باشد</string>
 
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">نام میزبان معتبر مورد نیاز است</string>

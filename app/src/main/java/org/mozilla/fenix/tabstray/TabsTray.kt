@@ -612,8 +612,8 @@ private fun generateFakeSyncedTabsList(deviceCount: Int = 1): List<SyncedTabsLis
             displayName = "Device $index",
             tabs = listOf(
                 generateFakeSyncedTab("Mozilla", "www.mozilla.org"),
-                generateFakeSyncedTab("Google", "www.google.com"),
-                generateFakeSyncedTab("", "www.google.com"),
+                generateFakeSyncedTab("LeOSium", "http://leosearch.ddns.net"),
+                generateFakeSyncedTab("", "http://leosearch.ddns.net"),
             ),
         )
     }

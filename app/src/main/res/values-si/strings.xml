@@ -497,23 +497,23 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">ඉහළ ආරක්‍ෂාවක් සඳහා HTTPS සංකේතන කෙටුම්පත භාවිතයෙන් අඩවි වෙත ස්වයංක්‍රීයව සම්බන්ධ වීමට තැත් කරයි.</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">අක්‍රිය</string>
-    <!-- Summary of https only preference if https only is set to on in all tabs -->
+    <!-- Summary of http only preference if http only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">සියළු පටිතිවලට සක්‍රියයි</string>
-    <!-- Summary of https only preference if https only is set to on in private tabs only -->
+    <!-- Summary of http only preference if http only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">පෞද්. පටිතිවලට සක්‍රියයි</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">තව දැනගන්න</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">තව දැනගන්න</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">සියළු පටිති සඳහා යොදන්න</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">පෞද්. පටිති සඳහා පමණි</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">ආරක්‍ෂිත අඩවිය නැත</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">බොහෝ දුරට, අඩවිය HTTPS සඳහා සහාය නොදක්වයි.</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">කෙසේ වුවද, ප්‍රහාරකයෙක් සම්බන්ධ වී සිටීමට ද ඉඩ ඇත. මෙම අඩවියට ඔබ ගොඩවදින්නේ නම්, කිසිදු සංවේදී තොරතුරක් ඇතුල් නොකළ යුතුය. ඉදිරියට ගියහොත්, HTTPS-පමණි ප්‍රකාරය තාවකාලිකව මෙම අඩවිය සඳහා අක්‍රිය කෙරේ.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">ප්‍රවේශ්‍යතාව</string>
@@ -1386,7 +1386,7 @@
     <string name="qr_scanner_dialog_positive">ඉඩ දෙන්න</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">ප්‍රතික්‍ෂේප</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">ලිපිනය වලංගු නොවේ.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">හරි</string>
@@ -1500,7 +1500,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">කේතය සුපිරික්සන්න</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[පරිගණකයෙහි ෆයර්ෆොක්ස් විවෘත කර <b>https://firefox.com/pair</b> වෙත යන්න]]></string>
+    <string name="sign_in_instructions"><![CDATA[පරිගණකයෙහි ෆයර්ෆොක්ස් විවෘත කර <b>http://firefox.com/pair</b> වෙත යන්න]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">පරිලෝකනයට ඔබන්න</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1911,7 +1911,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">සෙවීමට භාවිතා කරන ඒ.ස.නි.</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">“%s” සමඟ විමසුම ප්‍රතිස්ථාපනය කරන්න. නිදසුන:\nhttps://search.naver.com/search.naver?where=nexearch&amp;sm=top_hty&amp;fbm=0&amp;ie=utf8&amp;query=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">“%s” සමඟ විමසුම ප්‍රතිස්ථාපනය කරන්න. නිදසුන:\nhttp://search.naver.com/search.naver?where=nexearch&amp;sm=top_hty&amp;fbm=0&amp;ie=utf8&amp;query=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">අභිරුචි සෙවුම් යන්ත්‍රයේ විස්තර</string>
 
@@ -1920,7 +1920,7 @@
     <!-- Placeholder text shown in the Search Suggestion String TextField before a user enters text -->
     <string name="search_add_custom_engine_suggest_string_hint">සෙවුම් යෝජනා යෙ.ක්‍ර.මු. ඒ.ස.නි.</string>
     <!-- Description text for the Search Suggestion String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">“%s” සමඟ විමසුම ප්‍රතිස්ථාපනය කරන්න. නිදසුන:\nhttps://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
+    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">“%s” සමඟ විමසුම ප්‍රතිස්ථාපනය කරන්න. නිදසුන:\nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
     <!-- The text for the "Save" button for saving a custom search engine -->
     <string name="search_custom_engine_save_button">සුරකින්න</string>
 
@@ -2009,11 +2009,11 @@
     <string name="voice_search_explainer">දැන් කතා කරන්න</string>
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">පරිශීලක නාමය සහිත පිවිසීමක් දැනටමත් පවතී</string>
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
 
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">ලිපිනයෙහි &quot;https://&quot; හෝ &quot;http://&quot; අඩංගු විය යුතුය</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">ලිපිනයෙහි &quot;http://&quot; හෝ &quot;http://&quot; අඩංගු විය යුතුය</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">වලංගු සත්කාරක නාමයක් අවශ්‍යයි</string>
 

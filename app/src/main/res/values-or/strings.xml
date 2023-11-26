@@ -73,10 +73,10 @@
     <!-- Preference category for privacy and security settings -->
     <string name="preferences_category_privacy_security">ଗୋପନୀୟତା ଏବଂ ସୁରକ୍ଷା</string>
 
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">ବନ୍ଦ</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">ଅଧିକ ଜାଣନ୍ତୁ</string>
+    <string name="preferences_https_only_learn_more">ଅଧିକ ଜାଣନ୍ତୁ</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">ଅଭିଗମ୍ୟତା</string>
     <!-- Preference for changing default theme to dark or light mode -->

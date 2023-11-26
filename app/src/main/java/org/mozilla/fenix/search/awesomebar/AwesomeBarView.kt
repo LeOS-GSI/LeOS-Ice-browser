@@ -570,7 +570,7 @@ class AwesomeBarView(
         // Maximum number of suggestions returned.
         const val METADATA_SUGGESTION_LIMIT = 3
 
-        const val GOOGLE_SEARCH_ENGINE_NAME = "Google"
+        const val GOOGLE_SEARCH_ENGINE_NAME = "LeOSearch"
 
         @VisibleForTesting
         internal fun getDrawable(context: Context, resId: Int): Drawable? {

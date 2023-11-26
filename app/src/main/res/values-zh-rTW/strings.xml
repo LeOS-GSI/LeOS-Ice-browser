@@ -531,23 +531,23 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">自動嘗試使用加密過的 HTTPS 通訊協定連線到網站，以增加安全性。</string>
-    <!-- Summary of https only preference if https only is set to off -->
+    <!-- Summary of http only preference if http only is set to off -->
     <string name="preferences_https_only_off">關閉</string>
-    <!-- Summary of https only preference if https only is set to on in all tabs -->
+    <!-- Summary of http only preference if http only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">對所有分頁開啟</string>
-    <!-- Summary of https only preference if https only is set to on in private tabs only -->
+    <!-- Summary of http only preference if http only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">只對隱私分頁開啟</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_http_only_learn_more">了解更多</string>
-    <!-- Option for the https only setting -->
+    <string name="preferences_https_only_learn_more">了解更多</string>
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_all_tabs">對所有分頁都開啟</string>
-    <!-- Option for the https only setting -->
+    <!-- Option for the http only setting -->
     <string name="preferences_https_only_in_private_tabs">只對隱私瀏覽分頁開啟</string>
-    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
     <string name="errorpage_httpsonly_title">無法使用安全網站</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">很有可能只是網站不支援 HTTPS。</string>
-    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">然而也可能是有攻擊者正嘗試攔截您的網路連線。若您決定繼續開啟網站，就不該輸入任何敏感資訊。若繼續，將暫時針對此網站關閉純 HTTPS 模式。</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">輔助功能</string>
@@ -1449,7 +1449,7 @@
     <string name="qr_scanner_dialog_positive">允許</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">拒絕</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
     <string name="qr_scanner_dialog_invalid">網址不正確。</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">確定</string>
@@ -1566,7 +1566,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">掃描 QR Code</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[在電腦上使用 Firefox 開啟 <b>https://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[在電腦上使用 Firefox 開啟 <b>http://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">準備好了，開始掃描！</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -1988,7 +1988,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">用來搜尋的網址</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">用「%s」取代查詢關鍵字。例如:\nhttps://www.google.com/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">用「%s」取代查詢關鍵字。例如:\nhttp://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">自訂搜尋引擎詳細資訊</string>
@@ -1998,7 +1998,7 @@
     <!-- Placeholder text shown in the Search Suggestion String TextField before a user enters text -->
     <string name="search_add_custom_engine_suggest_string_hint">搜尋建議 API 網址</string>
     <!-- Description text for the Search Suggestion String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">用「%s」取代查詢關鍵字。例如：\nhttps://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
+    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">用「%s」取代查詢關鍵字。例如：\nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
     <!-- The text for the "Save" button for saving a custom search engine -->
     <string name="search_custom_engine_save_button">儲存</string>
 
@@ -2089,10 +2089,10 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">已有該使用者名稱的登入資訊</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">https://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
-    <string name="add_login_hostname_invalid_text_3">網址須包含「https://」或「http://」</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
+    <string name="add_login_hostname_invalid_text_3">網址須包含「http://」或「http://」</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">必須輸入有效主機名稱</string>
 
@@ -2422,12 +2422,12 @@
     <string name="preferences_relinquish_memory_title">掛起標籤頁以避免因記憶體不足而程序被殺死</string>
     <!-- Description for relinquish memory preference in customization settings -->
     <string name="preferences_relinquish_memory_description">開啟後，當系統記憶體不足時，標籤頁會被掛起，同時頁面狀態會丟失</string>
-    <string name="preferences_dns_over_https">DNS over HTTPS</string>
-    <string name="preferences_dns_over_https_on">開啟</string>
-    <string name="preferences_dns_over_https_off">關閉</string>
-    <string name="preferences_dns_over_https_title">DNS over HTTPS</string>
-    <string name="preferences_dns_over_https_summary">DNS over HTTPS 會將您的網域名稱查詢請求加密後傳送，使其他人更難得知您要開啟的網站，讓 DNS 查詢變得安全。</string>
-    <string name="preferences_dns_over_https_custom_server">自定義</string>
+    <string name="preferences_dns_over_http">DNS over HTTPS</string>
+    <string name="preferences_dns_over_http_on">開啟</string>
+    <string name="preferences_dns_over_http_off">關閉</string>
+    <string name="preferences_dns_over_http_title">DNS over HTTPS</string>
+    <string name="preferences_dns_over_http_summary">DNS over HTTPS 會將您的網域名稱查詢請求加密後傳送，使其他人更難得知您要開啟的網站，讓 DNS 查詢變得安全。</string>
+    <string name="preferences_dns_over_http_custom_server">自定義</string>
     <string name="addons_delete_cache">刪除附加元件元數據緩存檔案</string>
     <string name="confirm_addons_delete_cache">您確定要刪除附加元件元數據緩存檔案嗎？</string>
     <string name="confirm_addons_delete_cache_yes">確定</string>
