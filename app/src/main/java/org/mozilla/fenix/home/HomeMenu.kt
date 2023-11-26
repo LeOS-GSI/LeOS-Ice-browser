@@ -116,7 +116,6 @@ class HomeMenu(
 
     @Suppress("ComplexMethod")
     private fun coreMenuItems(): List<BrowserMenuItem> {
-        val settings = context.components.settings
 
         val bookmarksItem = BrowserMenuImageText(
             context.getString(R.string.library_bookmarks),
@@ -228,7 +227,7 @@ class HomeMenu(
             helpItem,
             customizeHomeItem,
             settingsItem,
-            if (settings.shouldDeleteBrowsingDataOnQuit) quitItem else null,
+            quitItem,
         ).also { items ->
             items.getHighlight()?.let { onHighlightPresent(it) }
         }
