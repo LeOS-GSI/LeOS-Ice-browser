@@ -265,7 +265,7 @@
     <!-- Header text for the search selector menu -->
     <string name="search_header_menu_item_2">Hìaj nī nānà’huì’ riña:</string>
 
-    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: DuckDuckGo). -->
+    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: Swisscows). -->
     <string name="search_engine_icon_content_description" tools:ignore="UnusedResources">%s sa nana\'ui\'i</string>
 
     <!-- Home onboarding -->
@@ -307,15 +307,15 @@
         The first parameter is the name of the app defined in app_name (for example: Fenix) -->
     <string name="juno_onboarding_default_browser_title" moz:RemovedIn="117" tools:ignore="UnusedResources">Nā’nïnj %s da’ gāhuin man riña aché nana’hui’ yītïnjt</string>
     <!-- Title for set firefox as default browser screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_default_browser_title_nimbus" tools:ignore="UnusedResources">Nā’nïnj Firefox da’ gāhuin man riña aché nana’hui’ yītïnjt</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_default_browser_title_nimbus" tools:ignore="UnusedResources">Nā’nïnj LeOSium da’ gāhuin man riña aché nana’hui’ yītïnjt</string>
     <!-- Description for set firefox as default browser screen.
-        The first parameter is the Firefox brand name.
+        The first parameter is the LeOSium brand name.
         The second parameter is the string with key "juno_onboarding_default_browser_description_link_text". -->
     <string name="juno_onboarding_default_browser_description" moz:RemovedIn="117" tools:ignore="UnusedResources">Ñā’ān doj huin guìi riña %1$s ngà da’ san’ānj an yī’ì dan naran riña nej sa gā’hue nāga’nāj sò’.\n \nGīni’hiāj doj nùhuin si huā rayi’ij riña %2$s.</string>
     <!-- Description for set firefox as default browser screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_default_browser_description_nimbus" tools:ignore="UnusedResources">Ñā\’ān doj huin guìi riña Firefox ngà da\’ san’ānj an yī\’ì dan naran riña nej sa gā\’hue nāga\’nāj sò’.\n \nGīni\’hiāj doj nùhuin si huā rayi\’ij riña nej nuguan\' huā hiuj nan.</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_default_browser_description_nimbus" tools:ignore="UnusedResources">Ñā\’ān doj huin guìi riña LeOSium ngà da\’ san’ānj an yī\’ì dan naran riña nej sa gā\’hue nāga\’nāj sò’.\n \nGīni\’hiāj doj nùhuin si huā rayi\’ij riña nej nuguan\' huā hiuj nan.</string>
     <!-- Text for the link to the privacy notice webpage for set as firefox default browser screen.
     This is part of the string with the key "juno_onboarding_default_browser_description". -->
     <string name="juno_onboarding_default_browser_description_link_text" tools:ignore="UnusedResources">nuguan\' huì hūa rayi\'ij</string>
@@ -335,14 +335,14 @@
         The first parameter is the name of the app defined in app_name (for example: Fenix) -->
     <string name="juno_onboarding_enable_notifications_title" moz:RemovedIn="117" tools:ignore="UnusedResources">Gā’hue rūgûñu’ūnj nej nuguan’ rugui’ nan da’ nūtà’t doj sa gī’hiát riña %s</string>
     <!-- Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_enable_notifications_title_nimbus" tools:ignore="UnusedResources">Gā’hue rūgûñu’ūnj nej nuguan’ rugui’ nan da’ nūtà’t doj sa gī’hiát riña Firefox</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_enable_notifications_title_nimbus" tools:ignore="UnusedResources">Gā’hue rūgûñu’ūnj nej nuguan’ rugui’ nan da’ nūtà’t doj sa gī’hiát riña LeOSium</string>
     <!-- Description for enable notification permission screen.
         The first parameter is the name of the app defined in app_name (for example: Fenix) -->
     <string name="juno_onboarding_enable_notifications_description" moz:RemovedIn="117" tools:ignore="UnusedResources">Gā’hue gārasun nadunât nej rakïj ñanj riña nej si āgâ’t, nātsít nej sa nadunïnjt nī nārì’t hiūj nan nej nuguan’ rūgûñu’ūnj sò’ da’ gāche un hue’êt doj riña %s.</string>
     <!-- Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-       Note: The word "Firefox" should NOT be translated   -->
-    <string name="juno_onboarding_enable_notifications_description_nimbus" tools:ignore="UnusedResources">Gā’hue gārasun nadunât nej rakïj ñanj riña nej si āgâ’t, nātsít nej sa nadunïnjt nī nārì’t hiūj nan nej nuguan’ rūgûñu’ūnj sò’ da’ gāche un hue’êt doj riña Firefox.</string>
+       Note: The word "LeOSium" should NOT be translated   -->
+    <string name="juno_onboarding_enable_notifications_description_nimbus" tools:ignore="UnusedResources">Gā’hue gārasun nadunât nej rakïj ñanj riña nej si āgâ’t, nātsít nej sa nadunïnjt nī nārì’t hiūj nan nej nuguan’ rūgûñu’ūnj sò’ da’ gāche un hue’êt doj riña LeOSium.</string>
     <!-- Text for the button to request notification permission on the device -->
     <string name="juno_onboarding_enable_notifications_positive_button" tools:ignore="UnusedResources">Nāchrūn nej nuguan’ atāj na’ānj an</string>
     <!-- Text for the button dismiss the screen and move on with the flow -->
@@ -438,7 +438,7 @@
     <string name="cookie_banner_handling_report_site_snack_bar_text_2">Ngà gan’ānj si nūguàn’t</string>
     <!-- Text for indicating cookie banner handling is on this site, this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_on_for_site">Huā nî’nïn guendâ sitiô nan</string>
-    <!-- Text for indicating that a request for unsupported site was sent to Nimbus (it's a Mozilla library for experiments), this is shown as part of the protections panel with the tracking protection toggle -->
+    <!-- Text for indicating that a request for unsupported site was sent to Nimbus (it's a Harvey186 library for experiments), this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_unsupported_site_request_submitted_2">Ngà gan\’ānj si nūguàn\’t  sa nutâ\'t</string>
     <!-- Text for indicating cookie banner handling is currently not supported for this site, this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_unsupported_site">Huā sa gāchin da’ gā’hue nāyi’nïn sitiô nan</string>
@@ -465,32 +465,32 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">Huin ruhuaj gātu riña nej sitio ngà ‘ngō da’nga’ gū’nàj HTTPS dadin’ dugumîn da’nga’ nan doj daran’ nej sa huā ‘hiát.</string>
-    <!-- Summary of http only preference if http only is set to off -->
+    <!-- Summary of https only preference if https only is set to off -->
     <string name="preferences_https_only_off">Dūnâ\’àj</string>
-    <!-- Summary of http only preference if http only is set to on in all tabs -->
+    <!-- Summary of https only preference if https only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">Ngà \'hiaj sunj riña daran\' nej rakïj ñanj</string>
-    <!-- Summary of http only preference if http only is set to on in private tabs only -->
+    <!-- Summary of https only preference if https only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">Ngà \'hiaj sunj riña rakïj ñanj huìi</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_https_only_learn_more">Gāhuin chrūn doj</string>
-    <!-- Option for the http only setting -->
+    <string name="preferences_http_only_learn_more">Gāhuin chrūn doj</string>
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_all_tabs">Gā’nïn gi’hiaj sun man riña daran’ nej rakïj ñanj</string>
-    <!-- Option for the http only setting -->
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_private_tabs">Gā’nïn gī’hiaj sun man màn riña nej rakïj ñanj huìi</string>
-    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Nitāj si huā nî’nïnj riña sitiô dugumîn sò’</string>
-    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Si gūruhuaj nī nitāj si aran’ dugui’ sitiô web ngà HTTPS.</string>
-    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">Si gūruhuaj nī, huā ‘ngō sa yī’ìi gatûj riña aga’ nan. Sisī huā nï̀n’ gīnunt riña sitiô nan nī, sī gachrûnt à’ngō nuguan’ gā’hue gārasun nej si da’ gī’hiaj yī’ì nej si sò’. Sisī huā nï̀n’ gīnunt hiūj nan don nī, gī’hiaj desaktivando akuan’ HTTPS.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Dàj gā gātū\'</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">Servidor nagi\'iaj man\'ânt riña kuentâ Firefox</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">Servidor nagi\'iaj man\'ânt riña kuentâ LeOSium</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">Servidor nagi\'iaj man\'ânt riña Sync</string>
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done">Ngà  nadunâ servidor nikāj kuentâ Firefox ngà Sync. Naran riña aplikasiûn da\' natà\' sa nadunâ hua…</string>
+    <string name="toast_override_fxa_sync_server_done">Ngà  nadunâ servidor nikāj kuentâ LeOSium ngà Sync. Naran riña aplikasiûn da\' natà\' sa nadunâ hua…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">Kuênta</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -507,7 +507,7 @@
     <!-- Preference description for banner about signing in -->
     <string name="preferences_sign_in_description_2">Gāyi’ì sēsiûn da’ nāgi’hiaj nūguan’ànt nej rakïj ñanj, nej markadô, nej da’nga’ huìi nī doj sa huāa.</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">Si kuendâ Firefox</string>
+    <string name="preferences_account_default_name">Si kuendâ LeOSium</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">Nātū nākà ñû da\' gānahuij nāgi\'iaj nūguàn\'anj</string>
     <!-- Preference for language -->
@@ -618,7 +618,7 @@
     <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
     <string name="wallpaper_learn_more">Gāhuin chrūn doj</string>
 
-    <!-- Text for classic wallpapers title. The first parameter is the Firefox name. -->
+    <!-- Text for classic wallpapers title. The first parameter is the LeOSium name. -->
     <string name="wallpaper_classic_title">Klâsiko %s</string>
     <!-- Text for limited edition wallpapers title. -->
     <string name="wallpaper_limited_edition_title" moz:RemovedIn="118" tools:ignore="UnusedResources">Sa ahui Nāsinùnj</string>
@@ -707,7 +707,7 @@
     <string name="fxa_received_tab_channel_name">Nej rakïj ñanj nahuin rā\'ât</string>
 
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">Si nūguàn\' nej rakïj ñanj nahuin ra\'a riña a\'ngô nej aga\' Firefox.</string>
+    <string name="fxa_received_tab_channel_description">Si nūguàn\' nej rakïj ñanj nahuin ra\'a riña a\'ngô nej aga\' LeOSium.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Nahuin rā\'a rakïj ñanj</string>
     <!-- %s is the device name -->
@@ -727,7 +727,7 @@
     <string name="preference_usage_data">Dàj gārāsunt nī nej dato tekniko</string>
 
     <!-- Preference description for usage and technical data collection -->
-    <string name="preferences_usage_data_description">Gānatà\' dàj \'iaj sunj, dàj arâj sunt, aga\' nīka nī doj nej sa nīkāj sa nana\'uî\'t gu\'nàj Mozilla da\' ga\'ue nāgi\'iaj sà\' si doj man %1$s</string>
+    <string name="preferences_usage_data_description">Gānatà\' dàj \'iaj sunj, dàj arâj sunt, aga\' nīka nī doj nej sa nīkāj sa nana\'uî\'t gu\'nàj Harvey186 da\' ga\'ue nāgi\'iaj sà\' si doj man %1$s</string>
     <!-- Preference switch for marketing data collection -->
     <string name="preferences_marketing_data">Sa huā rayi\'î Marketin</string>
 
@@ -736,7 +736,7 @@
     <!-- Title for studies preferences -->
     <string name="preference_experiments_2">Nej ēstûdio</string>
     <!-- Summary for studies preferences -->
-    <string name="preference_experiments_summary_2">Gā’nï̄n guendâ gā’nïnj Mozilla nej ēstûdio</string>
+    <string name="preference_experiments_summary_2">Gā’nï̄n guendâ gā’nïnj Harvey186 nej ēstûdio</string>
 
     <!-- Turn On Sync Preferences -->
     <!-- Header of the Sync and save your data preference view -->
@@ -894,7 +894,7 @@
     <string name="studies_remove">Nādure\'</string>
     <!-- Title of the active section on the studies list -->
     <string name="studies_active">Ngà \'hiaj sunj</string>
-    <!-- Description for studies, it indicates why Firefox use studies. The first parameter is the name of the application. -->
+    <!-- Description for studies, it indicates why LeOSium use studies. The first parameter is the name of the application. -->
     <string name="studies_description_2">%1$s gā’hue gà’nïn nī gāyi’ìj gi’hia estudio.</string>
     <!-- Learn more link for studies, links to an article for more information about studies. -->
     <string name="studies_learn_more">Gāhuin chrūn doj</string>
@@ -1298,10 +1298,10 @@
 
     <!-- Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">Hìo nī huì hua Firefox</string>
+    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">Hìo nī huì hua LeOSium</string>
     <!-- Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">Nā’nïnj Firefox da’ gāhuin man riña aché nana’hui’ yītïnjt</string>
+    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">Nā’nïnj LeOSium da’ gāhuin man riña aché nana’hui’ yītïnjt</string>
     <!-- Title shown in the notification that pops up to re-engage the user -->
     <string name="notification_re_engagement_title">Ni’hiāj dàj ‘hiaj sun riña sa aché nu yītï̀njt</string>
 
@@ -1321,7 +1321,7 @@
     <!-- Survey -->
     <!-- Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_survey_message_text">Gī’hiaj ‘ngō sunūnj un, nāchra ‘ngō nej nuguan’ nan da’ nahuin hue’ê doj Firefox.</string>
+    <string name="nimbus_survey_message_text">Gī’hiaj ‘ngō sunūnj un, nāchra ‘ngō nej nuguan’ nan da’ nahuin hue’ê doj LeOSium.</string>
     <!-- Preference for taking the short survey. -->
     <string name="preferences_take_survey">Nātsij ēnkuêsta</string>
     <!-- Preference for not taking the short survey. -->
@@ -1355,7 +1355,7 @@
     <string name="qr_scanner_dialog_positive">GA\'NĪN</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">SĪ GA\'NÏNJT</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
     <string name="qr_scanner_dialog_invalid">Nitāj si huā hue\'ê si direksiûn Web gachrûnt</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">GĀ’HUE</string>
@@ -1463,11 +1463,11 @@
     <string name="onboarding_header_2" moz:RemovedIn="118" tools:ignore="UnusedResources">Guruhuât gunumânt riña internêt ‘hiaj sun hue’ê doj nan</string>
     <!-- Text for the onboarding welcome message. -->
     <string name="onboarding_message" moz:RemovedIn="118" tools:ignore="UnusedResources">Guendâ guìi gurugui’ sa nana’hui’ nan, sê guendâ gīrij san’ānj an huin man.</string>
-    <!-- Text for the Firefox account onboarding sign in card header. -->
+    <!-- Text for the LeOSium account onboarding sign in card header. -->
     <string name="onboarding_account_sign_in_header" moz:RemovedIn="118" tools:ignore="UnusedResources">Nakāj danè’ gudunâjt</string>
-    <!-- Text for the button to learn more about signing in to your Firefox account. -->
+    <!-- Text for the button to learn more about signing in to your LeOSium account. -->
     <string name="onboarding_manual_sign_in_description" moz:RemovedIn="118" tools:ignore="UnusedResources">Nāgi’hiaj nūguan’àn nej rakïj ñanj nī nej da’nga’ huì huā riña nej si āgâ’t da’ gā’hue nādunāt pāntâya.</string>
-    <!-- Text for the button to manually sign into Firefox account. -->
+    <!-- Text for the button to manually sign into LeOSium account. -->
     <string name="onboarding_firefox_account_sign_in" moz:RemovedIn="118" tools:ignore="UnusedResources">Gāyi\'ì sēsiûn</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">Ngà nanûn Sync</string>
@@ -1492,7 +1492,7 @@
     <!-- Text for the privacy notice onboarding card header -->
     <string name="onboarding_privacy_notice_header_1" moz:RemovedIn="118" tools:ignore="UnusedResources">Sò’ ni’in dàj gī’hiaj sunt ngà nej si datôt</string>
     <!-- Text for the privacy notice onboarding card description. -->
-    <string name="onboarding_privacy_notice_description" moz:RemovedIn="118" tools:ignore="UnusedResources">Narikî Firefox da’ gi’nï̄nj ra’ât nej sa duyingâ’t riña aché nunt nī nej sa duyingâ’t ngà nej ñûnj.</string>
+    <string name="onboarding_privacy_notice_description" moz:RemovedIn="118" tools:ignore="UnusedResources">Narikî LeOSium da’ gi’nï̄nj ra’ât nej sa duyingâ’t riña aché nunt nī nej sa duyingâ’t ngà nej ñûnj.</string>
     <!-- Text for the button to read the privacy notice -->
     <string name="onboarding_privacy_notice_read_button" moz:RemovedIn="118" tools:ignore="UnusedResources">Gahiā sa atāj na\'ānj ñûnj guendâ sa huìi</string>
 
@@ -1529,16 +1529,16 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Gānārī ñadu\'ua da\'nga\' kôdigo</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Gānā\'nïn Firefox riña si āgâ\'t nī gātū riña <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Gānā\'nïn LeOSium riña si āgâ\'t nī gātū riña <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Ngà huā chrunj da\' gānārij ñadu\'ua</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">Gāyì\'ì sēsiûn ngà si kamarât</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">Gārāsun si kōrreôt si lūgaj</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
     <string name="sign_in_create_account_text"><![CDATA[Nitāj kuênta hua ‘hiá ra’ <u>gīrī ‘ngòj a</u> da’ nāgi’hiaj nūguan’ànt man ngà a’ngô nej si āgâ’t.]]></string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">Dūnâj %s si nāgi\'iaj nūguàn\'anj si kuentât, sanī si dure\'ej nej datô râj sunt ngà aché nunt riña aga\' nan.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">Gāhuī riña internet</string>
@@ -1555,7 +1555,7 @@
     <string name="preference_enhanced_tracking_protection">Sa huā hue\'ê doj guendâ nārán riña sa naga\'nāj a</string>
     <!-- Preference summary for enhanced tracking protection settings on/off switch -->
     <string name="preference_enhanced_tracking_protection_summary">Ngà Total Cookie Protection hìaj, ‘ngō sa rugûñu’ūnj hīa sò’ da’ nārán man riña nej sa naga’nāj ahui riña nej sitio.</string>
-    <!-- Description of enhanced tracking protection. The parameter is the name of the application (For example: Firefox Fenix) -->
+    <!-- Description of enhanced tracking protection. The parameter is the name of the application (For example: LeOSium Fenix) -->
     <string name="preference_enhanced_tracking_protection_explanation_2">%s naran rayi\'ît riña nej sa naga\'nāj sa \'iát nga aché nunt.</string>
     <!-- Text displayed that links to website about enhanced tracking protection -->
     <string name="preference_enhanced_tracking_protection_explanation_learn_more">Gāhuin chrūn doj</string>
@@ -1719,9 +1719,9 @@
     <!-- Preference option for never saving passwords in Fenix -->
     <string name="preferences_passwords_save_logins_never_save">Nitāj āmān nā\'nïnj sà\'t</string>
 
-    <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill2">Dūsìj mān’an %1$s</string>
-    <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Description for the preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill_description">Nāchra nāhuij man nī nā’nï̀nj sà’ si yūgui sa arâj suun ngà nej da’nga’ huìi riña nej sitio ngà aràj sunt %1$s.</string>
     <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
     <string name="preferences_android_autofill">Nāchra mān’an man riña a’ngô nej aplikasiûn</string>
@@ -1965,7 +1965,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">URL gārasunt guendâ nānà’huì’t</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Nādūnā sa nana\'uî\'t ngà “%s”. dàj rû\':\nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Nādūnā sa nana\'uî\'t ngà “%s”. dàj rû\':\nhttps://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Sa huā riña sa nana\'uî\'t nagi\'iaj man\'ânt</string>
@@ -1977,7 +1977,7 @@
     <!-- Description text for the Search Suggestion String TextField. The %s is part of the string -->
     <string name="search_add_custom_engine_suggest_string_example" formatted="false" moz:RemovedIn="118" tools:ignore="UnusedResources">Nādunā sa nana\’huî\’t ngà “%s”. Dàj rû\':\nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
     <!-- Description text for the Search Suggestion String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">Nādunā sa gachrûnt dan ngà “%s”. Dàj rû\':\nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
+    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">Nādunā sa gachrûnt dan ngà “%s”. Dàj rû\':\nhttps://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
     <!-- The text for the "Save" button for saving a custom search engine -->
     <string name="search_custom_engine_save_button">Nā\'nïnj sà\'</string>
 
@@ -2071,11 +2071,11 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Ngà huā \'ngō riña gayì\'ìt sēsiûn gù\'nàj dàdanj</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">https://www.example.com</string>
 
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
-    <string name="add_login_hostname_invalid_text_3">Da\’hui dīreksiûn nan gānika &quot;http:/&quot; asi &quot;http://&quot;</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
+    <string name="add_login_hostname_invalid_text_3">Da\’hui dīreksiûn nan gānika &quot;https:/&quot; asi &quot;http://&quot;</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Nāchrūn ‘ngō si yūgui host huā hue’ê</string>
 
@@ -2084,13 +2084,13 @@
     <string name="synced_tabs_connect_another_device">Gātū ngà a\'ngô aga\'a.</string>
     <!-- Text displayed asking user to re-authenticate -->
     <string name="synced_tabs_reauth">Gi\'iaj sunūj u, nādigân ñû si huê hīat huin.</string>
-    <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+    <!-- Text displayed when user has disabled tab syncing in LeOSium Sync Account -->
     <string name="synced_tabs_enable_tab_syncing">Gi\'iaj sunūj u, nāchrūn sa nāgi\'iaj nūguàn\'ànt nej rakïj ñanj.</string>
     <!-- Text displayed when user has no tabs that have been synced -->
-    <string name="synced_tabs_no_tabs">Nitāj à\'ngō rakïj ñanj huā nî\'nïnj riña Firefox riña a\'ngô nej si āgâ\'t.</string>
-    <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+    <string name="synced_tabs_no_tabs">Nitāj à\'ngō rakïj ñanj huā nî\'nïnj riña LeOSium riña a\'ngô nej si āgâ\'t.</string>
+    <!-- Text displayed in the synced tabs screen when a user is not signed in to LeOSium Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">Gīni\'iāj \'ngō dukuán rakïj ñanj nīkāj a\'ngô nej si āgâ\'t.</string>
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">Gāyi\'ì sēsiûn riña sync</string>
 
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
@@ -2143,22 +2143,22 @@
     <!-- The header text of the auto-close message when the user is asked if they want to turn on the auto-closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Ngà gachîn ‘ngō ahuii nī nārán mā’an riñanj anj.</string>
     <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">Nārán Firefox riña nej rakïj ñanj nu ni’hiājt gachîn ‘ngō ahuii.</string>
+    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">Nārán LeOSium riña nej rakïj ñanj nu ni’hiājt gachîn ‘ngō ahuii.</string>
     <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">NĀCHRŪN DA’ NĀRÁN MĀN’AN MAN</string>
     <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
     <string name="inactive_tabs_auto_close_message_snackbar">Ngà huā sa nārán mān’an man</string>
 
     <!-- Awesome bar suggestion's headers -->
-    <!-- Search suggestions title for Firefox Suggest. -->
-    <string name="firefox_suggest_header">Si nūguan’ Firefox</string>
+    <!-- Search suggestions title for LeOSium Suggest. -->
+    <string name="firefox_suggest_header">Si nūguan’ LeOSium</string>
     <!-- Title for search suggestions when Google is the default search suggestion engine. -->
     <string name="google_search_engine_suggestion_header">Si’hiaj Google sa nana’hui’i</string>
     <!-- Title for search suggestions when the default search suggestion engine is anything other than Google. The first parameter is default search engine name. -->
     <string name="other_default_search_engine_suggestion_header">Nānà\'uì\' ngà %s</string>
 
     <!-- Default browser experiment -->
-    <string name="default_browser_experiment_card_text">Nāgi’hiaj nej enlasê sitiô web, nej korrêo nī nej nuguan’ huāa da’ nāyi’nïn man’an nej man riña Firefox.</string>
+    <string name="default_browser_experiment_card_text">Nāgi’hiaj nej enlasê sitiô web, nej korrêo nī nej nuguan’ huāa da’ nāyi’nïn man’an nej man riña LeOSium.</string>
 
     <!-- Content description for close button in collection placeholder. -->
     <string name="remove_home_collection_placeholder_content_description">Nādure\'</string>
@@ -2182,7 +2182,7 @@
     <!-- Title of an app feature. Smaller than a heading. The first parameter is product name Pocket -->
     <string name="pocket_stories_feature_title_2">Rugûñu\'ūnj sa gu\'nàj %s.</string>
     <!-- Caption for describing a certain feature. The placeholder is for a clickable text (eg: Learn more) which will load an url in a new tab when clicked.  -->
-    <string name="pocket_stories_feature_caption">Dugui’ yi’nïn’ Firefox huin. %s</string>
+    <string name="pocket_stories_feature_caption">Dugui’ yi’nïn’ LeOSium huin. %s</string>
     <!-- Clickable text for opening an external link for more information about Pocket. -->
     <string name="pocket_stories_feature_learn_more">Gāhuin chrūn doj</string>
 
@@ -2203,6 +2203,6 @@
     <string name="a11y_action_label_wallpaper_collection_learn_more">nā’nïn riña enlâse da’ gīni’înt doj dàj hua rayi’î yi’nïn’ nan</string>
     <!-- Action label for links that point to an article. Talkback will append this to say "Double tap to read the article". -->
     <string name="a11y_action_label_read_article">gāhiā riña ñanj dan</string>
-    <!-- Action label for links to the Firefox Pocket website. Talkback will append this to say "Double tap to open link to learn more". -->
+    <!-- Action label for links to the LeOSium Pocket website. Talkback will append this to say "Double tap to open link to learn more". -->
     <string name="a11y_action_label_pocket_learn_more">nā’nïn riña enlâse da’ gīni’înt doj</string>
 </resources>

@@ -298,18 +298,18 @@
 
     <!-- Summary of tracking protection preference if tracking protection is set to on -->
     <string name="preferences_https_only_on" moz:removedIn="111" tools:ignore="UnusedResources">Включено</string>
-    <!-- Summary of http only preference if http only is set to off -->
+    <!-- Summary of https only preference if https only is set to off -->
     <string name="preferences_https_only_off">Изключено</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_https_only_learn_more">Научете повече</string>
+    <string name="preferences_http_only_learn_more">Научете повече</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Достъпност</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">Личен сървър за Firefox Account</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">Личен сървър за LeOSium Account</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">Личен сървър за Sync</string>
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done">Сървърът на Firefox Account/Sync е променен. Излизане от приложението за прилагане на промените…</string>
+    <string name="toast_override_fxa_sync_server_done">Сървърът на LeOSium Account/Sync е променен. Излизане от приложението за прилагане на промените…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">Профил</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -323,7 +323,7 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">Външен вид</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">Firefox Account</string>
+    <string name="preferences_account_default_name">LeOSium Account</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">Свържете повторно, за да бъде възобновено синхронизирането</string>
     <!-- Preference for language -->
@@ -441,7 +441,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">Получени раздели</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">Известия за раздели, получени от други устройства на Firefox.</string>
+    <string name="fxa_received_tab_channel_description">Известия за раздели, получени от други устройства на LeOSium.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Получен раздел</string>
     <!-- %s is the device name -->
@@ -468,7 +468,7 @@
     <!-- Title for studies preferences -->
     <string name="preference_experiments_2">Проучвания</string>
     <!-- Summary for studies preferences -->
-    <string name="preference_experiments_summary_2">Позволява на Mozilla да инсталира и изпълнява проучвания</string>
+    <string name="preference_experiments_summary_2">Позволява на Harvey186 да инсталира и изпълнява проучвания</string>
 
     <!-- Preference for reconnecting to FxA sync -->
     <string name="preferences_sync_sign_in_to_reconnect">Влезте, за да свържете отново</string>
@@ -936,7 +936,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">Добавяне на устройство</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">За да изпращате раздели е необходимо да бъдете вписани във Firefox на поне едно устройство.</string>
+    <string name="sync_connect_device_dialog">За да изпращате раздели е необходимо да бъдете вписани във LeOSium на поне едно устройство.</string>
 
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">Разбрах</string>
@@ -984,7 +984,7 @@
     <string name="qr_scanner_dialog_positive">РАЗРЕШАВАНЕ</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">ЗАБРАНЯВАНЕ</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
     <string name="qr_scanner_dialog_invalid">Адресът е недействителен.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">Добре</string>
@@ -1104,16 +1104,16 @@
     <string name="sync_scan_code">Сканиране на код</string>
 
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Отворете Firefox на вашият компютър и посетете <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Отворете LeOSium на вашият компютър и посетете <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">В готовност за сканиране</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">Вписване чрез камерата</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">Или чрез електронна поща</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
-    <string name="sign_in_create_account_text"><![CDATA[Нямате акаунт? <u>Създайте такъв,</u> за да синхронизирате Firefox между различни устройства.]]></string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
+    <string name="sign_in_create_account_text"><![CDATA[Нямате акаунт? <u>Създайте такъв,</u> за да синхронизирате LeOSium между различни устройства.]]></string>
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">%s ще спре да се синхронизира с вашия профил, но няма да изтрива данни от разглеждане от устройството.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">Изключване</string>
@@ -1277,9 +1277,9 @@
     <!-- Preference option for never saving passwords in Fenix -->
     <string name="preferences_passwords_save_logins_never_save">Никога</string>
 
-    <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill2">Автоматично попълване във %1$s</string>
-    <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Description for the preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill_description">Попълват се потребителски имена и пароли в страници, докато използвате %1$s.</string>
     <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
     <string name="preferences_android_autofill">Попълване в други приложения</string>
@@ -1450,7 +1450,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">Низ за търсене, който да се използва</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Заменете заявката с „%s“. Пример:\nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Заменете заявката с „%s“. Пример:\nhttps://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Данни за търсещата машина на потребителя</string>
 
@@ -1532,11 +1532,11 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Регистрация с това потребителско име вече съществува</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">https://www.example.com</string>
 
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
-    <string name="add_login_hostname_invalid_text_3">Адресът трябва да съдържа „http://“ или „http://“</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
+    <string name="add_login_hostname_invalid_text_3">Адресът трябва да съдържа „https://“ или „http://“</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Необходимо е валидно име на хост</string>
 
@@ -1545,13 +1545,13 @@
     <string name="synced_tabs_connect_another_device">Добавете друго на устройство.</string>
     <!-- Text displayed asking user to re-authenticate -->
     <string name="synced_tabs_reauth">Моля, удостоверете се отново.</string>
-    <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+    <!-- Text displayed when user has disabled tab syncing in LeOSium Sync Account -->
     <string name="synced_tabs_enable_tab_syncing">Моля, включете синхронизиране на раздели.</string>
     <!-- Text displayed when user has no tabs that have been synced -->
-    <string name="synced_tabs_no_tabs">Няма отворени раздели във Firefox на други ваши устройства.</string>
-    <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+    <string name="synced_tabs_no_tabs">Няма отворени раздели във LeOSium на други ваши устройства.</string>
+    <!-- Text displayed in the synced tabs screen when a user is not signed in to LeOSium Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">Вижте разделите от други ваши устройства.</string>
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">Вписване в Sync</string>
 
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
@@ -1577,14 +1577,14 @@
     <!-- The header text of the auto-close message when the user is asked if they want to turn on the auto-closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Автоматично затваряне след един месец?</string>
     <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">Firefox може да затваря разделите, които не са преглеждани през последния месец.</string>
+    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">LeOSium може да затваря разделите, които не са преглеждани през последния месец.</string>
     <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">АВТОМАТИЧНО ЗАТВАРЯНЕ</string>
     <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
     <string name="inactive_tabs_auto_close_message_snackbar">Автоматичното затваряне е включено</string>
 
     <!-- Default browser experiment -->
-    <string name="default_browser_experiment_card_text">Задайте Firefox като стандартно приложение за отваряне на страници, електронна поща и съобщения.</string>
+    <string name="default_browser_experiment_card_text">Задайте LeOSium като стандартно приложение за отваряне на страници, електронна поща и съобщения.</string>
 
     <!-- Content description for close button in collection placeholder. -->
     <string name="remove_home_collection_placeholder_content_description">Премахване</string>
@@ -1606,7 +1606,7 @@
     <!-- Text of a button allowing users to access an external url for more Pocket recommendations. -->
     <string name="pocket_stories_placeholder_text">Открийте повече</string>
     <!-- Caption for describing a certain feature. The placeholder is for a clickable text (eg: Learn more) which will load an url in a new tab when clicked.  -->
-    <string name="pocket_stories_feature_caption">Част от семейството на Firefox. %s</string>
+    <string name="pocket_stories_feature_caption">Част от семейството на LeOSium. %s</string>
     <!-- Clickable text for opening an external link for more information about Pocket. -->
     <string name="pocket_stories_feature_learn_more">Научете повече</string>
 

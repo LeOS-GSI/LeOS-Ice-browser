@@ -71,12 +71,12 @@
     <string name="felt_privacy_desc_card_title">לא להשאיר עקבות במכשיר זה</string>
     <!-- Explanation for private browsing displayed to users on home view when they first enable
         private mode in our new Total Private Browsing mode.
-        The first parameter is the name of the app defined in app_name (for example: Firefox Nightly)
+        The first parameter is the name of the app defined in app_name (for example: LeOSium Nightly)
         The second parameter is the clickable link text in felt_privacy_info_card_subtitle_link_text -->
     <string name="felt_privacy_info_card_subtitle" moz:removedIn="120" tools:ignore="UnusedResources">‏%1$s מוחק את העוגיות, ההיסטוריה ונתוני האתר שלך כאשר כל החלונות הפרטיים שלך נסגרים. %2$s</string>
     <!-- Explanation for private browsing displayed to users on home view when they first enable
         private mode in our new Total Private Browsing mode.
-        The first parameter is the name of the app defined in app_name (for example: Firefox Nightly)
+        The first parameter is the name of the app defined in app_name (for example: LeOSium Nightly)
         The second parameter is the clickable link text in felt_privacy_info_card_subtitle_link_text -->
     <string name="felt_privacy_info_card_subtitle_2">‏%1$s מוחק את העוגיות, ההיסטוריה ונתוני האתר שלך כאשר כל הלשוניות הפרטיות שלך נסגרות. %2$s</string>
     <!-- Clickable portion of the explanation for private browsing that links the user to our
@@ -289,7 +289,7 @@
     <!-- Header text for the search selector menu -->
     <string name="search_header_menu_item_2">הפעם לחפש ב:</string>
 
-    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: DuckDuckGo). -->
+    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: Swisscows). -->
     <string name="search_engine_icon_content_description" tools:ignore="UnusedResources">מנוע חיפוש %s</string>
 
     <!-- Home onboarding -->
@@ -330,8 +330,8 @@
 
     <!-- Juno first user onboarding flow experiment, strings are marked unused as they are only referenced by Nimbus experiments. -->
     <!-- Title for set firefox as default browser screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_default_browser_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">הגדרת Firefox כדפדפן ברירת המחדל שלך</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_default_browser_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">הגדרת LeOSium כדפדפן ברירת המחדל שלך</string>
     <!-- Title for set firefox as default browser screen used by Nimbus experiments. -->
     <string name="juno_onboarding_default_browser_title_nimbus_2">אנחנו אוהבים לשמור עליך</string>
     <!-- Text for the button to set firefox as default browser on the device -->
@@ -345,32 +345,32 @@
     <!-- Description for sign in to sync screen. -->
     <string name="juno_onboarding_sign_in_description" moz:removedIn="120" tools:ignore="UnusedResources">ניתן לקבל לשוניות וססמאות מהמכשירים האחרים שלך כדי להמשיך מאיפה שהפסקת.</string>
     <!-- Description for sign in to sync screen. Nimbus experiments do not support string placeholders.
-     Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_sign_in_description_2">כאשר החשבון שלך מחובר ומסונכרן, אתה מוגן יותר. Firefox מצפין את הססמאות והסימניות שלך ועוד.</string>
+     Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_sign_in_description_2">כאשר החשבון שלך מחובר ומסונכרן, אתה מוגן יותר. LeOSium מצפין את הססמאות והסימניות שלך ועוד.</string>
     <!-- Text for the button to sign in to sync on the device -->
     <string name="juno_onboarding_sign_in_positive_button" tools:ignore="UnusedResources">כניסה</string>
     <!-- Text for the button dismiss the screen and move on with the flow -->
     <string name="juno_onboarding_sign_in_negative_button" tools:ignore="UnusedResources">לא כעת</string>
     <!-- Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_enable_notifications_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">התרעות עוזרות לך לעשות יותר עם Firefox</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_enable_notifications_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">התרעות עוזרות לך לעשות יותר עם LeOSium</string>
     <!-- Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_enable_notifications_title_nimbus_2">התרעות עוזרות לך להישאר בטוח יותר עם Firefox</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_enable_notifications_title_nimbus_2">התרעות עוזרות לך להישאר בטוח יותר עם LeOSium</string>
     <!-- Text for the button to request notification permission on the device -->
     <string name="juno_onboarding_enable_notifications_positive_button" tools:ignore="UnusedResources">הפעלת התרעות</string>
     <!-- Text for the button dismiss the screen and move on with the flow -->
     <string name="juno_onboarding_enable_notifications_negative_button" tools:ignore="UnusedResources">לא כעת</string>
 
     <!-- Title for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_add_search_widget_title" tools:ignore="UnusedResources">נסו את ווידג’ט החיפוש של Firefox</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_add_search_widget_title" tools:ignore="UnusedResources">נסו את ווידג’ט החיפוש של LeOSium</string>
     <!-- Description for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_add_search_widget_description" tools:ignore="UnusedResources">עם Firefox במסך הבית שלך, תהיה לך גישה קלה לדפדפן ששם את הפרטיות בעדיפות ראשונה, ושחוסם רכיבי מעקב חוצי אתרים.</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_add_search_widget_description" tools:ignore="UnusedResources">עם LeOSium במסך הבית שלך, תהיה לך גישה קלה לדפדפן ששם את הפרטיות בעדיפות ראשונה, ושחוסם רכיבי מעקב חוצי אתרים.</string>
     <!-- Text for the button to add search widget on the device used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="UnusedResources">הוספת ווידג’ט של Firefox</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="UnusedResources">הוספת ווידג’ט של LeOSium</string>
     <!-- Text for the button to dismiss the screen and move on with the flow -->
     <string name="juno_onboarding_add_search_widget_negative_button" tools:ignore="UnusedResources">לא כעת</string>
 
@@ -414,10 +414,10 @@
     <string name="preferences_search_address_bar" moz:removedIn="120" tools:ignore="UnusedResources">שורת כתובת</string>
     <!-- Preference Category for settings related to Search address bar -->
     <string name="preferences_settings_address_bar">העדפות שורת הכתובת</string>
-    <!-- Preference Category for settings to Firefox Suggest -->
-    <string name="preference_search_address_bar_fx_suggest">שורת הכתובת - Firefox Suggest</string>
-    <!-- Preference link to Learn more about Firefox Suggest -->
-    <string name="preference_search_learn_about_fx_suggest">מידע נוסף על Firefox Suggest</string>
+    <!-- Preference Category for settings to LeOSium Suggest -->
+    <string name="preference_search_address_bar_fx_suggest">שורת הכתובת - LeOSium Suggest</string>
+    <!-- Preference link to Learn more about LeOSium Suggest -->
+    <string name="preference_search_learn_about_fx_suggest">מידע נוסף על LeOSium Suggest</string>
     <!-- Preference link to rating Fenix on the Play Store -->
     <string name="preferences_rate">דירוג ב־Google Play</string>
     <!-- Preference linking to about page for Fenix
@@ -451,36 +451,36 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">מנסה להתחבר באופן אוטומטי לאתרים באמצעות פרוטוקול ההצפנה HTTPS לצורך אבטחה מוגברת.</string>
-    <!-- Summary of http only preference if http only is set to off -->
+    <!-- Summary of https only preference if https only is set to off -->
     <string name="preferences_https_only_off">כבוי</string>
-    <!-- Summary of http only preference if http only is set to on in all tabs -->
+    <!-- Summary of https only preference if https only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">פעיל בכל האתרים</string>
-    <!-- Summary of http only preference if http only is set to on in private tabs only -->
+    <!-- Summary of https only preference if https only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">פעיל בלשוניות פרטיות</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_https_only_learn_more">מידע נוסף</string>
-    <!-- Option for the http only setting -->
+    <string name="preferences_http_only_learn_more">מידע נוסף</string>
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_all_tabs">הפעלה בכל הלשוניות</string>
-    <!-- Option for the http only setting -->
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_private_tabs">הפעלה בלשוניות פרטיות בלבד</string>
-    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
     <string name="errorpage_httpsonly_title">אתר מאובטח אינו זמין</string>
-    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">סביר להניח שהאתר פשוט אינו תומך ב־HTTPS.</string>
-    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">יחד עם זאת, ייתכן שיש גם גורם זדוני בתמונה. היה ובחרת להמשיך לאתר, אין להזין מידע רגיש. המשך לאתר יבטל באופן זמני את מצב HTTPS בלבד עבור האתר.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">נגישות</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server" moz:RemovedIn="120" tools:ignore="UnusedResources">שרת Firefox Account מותאם אישית</string>
-    <!-- Preference to override the Mozilla account server -->
-    <string name="preferences_override_account_server">שרת חשבוןו Mozilla מותאם אישית</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server" moz:RemovedIn="120" tools:ignore="UnusedResources">שרת LeOSium Account מותאם אישית</string>
+    <!-- Preference to override the Harvey186 account server -->
+    <string name="preferences_override_account_server">שרת חשבוןו Harvey186 מותאם אישית</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">שרת Sync מותאם אישית</string>
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done" moz:RemovedIn="120" tools:ignore="UnusedResources">שרת Firefox Account/Sync השתנה. היישום ייסגר לצורך להחלת השינויים…</string>
-    <!-- Toast shown after updating the Mozilla account/Sync server override preferences -->
-    <string name="toast_override_account_sync_server_done">שרת חשבון Mozilla השתנה. היישום ייסגר לצורך להחלת השינויים…</string>
+    <string name="toast_override_fxa_sync_server_done" moz:RemovedIn="120" tools:ignore="UnusedResources">שרת LeOSium Account/Sync השתנה. היישום ייסגר לצורך להחלת השינויים…</string>
+    <!-- Toast shown after updating the Harvey186 account/Sync server override preferences -->
+    <string name="toast_override_account_sync_server_done">שרת חשבון Harvey186 השתנה. היישום ייסגר לצורך להחלת השינויים…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">חשבון</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -496,7 +496,7 @@
     <!-- Preference description for banner about signing in -->
     <string name="preferences_sign_in_description_2">יש להתחבר כדי לסנכרן את הלשוניות, הסימניות הססמאות ועוד.</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name" moz:RemovedIn="120" tools:ignore="UnusedResources">חשבון Firefox</string>
+    <string name="preferences_account_default_name" moz:RemovedIn="120" tools:ignore="UnusedResources">חשבון LeOSium</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
     <string name="preferences_account_default_name_2">חשבון Mozilla</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
@@ -530,15 +530,15 @@
 
     <!-- Preference for enabling url autocomplete-->
     <string name="preferences_enable_autocomplete_urls">השלמה אוטומטית של כתובות אתרים</string>
-    <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+    <!-- Preference title for switch preference to show sponsored LeOSium Suggest search suggestions -->
     <string name="preferences_show_sponsored_suggestions">הצעות מנותני חסות</string>
-    <!-- Summary for preference to show sponsored Firefox Suggest search suggestions.
+    <!-- Summary for preference to show sponsored LeOSium Suggest search suggestions.
          The first parameter is the name of the application. -->
     <string name="preferences_show_sponsored_suggestions_summary">תמיכה ב־%1$s עם הצעות ממומנות מדי פעם</string>
-    <!-- Preference title for switch preference to show Firefox Suggest search suggestions for web content.
+    <!-- Preference title for switch preference to show LeOSium Suggest search suggestions for web content.
          The first parameter is the name of the application. -->
     <string name="preferences_show_nonsponsored_suggestions">הצעות מאת %1$s</string>
-    <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+    <!-- Summary for preference to show LeOSium Suggest search suggestions for web content -->
     <string name="preferences_show_nonsponsored_suggestions_summary">קבלת הצעות מהאינטרנט הקשורות לחיפוש שלך</string>
     <!-- Preference for open links in third party apps -->
     <string name="preferences_open_links_in_apps">פתיחת קישורים ביישומונים</string>
@@ -559,6 +559,8 @@
     <!-- Preference for add_ons -->
     <string name="preferences_addons">תוספות</string>
 
+    <!-- Preference for installing a local add-on -->
+    <string name="preferences_install_local_addon">התקנת תוספת מקובץ</string>
     <!-- Preference for notifications -->
     <string name="preferences_notifications">התרעות</string>
 
@@ -620,7 +622,7 @@
     <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
     <string name="wallpaper_learn_more">מידע נוסף</string>
 
-    <!-- Text for classic wallpapers title. The first parameter is the Firefox name. -->
+    <!-- Text for classic wallpapers title. The first parameter is the LeOSium name. -->
     <string name="wallpaper_classic_title">‏%s קלאסי</string>
 
     <!-- Wallpaper onboarding dialog body text. -->
@@ -632,8 +634,8 @@
     <!-- Title of the Nimbus message for add-ons general availability-->
     <string name="addon_ga_message_title" tools:ignore="UnusedResources">תוספות חדשות זמינות כעת</string>
 
-    <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here-->
-    <string name="addon_ga_message_body" tools:ignore="UnusedResources">יש לנו יותר מ־100 הרחבות חדשות המאפשרות לך להפוך את Firefox לשלך.</string>
+    <!-- Body of the Nimbus message for add-ons general availability. 'LeOSium' intentionally hardcoded here-->
+    <string name="addon_ga_message_body" tools:ignore="UnusedResources">יש לנו יותר מ־100 הרחבות חדשות המאפשרות לך להפוך את LeOSium לשלך.</string>
     <!-- Button text of the Nimbus message for add-ons general availability. -->
     <string name="addon_ga_message_button" tools:ignore="UnusedResources">סיור בתוספות</string>
 
@@ -701,7 +703,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">לשוניות שהתקבלו</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">התרעות עבור לשוניות שהתקבלו ממכשירי Firefox אחרים.</string>
+    <string name="fxa_received_tab_channel_description">התרעות עבור לשוניות שהתקבלו ממכשירי LeOSium אחרים.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">התקבלה לשונית</string>
     <!-- %s is the device name -->
@@ -720,7 +722,7 @@
     <!-- Preference switch for usage and technical data collection -->
     <string name="preference_usage_data">נתוני שימוש וטכניים</string>
     <!-- Preference description for usage and technical data collection -->
-    <string name="preferences_usage_data_description">שיתוף נתונים של ביצועים, חומרה, שימוש והתאמות אישיות על הדפדפן שלך עם Mozilla כדי לסייע לנו בשיפור %1$s</string>
+    <string name="preferences_usage_data_description">שיתוף נתונים של ביצועים, חומרה, שימוש והתאמות אישיות על הדפדפן שלך עם Harvey186 כדי לסייע לנו בשיפור %1$s</string>
 
     <!-- Preference switch for marketing data collection -->
     <string name="preferences_marketing_data">נתוני שיווק</string>
@@ -884,7 +886,7 @@
     <!-- Title of the active section on the studies list -->
     <string name="studies_active">פעיל</string>
 
-    <!-- Description for studies, it indicates why Firefox use studies. The first parameter is the name of the application. -->
+    <!-- Description for studies, it indicates why LeOSium use studies. The first parameter is the name of the application. -->
     <string name="studies_description_2">‏%1$s עשוי להתקין ולהריץ מחקרים מדי פעם בפעם.</string>
     <!-- Learn more link for studies, links to an article for more information about studies. -->
     <string name="studies_learn_more">מידע נוסף</string>
@@ -1263,7 +1265,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">חיבור מכשיר נוסף</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">כדי לשלוח לשונית, יש להתחבר ל־Firefox לפחות במכשיר אחד נוסף.</string>
+    <string name="sync_connect_device_dialog">כדי לשלוח לשונית, יש להתחבר ל־LeOSium לפחות במכשיר אחד נוסף.</string>
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">הבנתי</string>
     <!-- Share error message -->
@@ -1286,10 +1288,10 @@
 
     <!-- Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">‏Firefox הוא מהיר ופרטי</string>
+    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">‏LeOSium הוא מהיר ופרטי</string>
     <!-- Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">הגדרת Firefox כדפדפן ברירת המחדל שלך</string>
+    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">הגדרת LeOSium כדפדפן ברירת המחדל שלך</string>
     <!-- Title shown in the notification that pops up to re-engage the user -->
     <string name="notification_re_engagement_title">נסו את הגלישה הפרטית</string>
     <!-- Text shown in the notification that pops up to re-engage the user.
@@ -1310,7 +1312,7 @@
     <!-- Survey -->
     <!-- Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_survey_message_text">אנא עזרו לשפר את Firefox על־ידי השתתפות בסקר קצר.</string>
+    <string name="nimbus_survey_message_text">אנא עזרו לשפר את LeOSium על־ידי השתתפות בסקר קצר.</string>
     <!-- Preference for taking the short survey. -->
     <string name="preferences_take_survey">לקיחת סקר</string>
     <!-- Preference for not taking the short survey. -->
@@ -1347,7 +1349,7 @@
     <string name="qr_scanner_dialog_positive">לאפשר</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">לחסום</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
     <string name="qr_scanner_dialog_invalid">כתובת האתר לא חוקית.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">אישור</string>
@@ -1459,16 +1461,16 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">סריקת הקוד</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[במחשב שלך יש לפתוח את Firefox ולעבור לכתובת <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[במחשב שלך יש לפתוח את LeOSium ולעבור לכתובת <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">מוכן לסריקה</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">התחברות באמצעות המצלמה שלך</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">שימוש בדוא״ל במקום</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
-    <string name="sign_in_create_account_text"><![CDATA[אין לך חשבון? <u>באפשרותך ליצור אחד</u> כדי לסנכרן את Firefox בין מכשירים.]]></string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
+    <string name="sign_in_create_account_text"><![CDATA[אין לך חשבון? <u>באפשרותך ליצור אחד</u> כדי לסנכרן את LeOSium בין מכשירים.]]></string>
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">‏‏%s יפסיק להסתנכרן עם החשבון שלך, אבל לא ימחק את נתוני הגלישה שלך ממכשיר זה.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">התנתקות</string>
@@ -1484,7 +1486,7 @@
     <string name="preference_enhanced_tracking_protection">הגנת מעקב מתקדמת</string>
     <!-- Preference summary for enhanced tracking protection settings on/off switch -->
     <string name="preference_enhanced_tracking_protection_summary">כעת כולל הגנת עוגיות מלאה, המחסום החזק ביותר שלנו עד כה נגד רכיבי מעקב חוצי אתרים.</string>
-    <!-- Description of enhanced tracking protection. The parameter is the name of the application (For example: Firefox Fenix) -->
+    <!-- Description of enhanced tracking protection. The parameter is the name of the application (For example: LeOSium Fenix) -->
     <string name="preference_enhanced_tracking_protection_explanation_2">‏%s מגן עליך מפני רוב רכיבי הריגול שעוקבים אחר הפעילות המקוונת שלך.</string>
     <!-- Text displayed that links to website about enhanced tracking protection -->
     <string name="preference_enhanced_tracking_protection_explanation_learn_more">מידע נוסף</string>
@@ -1639,9 +1641,9 @@
     <!-- Preference option for never saving passwords in Fenix -->
     <string name="preferences_passwords_save_logins_never_save">לעולם לא לשמור</string>
 
-    <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill2">מילוי אוטומטי ב־%1$s</string>
-    <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Description for the preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill_description">מילוי ושמירת שמות משתמשים וססמאות באתרים בזמן שימוש ב־%1$s.</string>
     <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
     <string name="preferences_android_autofill">מילוי אוטומטי ביישומונים אחרים</string>
@@ -1881,7 +1883,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">כתובת URL לשימוש לחיפוש</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">יש להחליף את השאילתה עם ״%s״. לדוגמה:\nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">יש להחליף את השאילתה עם ״%s״. לדוגמה:\nhttps://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">פרטי מנוע חיפוש מותאם אישית</string>
@@ -1891,7 +1893,7 @@
     <!-- Placeholder text shown in the Search Suggestion String TextField before a user enters text -->
     <string name="search_add_custom_engine_suggest_string_hint">כתובת ה־API להצעות חיפוש</string>
     <!-- Description text for the Search Suggestion String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">יש להחליף את השאילתה ב־״%s״. לדוגמה:\nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
+    <string name="search_add_custom_engine_suggest_string_example_2" formatted="false">יש להחליף את השאילתה ב־״%s״. לדוגמה:\nhttps://suggestqueries.google.com/complete/search?client=firefox&amp;q=%s</string>
     <!-- The text for the "Save" button for saving a custom search engine -->
     <string name="search_custom_engine_save_button">שמירה</string>
 
@@ -1983,24 +1985,24 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">כבר קיימת כניסה עם שם משתמש זה</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">http://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
-    <string name="add_login_hostname_invalid_text_3">כתובת האתר חייבת להכיל &quot;http://‎&quot; או &quot;http://‎&quot;</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">https://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
+    <string name="add_login_hostname_invalid_text_3">כתובת האתר חייבת להכיל &quot;https://‎&quot; או &quot;http://‎&quot;</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">דרוש שם מארח תקין</string>
 
     <!-- Synced Tabs -->
     <!-- Text displayed to ask user to connect another device as no devices found with account -->
     <string name="synced_tabs_connect_another_device">נא לחבר מכשיר נוסף.</string>
-    <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+    <!-- Text displayed when user has disabled tab syncing in LeOSium Sync Account -->
     <string name="synced_tabs_enable_tab_syncing">נא להפעיל סנכרון לשוניות.</string>
     <!-- Text displayed when user has no tabs that have been synced -->
-    <string name="synced_tabs_no_tabs">אין לך לשוניות פתוחות ב־Firefox בשאר המכשירים שלך.</string>
-    <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+    <string name="synced_tabs_no_tabs">אין לך לשוניות פתוחות ב־LeOSium בשאר המכשירים שלך.</string>
+    <!-- Text displayed in the synced tabs screen when a user is not signed in to LeOSium Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">הצגת רשימת לשוניות משאר המכשירים שלך.</string>
 
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">יש להתחבר כדי לסנכרן</string>
 
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
@@ -2053,7 +2055,7 @@
     <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">לסגור באופן אוטומטי לאחר חודש אחד?</string>
 
     <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">‏Firefox יכול לסגור לשוניות שלא צפית בהן במהלך החודש האחרון.</string>
+    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">‏LeOSium יכול לסגור לשוניות שלא צפית בהן במהלך החודש האחרון.</string>
     <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">הפעלת סגירה אוטומטית</string>
 
@@ -2061,8 +2063,8 @@
     <string name="inactive_tabs_auto_close_message_snackbar">סגירה אוטומטית מופעלת</string>
 
     <!-- Awesome bar suggestion's headers -->
-    <!-- Search suggestions title for Firefox Suggest. -->
-    <string name="firefox_suggest_header">הצעות של Firefox</string>
+    <!-- Search suggestions title for LeOSium Suggest. -->
+    <string name="firefox_suggest_header">הצעות של LeOSium</string>
 
     <!-- Title for search suggestions when Google is the default search suggestion engine. -->
     <string name="google_search_engine_suggestion_header">חיפוש ב־Google</string>
@@ -2070,7 +2072,7 @@
     <string name="other_default_search_engine_suggestion_header">חיפוש ב־%s</string>
 
     <!-- Default browser experiment -->
-    <string name="default_browser_experiment_card_text">הגדרת קישורים מאתרים, מהודעות דוא״ל ומהודעות לפתיחה אוטומטית ב־Firefox.</string>
+    <string name="default_browser_experiment_card_text">הגדרת קישורים מאתרים, מהודעות דוא״ל ומהודעות לפתיחה אוטומטית ב־LeOSium.</string>
 
     <!-- Content description for close button in collection placeholder. -->
     <string name="remove_home_collection_placeholder_content_description">הסרה</string>
@@ -2094,7 +2096,7 @@
     <!-- Title of an app feature. Smaller than a heading. The first parameter is product name Pocket -->
     <string name="pocket_stories_feature_title_2">מופעל על־ידי %s.</string>
     <!-- Caption for describing a certain feature. The placeholder is for a clickable text (eg: Learn more) which will load an url in a new tab when clicked.  -->
-    <string name="pocket_stories_feature_caption">חלק ממשפחת Firefox. %s</string>
+    <string name="pocket_stories_feature_caption">חלק ממשפחת LeOSium. %s</string>
     <!-- Clickable text for opening an external link for more information about Pocket. -->
     <string name="pocket_stories_feature_learn_more">מידע נוסף</string>
 
@@ -2128,7 +2130,7 @@
     <!-- Title for section explaining how we analyze the reliability of a product's reviews. -->
     <string name="review_quality_check_explanation_title">כיצד אנו קובעים את איכות הסקירות</string>
     <!-- Paragraph explaining how we analyze the reliability of a product's reviews. First parameter is the Fakespot product name. In the phrase "Fakespot by Mozilla", "by" can be localized. Does not need to stay by. -->
-    <string name="review_quality_check_explanation_body_reliability">אנו משתמשים בטכנולוגיית AI של %s מבית Mozilla כדי לנתח את המהימנות של סקירות מוצרים. ניתוח זה רק יעזור לך להעריך את איכות הסקירות, לא את איכות המוצר.</string>
+    <string name="review_quality_check_explanation_body_reliability">אנו משתמשים בטכנולוגיית AI של %s מבית Harvey186 כדי לנתח את המהימנות של סקירות מוצרים. ניתוח זה רק יעזור לך להעריך את איכות הסקירות, לא את איכות המוצר.</string>
     <!-- Paragraph explaining the grading system we use to classify the reliability of a product's reviews. -->
     <string name="review_quality_check_info_review_grade_header"><![CDATA[אנו מקצים לסקירות של כל מוצר <b>ציון אות</b> מ־A עד F.]]></string>
     <!-- Description explaining grades A and B for review quality check adjusted grading. -->
@@ -2148,7 +2150,7 @@
     <!-- Text for learn more caption presenting a link with information about review quality. First parameter is for clickable text defined in review_quality_check_info_learn_more_link. -->
     <string name="review_quality_check_info_learn_more">מידע נוסף על %s.</string>
     <!-- Clickable text that links to review quality check SuMo page. First parameter is the Fakespot product name. In the phrase "Fakespot by Mozilla", "by" can be localized. Does not need to stay by. -->
-    <string name="review_quality_check_info_learn_more_link" moz:RemovedIn="121" tools:ignore="UnusedResources">כיצד %s מבית Mozilla קובע את איכות הסקירות</string>
+    <string name="review_quality_check_info_learn_more_link" moz:RemovedIn="121" tools:ignore="UnusedResources">כיצד %s מבית Harvey186 קובע את איכות הסקירות</string>
     <!-- Clickable text that links to review quality check SuMo page. First parameter is the Fakespot product name. -->
     <string name="review_quality_check_info_learn_more_link_2">כיצד %s קובע את איכות הסקירות</string>
     <!-- Text for title of settings section. -->
@@ -2165,8 +2167,6 @@
     <string name="review_quality_check_settings_turn_off">כיבוי בודק הסקירות</string>
     <!-- Caption for recommended product section indicating this is an ad by Fakespot. First parameter is the Fakespot product name. -->
     <string name="review_quality_check_ad_caption" tools:ignore="UnusedResources">פרסומת מאת %s</string>
-    <!-- Caption for review quality check panel. First parameter is for clickable text defined in review_quality_check_powered_by_link. -->
-    <string name="review_quality_check_powered_by" tools:ignore="UnusedResources" moz:RemovedIn="119">בודק הסקירות מופעל על־ידי %s.</string>
     <!-- Caption for review quality check panel. First parameter is for clickable text defined in review_quality_check_powered_by_link. -->
     <string name="review_quality_check_powered_by_2">בודק הסקירות מופעל על־ידי %s</string>
     <!-- Clickable text that links to Fakespot.com. First parameter is the Fakespot product name. In the phrase "Fakespot by Mozilla", "by" can be localized. Does not need to stay by. -->
@@ -2227,8 +2227,10 @@
     <string name="review_quality_check_no_analysis_link">בדיקת איכות הסקירות</string>
     <!-- Headline for review quality check contextual onboarding card. -->
     <string name="review_quality_check_contextual_onboarding_title">נסו את המדריך המהימן שלנו לסקירות מוצרים</string>
-    <!-- Description for review quality check contextual onboarding card. The first and last two parameters are for retailer names (e.g. Amazon, Walmart). The second parameter is for the name of the application (e.g. Firefox). -->
+    <!-- Description for review quality check contextual onboarding card. The first and last two parameters are for retailer names (e.g. Amazon, Walmart). The second parameter is for the name of the application (e.g. LeOSium). -->
     <string name="review_quality_check_contextual_onboarding_description">ניתן לבדוק עד כמה ביקורות מוצר אמינות ב־%1$s לפני הקנייה. בודק הסקירות, תכונה ניסיונית מאת %2$s, מובנה ישירות בדפדפן. הוא עובד גם על %3$s ו־%4$s.</string>
+    <!-- Description for review quality check contextual onboarding card. The first parameters is for retailer name (e.g. Amazon). The second parameter is for the name of the application (e.g. LeOSium). -->
+    <string name="review_quality_check_contextual_onboarding_description_one_vendor">ניתן לבדוק עד כמה ביקורות מוצר אמינות ב־%1$s לפני הקנייה. בודק הסקירות, תכונה ניסיונית מאת %2$s, מובנה ישירות בדפדפן.</string>
     <!-- Paragraph presenting review quality check feature. First parameter is the Fakespot product name. Second parameter is for clickable text defined in review_quality_check_contextual_onboarding_learn_more_link. In the phrase "Fakespot by Mozilla", "by" can be localized. Does not need to stay by. -->
     <string name="review_quality_check_contextual_onboarding_learn_more">באמצעות הכוח של %1$s מאת Mozilla, אנו עוזרים לך להימנע מסקירות מוטות ולא אותנטיות. מודל הבינה המלאכותית שלנו משתפר תמיד כדי להגן עליך בזמן הקנייה. %2$s</string>
     <!-- Clickable text from the contextual onboarding card that links to review quality check support article. -->
@@ -2294,6 +2296,8 @@
     <string name="a11y_action_label_wallpaper_collection_learn_more">לפתוח קישור כדי ללמוד עוד על אוסף זה</string>
     <!-- Action label for links that point to an article. Talkback will append this to say "Double tap to read the article". -->
     <string name="a11y_action_label_read_article">לקרוא את המאמר</string>
-    <!-- Action label for links to the Firefox Pocket website. Talkback will append this to say "Double tap to open link to learn more". -->
+    <!-- Action label for links to the LeOSium Pocket website. Talkback will append this to say "Double tap to open link to learn more". -->
     <string name="a11y_action_label_pocket_learn_more">לפתוח את הקישור לקבלת מידע נוסף</string>
+    <!-- Content description for headings announced by accessibility service. The first parameter is the text of the heading. Talkback will announce the first parameter and then speak the word "Heading" indicating to the user that this text is a heading for a section. -->
+    <string name="a11y_heading">%s, כותרת</string>
 </resources>

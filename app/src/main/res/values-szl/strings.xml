@@ -260,7 +260,7 @@
 
     <!-- Header text for the search selector menu -->
     <string name="search_header_menu_item_2">Tyn roz poszukej we:</string>
-    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: DuckDuckGo). -->
+    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: Swisscows). -->
     <string name="search_engine_icon_content_description" tools:ignore="UnusedResources">Wyszukowarka %s</string>
 
     <!-- Home onboarding -->
@@ -303,8 +303,8 @@
         The first parameter is the name of the app defined in app_name (for example: Fenix) -->
     <string name="juno_onboarding_default_browser_title" moz:RemovedIn="117" tools:ignore="UnusedResources">Dej rokić aplikacyji %s za twoja nojlepszo przeglōndarka</string>
     <!-- Title for set firefox as default browser screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_default_browser_title_nimbus" tools:ignore="UnusedResources">Dej robić aplikacyji Firefox za twoja nojlepszo przeglōndarka</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_default_browser_title_nimbus" tools:ignore="UnusedResources">Dej robić aplikacyji LeOSium za twoja nojlepszo przeglōndarka</string>
     <!-- Text for the link to the privacy notice webpage for set as firefox default browser screen.
     This is part of the string with the key "juno_onboarding_default_browser_description". -->
     <string name="juno_onboarding_default_browser_description_link_text" tools:ignore="UnusedResources">ô prywatności</string>
@@ -325,14 +325,14 @@
     <string name="juno_onboarding_enable_notifications_title" moz:RemovedIn="117" tools:ignore="UnusedResources">Powiadōmiynia pōmogajōm ci lepij używać aplikacyjo %s</string>
 
     <!-- Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_enable_notifications_title_nimbus" tools:ignore="UnusedResources">Powiadōmiynia pōmogajōm ci lepij używać aplikacyjo Firefox</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_enable_notifications_title_nimbus" tools:ignore="UnusedResources">Powiadōmiynia pōmogajōm ci lepij używać aplikacyjo LeOSium</string>
     <!-- Description for enable notification permission screen.
         The first parameter is the name of the app defined in app_name (for example: Fenix) -->
     <string name="juno_onboarding_enable_notifications_description" moz:RemovedIn="117" tools:ignore="UnusedResources">Posyłej karty miyndzy maszinami, regyruj pobraniami i zbiyrej dorady, jak nojlepij używać aplikacyjo %s.</string>
     <!-- Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-       Note: The word "Firefox" should NOT be translated   -->
-    <string name="juno_onboarding_enable_notifications_description_nimbus" tools:ignore="UnusedResources">Posyłej karty miyndzy maszinami, regyruj pobraniami i zbiyrej dorady, jak nojlepij używać aplikacyjo Firefox.</string>
+       Note: The word "LeOSium" should NOT be translated   -->
+    <string name="juno_onboarding_enable_notifications_description_nimbus" tools:ignore="UnusedResources">Posyłej karty miyndzy maszinami, regyruj pobraniami i zbiyrej dorady, jak nojlepij używać aplikacyjo LeOSium.</string>
     <!-- Text for the button to request notification permission on the device -->
     <string name="juno_onboarding_enable_notifications_positive_button" tools:ignore="UnusedResources">Załōncz powiadōmiynia</string>
     <!-- Text for the button dismiss the screen and move on with the flow -->
@@ -421,7 +421,7 @@
     <string name="cookie_banner_handling_report_site_snack_bar_text_2">Prośba posłano</string>
     <!-- Text for indicating cookie banner handling is on this site, this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_on_for_site">Załōnczōne do tyj strōny</string>
-    <!-- Text for indicating that a request for unsupported site was sent to Nimbus (it's a Mozilla library for experiments), this is shown as part of the protections panel with the tracking protection toggle -->
+    <!-- Text for indicating that a request for unsupported site was sent to Nimbus (it's a Harvey186 library for experiments), this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_unsupported_site_request_submitted_2">Prośba ô sparcie je posłano</string>
     <!-- Text for indicating cookie banner handling is currently not supported for this site, this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_unsupported_site">Strōna niy ma teroz ôbsugowano</string>
@@ -438,34 +438,34 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">Autōmatycznie prōbuje łōnczyć sie ze strōnami z protokołym kodowanio HTTPS, coby zwiynkszyć bezpieczyństwo.</string>
-    <!-- Summary of http only preference if http only is set to off -->
+    <!-- Summary of https only preference if https only is set to off -->
     <string name="preferences_https_only_off">Wyłōnczōne</string>
-    <!-- Summary of http only preference if http only is set to on in all tabs -->
+    <!-- Summary of https only preference if https only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">Załōnczōne na wszyskich kartach</string>
-    <!-- Summary of http only preference if http only is set to on in private tabs only -->
+    <!-- Summary of https only preference if https only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">Załōnczōne na wszyskich prywatnych kartach</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_https_only_learn_more">Przewiydz sie wiyncyj</string>
-    <!-- Option for the http only setting -->
+    <string name="preferences_http_only_learn_more">Przewiydz sie wiyncyj</string>
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_all_tabs">Załōncz we wszyskich kartach</string>
-    <!-- Option for the http only setting -->
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_private_tabs">Załōncz ino we prywatnych kartach</string>
-    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Zabezpieczōno strōna niy ma dostympno</string>
-    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Zdowo sie, że to strōna niy ôbsuguje HTTPS.</string>
-    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">Może ale tyż sie rozchodzić ô jaki atak. Jak przyńdziesz na strōna, to niy ôstawiej na nij żodnych prywatnych informacyji. Jak na nia pudziesz, tryb &quot;Ino HTTPS&quot; czasowo sie wyłōnczy do tyj strōny. </string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Dostympność</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">Włosny serwer kōnta Firefox</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">Włosny serwer kōnta LeOSium</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">Włosny serwer do synchrōnizacyje</string>
 
 
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done">Serwer kōnta Firefox/synchrōnizacyje je zmiyniōny. Zawiyranie aplikacyje, coby przidać zmiany…</string>
+    <string name="toast_override_fxa_sync_server_done">Serwer kōnta LeOSium/synchrōnizacyje je zmiyniōny. Zawiyranie aplikacyje, coby przidać zmiany…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">Kōnto</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -481,7 +481,7 @@
     <!-- Preference description for banner about signing in -->
     <string name="preferences_sign_in_description_2">Wluguj sie, coby synchrōnizować karty, zokłodki, hasła i inksze.</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">Kōnto Firefox</string>
+    <string name="preferences_account_default_name">Kōnto LeOSium</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">Połōncz sie zaś, coby durch synchrōnizować</string>
     <!-- Preference for language -->
@@ -595,7 +595,7 @@
     <string name="wallpaper_select_error_snackbar_message">Niy szło zmiynić tapety</string>
     <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
     <string name="wallpaper_learn_more">Przewiydz sie wiyncyj</string>
-    <!-- Text for classic wallpapers title. The first parameter is the Firefox name. -->
+    <!-- Text for classic wallpapers title. The first parameter is the LeOSium name. -->
     <string name="wallpaper_classic_title">Klasyczny %s</string>
 
     <!-- Text for limited edition wallpapers title. -->
@@ -661,7 +661,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">Przijynte karty</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">Powiadōmiynia ô kartach przijyntych z inkszych maszin z aplikacyjōm Firefox.</string>
+    <string name="fxa_received_tab_channel_description">Powiadōmiynia ô kartach przijyntych z inkszych maszin z aplikacyjōm LeOSium.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Karta je przijynto</string>
     <!-- %s is the device name -->
@@ -842,7 +842,7 @@
     <string name="studies_remove">Skasuj</string>
     <!-- Title of the active section on the studies list -->
     <string name="studies_active">Aktywne</string>
-    <!-- Description for studies, it indicates why Firefox use studies. The first parameter is the name of the application. -->
+    <!-- Description for studies, it indicates why LeOSium use studies. The first parameter is the name of the application. -->
     <string name="studies_description_2">%1$s może roz za czas insztalować i kludzić podszukōnki.</string>
     <!-- Learn more link for studies, links to an article for more information about studies. -->
     <string name="studies_learn_more">Przewiydz sie wiyncyj</string>
@@ -1214,7 +1214,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">Połōncz inkszo maszina</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">Coby posłać karta, zaloguj sie do Firefoxa aby na jednyj inkszyj maszinie.</string>
+    <string name="sync_connect_device_dialog">Coby posłać karta, zaloguj sie do LeOSiuma aby na jednyj inkszyj maszinie.</string>
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">Rozumia</string>
 
@@ -1237,11 +1237,11 @@
 
     <!-- Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">Firefox je gibki i prywatny</string>
+    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">LeOSium je gibki i prywatny</string>
 
     <!-- Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">Nastow Firefox za bazowo przeglōndarka</string>
+    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">Nastow LeOSium za bazowo przeglōndarka</string>
     <!-- Title shown in the notification that pops up to re-engage the user -->
     <string name="notification_re_engagement_title">Sprōbuj prywatnego przeglōndanio</string>
 
@@ -1273,7 +1273,7 @@
     <string name="qr_scanner_dialog_positive">POZWŌL</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">ZAKOŻ</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
     <string name="qr_scanner_dialog_invalid">Adresa strōny je felerno.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">OK</string>
@@ -1372,11 +1372,11 @@
     <string name="onboarding_header_2">Witej w lepszym internecie</string>
     <!-- Text for the onboarding welcome message. -->
     <string name="onboarding_message">Przeglōndarka zbudowano do ludzi, a niy do profitu.</string>
-    <!-- Text for the Firefox account onboarding sign in card header. -->
+    <!-- Text for the LeOSium account onboarding sign in card header. -->
     <string name="onboarding_account_sign_in_header">Przeglōndej ôd miejsca, kaj sie skōńczyło</string>
-    <!-- Text for the button to learn more about signing in to your Firefox account. -->
+    <!-- Text for the button to learn more about signing in to your LeOSium account. -->
     <string name="onboarding_manual_sign_in_description">Synchrōnizuj karty i hasła miyndzy maszinami, coby snadnie przełōnczać ekrany.</string>
-    <!-- Text for the button to manually sign into Firefox account. -->
+    <!-- Text for the button to manually sign into LeOSium account. -->
     <string name="onboarding_firefox_account_sign_in">Wloguj sie</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">Synchrōnizacyjo je załōnczōno</string>
@@ -1403,7 +1403,7 @@
     <!-- Text for the privacy notice onboarding card header -->
     <string name="onboarding_privacy_notice_header_1">Mosz kōntrola nad swojimi danymi</string>
     <!-- Text for the privacy notice onboarding card description. -->
-    <string name="onboarding_privacy_notice_description">Firefox dowo ci kōntrola nad tym, co udostympniosz online i co udostympniosz nōm.</string>
+    <string name="onboarding_privacy_notice_description">LeOSium dowo ci kōntrola nad tym, co udostympniosz online i co udostympniosz nōm.</string>
     <!-- Text for the button to read the privacy notice -->
     <string name="onboarding_privacy_notice_read_button">Poczytej ô naszych prawidłach prywatności</string>
 
@@ -1437,17 +1437,17 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Skanuj kod</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Ôdewrzij Firefoxa na kōmputrze i idź na strōna <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Ôdewrzij LeOSiuma na kōmputrze i idź na strōna <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Fertich, coby skanować</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">Zaloguj sie z kamerōm</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">Użyj lepij emaila</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
-    <string name="sign_in_create_account_text"><![CDATA[Niy mosz kōnta? <u>Zrychtuj je</u>, coby synchrōnizować Firefoxa miyndzy maszinami.]]></string>
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
+    <string name="sign_in_create_account_text"><![CDATA[Niy mosz kōnta? <u>Zrychtuj je</u>, coby synchrōnizować LeOSiuma miyndzy maszinami.]]></string>
 
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">%s skōńczy sie synchrōnizować ze twojim kōntym, ale niy skasuje żodnych danych przeglōndanio na tyj maszinie.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">Rozłōncz</string>
@@ -1463,7 +1463,7 @@
     <string name="preference_enhanced_tracking_protection">Polepszōno ôchrōna ôd śledzynio</string>
     <!-- Preference summary for enhanced tracking protection settings on/off switch -->
     <string name="preference_enhanced_tracking_protection_summary">Teroz z pōłnym ôchrōnōm cookies, naszōm nojsiylniyjszōm baryjerōm przeciw elymyntōm, co śledzōm miyndzy strōnami.</string>
-    <!-- Description of enhanced tracking protection. The parameter is the name of the application (For example: Firefox Fenix) -->
+    <!-- Description of enhanced tracking protection. The parameter is the name of the application (For example: LeOSium Fenix) -->
     <string name="preference_enhanced_tracking_protection_explanation_2">%s brōni cie przed mockōm nojpopularniyjszych śledzōncych elymyntōw, kere badajōm, co robisz online.</string>
     <!-- Text displayed that links to website about enhanced tracking protection -->
     <string name="preference_enhanced_tracking_protection_explanation_learn_more">Przewiydz sie wiyncyj</string>
@@ -1591,7 +1591,7 @@
     <string name="preferences_passwords_save_logins_ask_to_save">Pytej sie przed spamiyntaniym</string>
     <!-- Preference option for never saving passwords in Fenix -->
     <string name="preferences_passwords_save_logins_never_save">Żodyn roz niy spamiyntuj</string>
-    <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill2">Autōmatycznie wypōłnianie w aplikacyji %1$s</string>
 
     </resources>

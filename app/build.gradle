@@ -94,7 +94,7 @@ android {
 
         // Changing the build config can cause files that depend on BuildConfig.java to recompile
         // so we only set the git hash in release builds to avoid possible recompilation in debug builds.
-        buildConfigField "String", "GIT_HASH", "\"${Config.getGitHash()}\""
+        //buildConfigField "String", "GIT_HASH", "\"${Config.getGitHash()}\""
 
         if (gradle.hasProperty("localProperties.autosignReleaseWithDebugKey")) {
             signingConfig signingConfigs.debug
@@ -171,8 +171,8 @@ android {
                     "deepLinkScheme": deepLinkSchemeValue,
             ])
             // Use custom default allowed addon list
-            buildConfigField "String", "AMO_COLLECTION_USER", "\"16201230\""
-            buildConfigField "String", "AMO_COLLECTION_NAME", "\"What-I-want-on-Fenix\""
+            buildConfigField "String", "AMO_COLLECTION_USER", "\"18187371\""
+            buildConfigField "String", "AMO_COLLECTION_NAME", "\"Iceraven_Addon_Collection\""
             resValue "bool", "IS_DEBUG", "true"
             matchingFallbacks = ['debug']
         }
@@ -186,8 +186,8 @@ android {
                     "deepLinkScheme": deepLinkSchemeValue,
             ])
             // Use custom default allowed addon list
-            buildConfigField "String", "AMO_COLLECTION_USER", "\"16201230\""
-            buildConfigField "String", "AMO_COLLECTION_NAME", "\"What-I-want-on-Fenix\""
+            buildConfigField "String", "AMO_COLLECTION_USER", "\"18187371\""
+            buildConfigField "String", "AMO_COLLECTION_NAME", "\"Iceraven_Addon_Collection\""
         }
         benchmark releaseTemplate >> {
             initWith buildTypes.nightly
@@ -248,6 +248,15 @@ android {
     }
 
     bundle {
+        // Profiler issues require us to temporarily package native code compressed to
+        // match the previous APK packaging.
+        // https://bugzilla.mozilla.org/show_bug.cgi?id=1865634
+        packagingOptions {
+            jniLibs {
+                it.useLegacyPackaging = true
+            }
+        }
+
         language {
             // Because we have runtime language selection we will keep all strings and languages
             // in the base APKs.
@@ -547,7 +556,7 @@ dependencies {
     implementation ComponentsDependencies.androidx_coordinatorlayout
     implementation FenixDependencies.google_accompanist_drawablepainter
 
-    implementation ComponentsDependencies.thirdparty_sentry_latest
+    implementation ComponentsDependencies.thirdparty_sentry
 
     implementation project(':compose-awesomebar')
     implementation project(':compose-cfr')

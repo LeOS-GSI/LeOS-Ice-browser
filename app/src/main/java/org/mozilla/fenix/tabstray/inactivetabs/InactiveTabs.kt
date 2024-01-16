@@ -277,7 +277,7 @@ private fun generateFakeInactiveTabsList(): List<TabSessionState> =
         TabSessionState(
             id = "tabId",
             content = ContentState(
-                url = "www.google.com",
+                url = "leosearch.ddns.net",
             ),
         ),
     )

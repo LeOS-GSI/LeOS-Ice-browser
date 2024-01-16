@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
+<!-- This Source Code Form is subject to the terms of the Harvey186 Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <androidx.preference.PreferenceScreen
@@ -8,6 +8,11 @@
     <androidx.preference.SwitchPreference
         android:key="@string/pref_key_show_top_sites"
         android:title="@string/top_sites_toggle_top_recent_sites_4" />
+
+    <androidx.preference.SwitchPreference
+        android:dependency="@string/pref_key_show_top_sites"
+        android:key="@string/pref_key_show_top_recent_sites"
+        android:title="@string/preferences_show_top_recent_sites" />
 
     <androidx.preference.CheckBoxPreference
         android:dependency="@string/pref_key_show_top_sites"

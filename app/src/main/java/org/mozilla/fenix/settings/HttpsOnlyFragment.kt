@@ -35,7 +35,7 @@ class HttpsOnlyFragment : Fragment() {
         val binding = SettingsHttpsOnlyBinding.inflate(inflater)
 
         val summary = requireContext().getString(R.string.preferences_https_only_summary)
-        val learnMore = requireContext().getString(R.string.preferences_https_only_learn_more)
+        val learnMore = requireContext().getString(R.string.preferences_http_only_learn_more)
 
         binding.httpsOnlySummary.run {
             text = combineTextWithLink(summary, learnMore).apply {

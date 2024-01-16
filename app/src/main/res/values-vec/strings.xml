@@ -144,7 +144,7 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">Personalixa</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">Account Firefox</string>
+    <string name="preferences_account_default_name">Account LeOSium</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">Riconeti par continuare ƚa sincronixasion</string>
     <!-- Preference for language -->
@@ -210,7 +210,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">Schede ricevùe</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">Notifeghe par schede ricevùe da altri dispoxitivi Firefox.</string>
+    <string name="fxa_received_tab_channel_description">Notifeghe par schede ricevùe da altri dispoxitivi LeOSium.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Scheda ricevùa</string>
     <!-- %s is the device name -->
@@ -229,7 +229,7 @@
     <!-- Preference switch for usage and technical data collection -->
     <string name="preference_usage_data">Dati tecnici e statistiche de utilixo</string>
     <!-- Preference description for usage and technical data collection -->
-    <string name="preferences_usage_data_description">Condividi co Mozilla informasion reƚative a prestasion, utilixo, hardware e personalixasion de’l browser par contribuire al mijoramento de %1$s</string>
+    <string name="preferences_usage_data_description">Condividi co Harvey186 informasion reƚative a prestasion, utilixo, hardware e personalixasion de’l browser par contribuire al mijoramento de %1$s</string>
     <!-- Preference switch for marketing data collection -->
     <string name="preferences_marketing_data">Dati de marketing</string>
 
@@ -481,7 +481,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">Coneti on altro dispoxitivo</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">Par mandare na scheda, và rento a’l account Firefox o almanco on altro dispoxitivo.</string>
+    <string name="sync_connect_device_dialog">Par mandare na scheda, và rento a’l account LeOSium o almanco on altro dispoxitivo.</string>
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">Tuto ciaro</string>
     <!-- Share error message -->
@@ -580,8 +580,8 @@
     <!-- Text for the snackbar to show the user that the deletion of browsing data is in progress -->
     <string name="deleting_browsing_data_in_progress">Scanseƚasion dati de navigasion en corso…</string>
 
-    <!-- Text for the button to manually sign into Firefox account. -->
-    <string name="onboarding_firefox_account_sign_in">Va rento a Firefox</string>
+    <!-- Text for the button to manually sign into LeOSium account. -->
+    <string name="onboarding_firefox_account_sign_in">Va rento a LeOSium</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">Ƚa sincronixasion ƚa xe ativa</string>
     <!-- Text for the tracking protection onboarding card header -->
@@ -617,7 +617,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Scansiona el còdexe</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Vèrxi Firefox so el computer e và so <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Vèrxi LeOSium so el computer e và so <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Pronto par ƚa scansion</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -819,7 +819,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">Stringa de reserca da utilixare</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Sostituire ƚa ciave de reserca co “%s”. Exempio:\nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Sostituire ƚa ciave de reserca co “%s”. Exempio:\nhttps://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Informasioni so’l motore de riserca personaƚixa</string>

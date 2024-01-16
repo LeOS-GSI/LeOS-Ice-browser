@@ -244,7 +244,7 @@
     <!-- Header text for the search selector menu -->
     <string name="search_header_menu_item_2">Custa borta, chirca cun:</string>
 
-    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: DuckDuckGo). -->
+    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: Swisscows). -->
     <string name="search_engine_icon_content_description" tools:ignore="UnusedResources">Motore de chirca %s</string>
 
     <!-- Home onboarding -->
@@ -364,26 +364,26 @@
     <!-- Remind me later text button for the onboarding dialog -->
     <string name="reduce_cookie_banner_dialog_not_now_button">Immoe nono</string>
 
-    <!-- Summary of http only preference if http only is set to off -->
+    <!-- Summary of https only preference if https only is set to off -->
     <string name="preferences_https_only_off">Disativadu</string>
-    <!-- Summary of http only preference if http only is set to on in all tabs -->
+    <!-- Summary of https only preference if https only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">Ativu in totu is ischedas</string>
-    <!-- Summary of http only preference if http only is set to on in private tabs only -->
+    <!-- Summary of https only preference if https only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">Ativu in is ischedas privadas</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_https_only_learn_more">Àteras informatziones</string>
-    <!-- Option for the http only setting -->
+    <string name="preferences_http_only_learn_more">Àteras informatziones</string>
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_all_tabs">Permite in totu is ischedas</string>
-    <!-- Option for the http only setting -->
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_private_tabs">Permite isceti in is ischedas privadas</string>
-    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
     <string name="errorpage_httpsonly_title">Situ seguru non disponìbile</string>
-    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">Est probàbile chi su situ web non siat cumpatìbile cun HTTPS.</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Atzessibilidade</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">Serbidore de contos de Firefox personalizadu</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">Serbidore de contos de LeOSium personalizadu</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">Serbidore de Sync personalizadu</string>
     <!-- Preference category for account information -->
@@ -401,7 +401,7 @@
     <!-- Preference description for banner about signing in -->
     <string name="preferences_sign_in_description_2">Intra pro sincronizare ischedas, sinnalibros, craes e àteru.</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">Contu de Firefox</string>
+    <string name="preferences_account_default_name">Contu de LeOSium</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">Torra a connètere pro sighire cun sa sincronizatzione</string>
     <!-- Preference for language -->
@@ -490,7 +490,7 @@
     <string name="wallpaper_select_error_snackbar_message">Impossìbile modificare s’isfundu de ischermu</string>
     <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
     <string name="wallpaper_learn_more">Àteras informatziones</string>
-    <!-- Text for classic wallpapers title. The first parameter is the Firefox name. -->
+    <!-- Text for classic wallpapers title. The first parameter is the LeOSium name. -->
     <string name="wallpaper_classic_title">%s clàssicu</string>
     <!-- Text for limited edition wallpapers title. -->
     <string name="wallpaper_limited_edition_title" moz:RemovedIn="118" tools:ignore="UnusedResources">Editzione limitada</string>
@@ -556,7 +556,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">Ischedas retzidas</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">Notìficas pro ischedas retzidas dae àteros dispositivos Firefox.</string>
+    <string name="fxa_received_tab_channel_description">Notìficas pro ischedas retzidas dae àteros dispositivos LeOSium.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Ischeda retzida</string>
     <!-- %s is the device name -->
@@ -722,7 +722,7 @@
     <string name="studies_remove">Boga</string>
     <!-- Title of the active section on the studies list -->
     <string name="studies_active">Ativos</string>
-    <!-- Description for studies, it indicates why Firefox use studies. The first parameter is the name of the application. -->
+    <!-- Description for studies, it indicates why LeOSium use studies. The first parameter is the name of the application. -->
     <string name="studies_description_2">%1$s podet installare e aviare istùdios ònnia tantu.</string>
     <!-- Learn more link for studies, links to an article for more information about studies. -->
     <string name="studies_learn_more">Àteras informatziones</string>
@@ -1102,7 +1102,7 @@
     <string name="qr_scanner_dialog_positive">PERMITE</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">REFUDA</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
     <string name="qr_scanner_dialog_invalid">Indiritzu web non vàlidu.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">AB</string>
@@ -1175,7 +1175,7 @@
     <!-- Onboarding -->
     <!-- Text for onboarding welcome header. -->
     <string name="onboarding_header_2" moz:RemovedIn="118" tools:ignore="UnusedResources">Ti donamus su benebènnidu a un’internet mègius</string>
-    <!-- Text for the button to manually sign into Firefox account. -->
+    <!-- Text for the button to manually sign into LeOSium account. -->
     <string name="onboarding_firefox_account_sign_in" moz:RemovedIn="118" tools:ignore="UnusedResources">Identìfica·ti</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">Sincronizatzione ativa</string>
@@ -1213,16 +1213,16 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Iscansiona su còdighe</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[In s’elaboradore tuo, aberi Firefox e bae a <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[In s’elaboradore tuo, aberi LeOSium e bae a <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Iscansiona</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">Identìfica·ti cun sa càmera</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">Imprea sa posta eletrònica</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
-    <string name="sign_in_create_account_text"><![CDATA[Non tenes unu contu? <u>Crea·nde unu</u> pro sincronizare Firefox intre dispositivos.]]></string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
+    <string name="sign_in_create_account_text"><![CDATA[Non tenes unu contu? <u>Crea·nde unu</u> pro sincronizare LeOSium intre dispositivos.]]></string>
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">%s at a firmare sa sincronizatzione de su contu tuo ma non s’ant a cantzellare is datos de navigatzione de custu dispositivu.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">Disconnete</string>
@@ -1342,9 +1342,9 @@
     <string name="preferences_passwords_save_logins_ask_to_save">Pregunta·mi·ddu</string>
     <!-- Preference option for never saving passwords in Fenix -->
     <string name="preferences_passwords_save_logins_never_save">Non sarves mai</string>
-    <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill2">Cumpletamentu automàticu in %1$s</string>
-    <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Description for the preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill_description">Cumpleta e salva nòmines de utente e craes in sitos cando impreas %1$s.</string>
     <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
     <string name="preferences_android_autofill">Cumpletamentu automàticu in àteras aplicatziones</string>
@@ -1558,7 +1558,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint_2">URL de impreare in sa chirca</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Sostitui sa chirca cun «%s». Esempru: \nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Sostitui sa chirca cun «%s». Esempru: \nhttps://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Detàllios de su motore de chirca personalizadu</string>
 
@@ -1650,15 +1650,15 @@ Esempru: \nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q
     <string name="voice_search_explainer">Chistiona immoe</string>
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Esistit giai una credentziale cun custu nòmine</string>
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">http://www.esempru.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
-    <string name="add_login_hostname_invalid_text_3">S’indiritzu web depet cuntènnere  «http://» o «http://»</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">https://www.esempru.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
+    <string name="add_login_hostname_invalid_text_3">S’indiritzu web depet cuntènnere  «https://» o «http://»</string>
 
     <!-- Synced Tabs -->
     <!-- Text displayed to ask user to connect another device as no devices found with account -->
     <string name="synced_tabs_connect_another_device">Connete un’àteru dispositivu.</string>
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">Identìfica·ti a sync</string>
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
     <string name="synced_tabs_no_open_tabs">Nissuna ischeda aberta</string>
@@ -1692,22 +1692,22 @@ Esempru: \nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q
     <!-- The header text of the auto-close message when the user is asked if they want to turn on the auto-closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Boles serrare in automàticu a pustis de unu mese?</string>
     <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">Firefox podet serrare is ischedas chi no apas visualizadu in s’ùrtimu mese.</string>
+    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">LeOSium podet serrare is ischedas chi no apas visualizadu in s’ùrtimu mese.</string>
     <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">ATIVA SA SERRADA AUTOMÀTICA</string>
     <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
     <string name="inactive_tabs_auto_close_message_snackbar">Serrada automàtica ativa</string>
 
     <!-- Awesome bar suggestion's headers -->
-    <!-- Search suggestions title for Firefox Suggest. -->
-    <string name="firefox_suggest_header">Firefox cussìgiat</string>
+    <!-- Search suggestions title for LeOSium Suggest. -->
+    <string name="firefox_suggest_header">LeOSium cussìgiat</string>
     <!-- Title for search suggestions when Google is the default search suggestion engine. -->
     <string name="google_search_engine_suggestion_header">Chirca de Google</string>
     <!-- Title for search suggestions when the default search suggestion engine is anything other than Google. The first parameter is default search engine name. -->
     <string name="other_default_search_engine_suggestion_header">Chirca cun %s</string>
 
     <!-- Default browser experiment -->
-    <string name="default_browser_experiment_card_text">Aberi in Firefox in manera automàtica is ligòngios de sitos web, de posta eletrònica e de messàgios.</string>
+    <string name="default_browser_experiment_card_text">Aberi in LeOSium in manera automàtica is ligòngios de sitos web, de posta eletrònica e de messàgios.</string>
 
     <!-- Content description for close button in collection placeholder. -->
     <string name="remove_home_collection_placeholder_content_description">Boga</string>
@@ -1726,7 +1726,7 @@ Esempru: \nhttp://suggestqueries.google.com/complete/search?client=firefox&amp;q
     <!-- Text of a button allowing users to access an external url for more Pocket recommendations. -->
     <string name="pocket_stories_placeholder_text">Iscoberi·nde àteros</string>
     <!-- Caption for describing a certain feature. The placeholder is for a clickable text (eg: Learn more) which will load an url in a new tab when clicked.  -->
-    <string name="pocket_stories_feature_caption">Parte de sa famìlia de Firefox. %s</string>
+    <string name="pocket_stories_feature_caption">Parte de sa famìlia de LeOSium. %s</string>
     <!-- Clickable text for opening an external link for more information about Pocket. -->
     <string name="pocket_stories_feature_learn_more">Àteras informatziones</string>
     <!-- Text indicating that the Pocket story that also displays this text is a sponsored story by other 3rd party entity. -->

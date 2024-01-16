@@ -262,7 +262,7 @@
     <!-- Header text for the search selector menu -->
     <string name="search_header_menu_item_2">ایں ویلے ایندے وچ ڳول:</string>
 
-    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: DuckDuckGo). -->
+    <!-- Content description (not visible, for screen readers etc.): Search engine icon. The first parameter is the search engine name (for example: Swisscows). -->
     <string name="search_engine_icon_content_description" tools:ignore="UnusedResources">%s ڳولݨ انجݨ</string>
 
     <!-- Home onboarding -->
@@ -303,10 +303,10 @@
 
     <!-- Juno first user onboarding flow experiment, strings are marked unused as they are only referenced by Nimbus experiments. -->
     <!-- Title for set firefox as default browser screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
+        Note: The word "LeOSium" should NOT be translated -->
     <string name="juno_onboarding_default_browser_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">فائرفوکس کوں آپݨاں ون٘ڄݨ آلا براؤزر بݨاؤ</string>
     <!-- Description for set firefox as default browser screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
+        Note: The word "LeOSium" should NOT be translated -->
     <string name="juno_onboarding_default_browser_description_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">فائرفوکس لوکاں کوں منافع  کنوں ودھ رکھیندا ہے تے  کراس سائٹ ٹریکراں کوں بلاک کر تے تہاݙی رازداری دا دفاع کریند ہے۔\n\nساݙے رازداری نوٹس وچ ٻیا ڄاݨو۔</string>
     <!-- Text for the link to the privacy notice webpage for set as firefox default browser screen.
     This is part of the string with the key "juno_onboarding_default_browser_description". -->
@@ -324,10 +324,10 @@
     <!-- Text for the button dismiss the screen and move on with the flow -->
     <string name="juno_onboarding_sign_in_negative_button" tools:ignore="UnusedResources">ہݨ کائناں</string>
     <!-- Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
+        Note: The word "LeOSium" should NOT be translated -->
     <string name="juno_onboarding_enable_notifications_title_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">اطلاع نامے فائرفوکس نال ودھیک کرݨ وچ تہاݙی مدد کریندن۔</string>
     <!-- Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-       Note: The word "Firefox" should NOT be translated -->
+       Note: The word "LeOSium" should NOT be translated -->
     <string name="juno_onboarding_enable_notifications_description_nimbus" moz:removedIn="120" tools:ignore="UnusedResources">ڈیوائساں دے درمیان ٹیباں بھیڄو، ڈاؤن لوڈ منیج کرو، تے فائرفوکس کنوں ودھ کنوں ودھ فائدہ چاوݨ کیتے گُر گھنو۔</string>
     <!-- Text for the button to request notification permission on the device -->
     <string name="juno_onboarding_enable_notifications_positive_button" tools:ignore="UnusedResources">اطلاع نامے چالو کرو</string>
@@ -335,8 +335,8 @@
     <string name="juno_onboarding_enable_notifications_negative_button" tools:ignore="UnusedResources">ہݨ کائناں</string>
 
     <!-- Text for the button to add search widget on the device used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="UnusedResources">Firefox ویجٹ شامل کرو</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="UnusedResources">LeOSium ویجٹ شامل کرو</string>
     <!-- Text for the button to dismiss the screen and move on with the flow -->
     <string name="juno_onboarding_add_search_widget_negative_button" tools:ignore="UnusedResources">ہݨ کائناں</string>
 
@@ -397,17 +397,19 @@
     <string name="preferences_https_only_title">ایچ ٹی ٹی پی ایس ــ صرف موڈ</string>
 
     <!-- Preference for removing cookie/consent banners from sites automatically. See reduce_cookie_banner_summary for additional context. -->
-    <string name="preferences_cookie_banner_reduction">کوکی بینر گھٹاوݨ</string>
+    <string name="preferences_cookie_banner_reduction" moz:RemovedIn="121" tools:ignore="UnusedResources">کوکی بینر گھٹاوݨ</string>
+    <!-- Label for cookie banner section in quick settings panel. -->
+    <string name="cookie_banner_blocker">کوکی بینر بلاک کرݨ آلا</string>
     <!-- Preference for rejecting or removing as many cookie/consent banners as possible on sites. See reduce_cookie_banner_summary for additional context. -->
-    <string name="reduce_cookie_banner_option">کوکی بینراں کوں تھوڑا کرو</string>
+    <string name="reduce_cookie_banner_option" moz:RemovedIn="121" tools:ignore="UnusedResources">کوکی بینراں کوں تھوڑا کرو</string>
 
     <!-- Summary of cookie banner handling preference if the setting disabled is set to off -->
-    <string name="reduce_cookie_banner_option_off">بند</string>
+    <string name="reduce_cookie_banner_option_off" moz:RemovedIn="121" tools:ignore="UnusedResources">بند</string>
     <!-- Summary of cookie banner handling preference if the setting enabled is set to on -->
-    <string name="reduce_cookie_banner_option_on">چالو</string>
+    <string name="reduce_cookie_banner_option_on" moz:RemovedIn="121" tools:ignore="UnusedResources">چالو</string>
 
     <!-- Summary for the preference for rejecting all cookies whenever possible. The first parameter is the application name -->
-    <string name="reduce_cookie_banner_summary_1">%1$s کوکی بینراں تے کوکی ارداساں کوں آپݨے آپ مسترد کرݨ دی کوشش کریندے۔</string>
+    <string name="reduce_cookie_banner_summary_1" moz:RemovedIn="121" tools:ignore="UnusedResources">%1$s کوکی بینراں تے کوکی ارداساں کوں آپݨے آپ مسترد کرݨ دی کوشش کریندے۔</string>
     <!-- Text for indicating cookie banner handling is off this site, this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_off_for_site">ایں سائٹ کیتے بند کرو</string>
     <!-- Text for cancel button indicating that cookie banner reduction is not supported for the current site, this is shown as part of the cookie banner details view. -->
@@ -419,20 +421,20 @@
     <!-- Text for indicating cookie banner handling is on this site, this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_on_for_site">ایں سائٹ کیتے چالو کرو</string>
 
-    <!-- Text for indicating that a request for unsupported site was sent to Nimbus (it's a Mozilla library for experiments), this is shown as part of the protections panel with the tracking protection toggle -->
+    <!-- Text for indicating that a request for unsupported site was sent to Nimbus (it's a Harvey186 library for experiments), this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_unsupported_site_request_submitted_2">سہارا ارداس بھیڄ ݙتی</string>
     <!-- Text for indicating cookie banner handling is currently not supported for this site, this is shown as part of the protections panel with the tracking protection toggle -->
     <string name="reduce_cookie_banner_unsupported_site">سائٹ فی الحال سہارا تھئی کائنی</string>
     <!-- Title text for a detail explanation indicating cookie banner handling is on this site, this is shown as part of the cookie banner panel in the toolbar. The first parameter is a shortened URL of the current site-->
-    <string name="reduce_cookie_banner_details_panel_title_on_for_site">%1$s کیتے کوکی بینر گھٹاوݨ چالو کروں؟</string>
+    <string name="reduce_cookie_banner_details_panel_title_on_for_site" moz:RemovedIn="121" tools:ignore="UnusedResources">%1$s کیتے کوکی بینر گھٹاوݨ چالو کروں؟</string>
     <!-- Title text for a detail explanation indicating cookie banner handling is off this site, this is shown as part of the cookie banner panel in the toolbar. The first parameter is a shortened URL of the current site-->
-    <string name="reduce_cookie_banner_details_panel_title_off_for_site">%1$s کیتے کوکی بینر گھٹاوݨ بند کروں؟</string>
+    <string name="reduce_cookie_banner_details_panel_title_off_for_site" moz:RemovedIn="121" tools:ignore="UnusedResources">%1$s کیتے کوکی بینر گھٹاوݨ بند کروں؟</string>
 
     <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is off for a site, this is shown as part of the cookie banner panel in the toolbar. The first parameter is the application name -->
-    <string name="reduce_cookie_banner_details_panel_description_off_for_site">%1$s ایں سائٹ دیاں کوکیاں صاف کریسی تے ورقہ تازہ کریسی۔ساریاں کوکیاں صاف کرݨ نال تساں سائن آوٹ تھی سڳدے ہو یا تہاݙی خریداری ریڑھی خالی تھی ویسی۔</string>
+    <string name="reduce_cookie_banner_details_panel_description_off_for_site" moz:RemovedIn="121" tools:ignore="UnusedResources">%1$s ایں سائٹ دیاں کوکیاں صاف کریسی تے ورقہ تازہ کریسی۔ساریاں کوکیاں صاف کرݨ نال تساں سائن آوٹ تھی سڳدے ہو یا تہاݙی خریداری ریڑھی خالی تھی ویسی۔</string>
 
     <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is on for a site, this is shown as part of the cookie banner panel in the toolbar. The first parameter is the application name -->
-    <string name="reduce_cookie_banner_details_panel_description_on_for_site_2">%1$s آپݨے آپ سہارا تھیاں سائٹاں تے ساریاں کوکی ارداساں کوں مسترد کرݨ دی کوشش کریندا ہے۔</string>
+    <string name="reduce_cookie_banner_details_panel_description_on_for_site_2" moz:RemovedIn="121" tools:ignore="UnusedResources">%1$s آپݨے آپ سہارا تھیاں سائٹاں تے ساریاں کوکی ارداساں کوں مسترد کرݨ دی کوشش کریندا ہے۔</string>
     <!-- Title text for the cookie banner re-engagement dialog. The first parameter is the application name. -->
     <string name="reduce_cookie_banner_dialog_title" moz:RemovedIn="121" tools:ignore="UnusedResources">بھلا %1$s کوں کوکی بینراں مسترد کرݨ دی اجازت ݙیوں؟</string>
     <!-- Body text for the cookie banner re-engagement dialog use. The first parameter is the application name. -->
@@ -447,27 +449,27 @@
 
     <!-- Description of the preference to enable "HTTPS-Only" mode. -->
     <string name="preferences_https_only_summary">خودکار طور تے ودھدی ہوئی حفاظت کیتے ایچ ٹی ٹی پی ایس خفیہ کاری پروٹوکول ورتندے ہوئے سائٹاں کوں کنکٹ کرݨ دی کوشش کریندے۔</string>
-    <!-- Summary of http only preference if http only is set to off -->
+    <!-- Summary of https only preference if https only is set to off -->
     <string name="preferences_https_only_off">بند</string>
-    <!-- Summary of http only preference if http only is set to on in all tabs -->
+    <!-- Summary of https only preference if https only is set to on in all tabs -->
     <string name="preferences_https_only_on_all">ساریاں ٹیباں وچ تے</string>
-    <!-- Summary of http only preference if http only is set to on in private tabs only -->
+    <!-- Summary of https only preference if https only is set to on in private tabs only -->
     <string name="preferences_https_only_on_private">نجی ٹیباں وچ  تے</string>
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_https_only_learn_more">ٻیا سِکھو</string>
-    <!-- Option for the http only setting -->
+    <string name="preferences_http_only_learn_more">ٻیا سِکھو</string>
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_all_tabs">سارے ٹیباں وچ فعال کرو</string>
-    <!-- Option for the http only setting -->
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_private_tabs">صرف نجی ٹیب وچ وچ فعال کرو</string>
-    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
     <string name="errorpage_httpsonly_title">محفوظ سائٹ دستیاب کائنی</string>
-    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the first. -->
+    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the first. -->
     <string name="errorpage_httpsonly_message_title">غالباً، ویب سائٹ سادگی نال ایچ ٹی ٹی پی ایس کوں سہارا کائنی ݙیندی۔</string>
-    <!-- Message shown in the error page for when trying to access a http website while http only mode is enabled. The message has two paragraphs. This is the second. -->
+    <!-- Message shown in the error page for when trying to access a http website while https only mode is enabled. The message has two paragraphs. This is the second. -->
     <string name="errorpage_httpsonly_message_summary">تاہم، ایہ وی ممکن ہے جو کوئی حملہ آور ملوث ہووے۔ جے تساں ویب سائٹ کوں جاری رکھدے ہو، تاں تہاکوں کوئی حساس معلومات درج کائنی کرݨی چاہیدی ہے۔ جے تساں جاری رکھدے ہو، تاں سائٹ کیتے HTTPS-صرف موڈ کوں عارضی طور تے  بند کر ݙتا ویسی۔</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">رسائیت</string>
-    <!-- Preference to override the Firefox Account server -->
+    <!-- Preference to override the LeOSium Account server -->
     <string name="preferences_override_fxa_server" moz:RemovedIn="120" tools:ignore="UnusedResources">منپسند فائرفوکس کھاتہ سرور</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">من پسند ہم وقت سرور</string>
@@ -601,7 +603,7 @@
     <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
     <string name="wallpaper_learn_more">ٻیا سِکھو</string>
 
-    <!-- Text for classic wallpapers title. The first parameter is the Firefox name. -->
+    <!-- Text for classic wallpapers title. The first parameter is the LeOSium name. -->
     <string name="wallpaper_classic_title">کلاسیکل %s</string>
 
     <!-- Wallpaper onboarding dialog header text. -->
@@ -853,7 +855,7 @@
     <string name="studies_remove">ہٹاؤ</string>
     <!-- Title of the active section on the studies list -->
     <string name="studies_active">فعال</string>
-    <!-- Description for studies, it indicates why Firefox use studies. The first parameter is the name of the application. -->
+    <!-- Description for studies, it indicates why LeOSium use studies. The first parameter is the name of the application. -->
     <string name="studies_description_2">%1$s وقتاً فوقتاً مطالعہ انسٹال کرسڳدے تے چلا سڳدے۔</string>
     <!-- Learn more link for studies, links to an article for more information about studies. -->
     <string name="studies_learn_more">ٻیا سِکھو</string>
@@ -1250,10 +1252,10 @@
 
     <!-- Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">Firefox تکھی تے نجی ہے</string>
+    <string name="nimbus_notification_default_browser_title" tools:ignore="UnusedResources">LeOSium تکھی تے نجی ہے</string>
     <!-- Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">Firefox کوں آپݨاں پہلوں مقرر براؤز بݨاؤ</string>
+    <string name="nimbus_notification_default_browser_text" tools:ignore="UnusedResources">LeOSium کوں آپݨاں پہلوں مقرر براؤز بݨاؤ</string>
     <!-- Title shown in the notification that pops up to re-engage the user -->
     <string name="notification_re_engagement_title">نجی براؤزنگ ازماؤ</string>
 
@@ -1309,7 +1311,7 @@
     <string name="qr_scanner_dialog_positive">اجازت ڈیوو</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">رد کرو</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
     <string name="qr_scanner_dialog_invalid">ویب پتہ ٹھیک کائنی۔</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">ٹھیک ہے</string>
@@ -1422,16 +1424,16 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">کوڈ سکین کرو</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[آپݨے کمپیوٹر تے فائرفوکس کھولو تے <b>http://firefox.com/pair</b> تے ون٘ڄو]]></string>
+    <string name="sign_in_instructions"><![CDATA[آپݨے کمپیوٹر تے فائرفوکس کھولو تے <b>https://firefox.com/pair</b> تے ون٘ڄو]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">سکین کرݨ کیتے تیار</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">آپݨے کیمرے نال سائن ان تھیوو</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">ایندی بجائے ای میل ورتو</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
     <string name="sign_in_create_account_text"><![CDATA[کھاتہ کائنی؟ ڈیوائساں دے درمیان فائرفوکس ہم وقت کرݨ کیتے<u>ہک کھاتہ بݨاؤ</u>۔]]></string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">%s تہاݙے کھاتے نال ہم وقت تھیوݨ رک ویسی، پر ایں ڈیوائس تے تہاݙے براؤز تھئے ڈیٹا وچوں کجھ نہ مٹیسی۔</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">کنکشن توڑو</string>
@@ -1448,7 +1450,7 @@
     <string name="preference_enhanced_tracking_protection">بہتر ٹریکنگ حفاظت</string>
     <!-- Preference summary for enhanced tracking protection settings on/off switch -->
     <string name="preference_enhanced_tracking_protection_summary">ہݨ پوری کوکی حفاظت دی خاصیت، کراس سائٹ ٹریکراں دے خلاف ساݙی سب کنوں تکڑی رکاوٹ۔</string>
-    <!-- Description of enhanced tracking protection. The parameter is the name of the application (For example: Firefox Fenix) -->
+    <!-- Description of enhanced tracking protection. The parameter is the name of the application (For example: LeOSium Fenix) -->
     <string name="preference_enhanced_tracking_protection_explanation_2">%s تہاکوں ٻہوں سارے ݙاڈھے عام ٹریکراں کنوں بچیندے، جہڑے  تہاݙے آن لائن کم کوں فالو کریندن۔</string>
     <!-- Text displayed that links to website about enhanced tracking protection -->
     <string name="preference_enhanced_tracking_protection_explanation_learn_more">ٻیا سِکھو</string>
@@ -1605,9 +1607,9 @@
     <string name="preferences_passwords_save_logins_ask_to_save">محفوظ کرݨ کیتے پُچھو</string>
     <!-- Preference option for never saving passwords in Fenix -->
     <string name="preferences_passwords_save_logins_never_save">کݙاہیں وی محفوظ نہ کرو</string>
-    <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill2">%1$s وچ خود بخود بھرو</string>
-    <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Description for the preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill_description">%1$s ورتݨ دے دوران ویب سائٹاں وچ ورتݨ  ناں تے پاس ورڈ بھرو تے محفوظ کرو۔</string>
     <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
     <string name="preferences_android_autofill">ٻیاں ایپاں وچ آٹوفل کرو</string>
@@ -1844,7 +1846,7 @@
     <string name="search_add_custom_engine_search_string_hint_2">ڳولݨ دے ورتݨ کیتے یوآرایل</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
     <string name="search_add_custom_engine_search_string_example" formatted="false"> “%s” نال سوال وٹاؤ۔
-مثال:\nhttp://leosearch.ddns.net/search?q=%s</string>
+مثال:\nhttps://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">من پسند ڳولݨ انجݨ  تفصیلاں</string>
 
@@ -1939,10 +1941,10 @@
     <string name="voice_search_explainer">ہُݨ ٻولو</string>
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">پہلے موجود ورتݨ ناں نال لاگ ان تھیوو</string>
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">http://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
-    <string name="add_login_hostname_invalid_text_3">ویب پتے وچ &quot;http://&quot; یا &quot;http://&quot; ہووݨ ضروری ہے</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">https://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
+    <string name="add_login_hostname_invalid_text_3">ویب پتے وچ &quot;https://&quot; یا &quot;http://&quot; ہووݨ ضروری ہے</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">ٹھیک ہوسٹ ناں ضروری ہے</string>
 
@@ -1953,14 +1955,14 @@
     <!-- Text displayed asking user to re-authenticate -->
     <string name="synced_tabs_reauth">سوہݨا، ولدا تصدیق کرو۔</string>
 
-    <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+    <!-- Text displayed when user has disabled tab syncing in LeOSium Sync Account -->
     <string name="synced_tabs_enable_tab_syncing">سوہݨا، ٹیب ہم وقت کرݨ فعال کرو۔</string>
     <!-- Text displayed when user has no tabs that have been synced -->
     <string name="synced_tabs_no_tabs">تہاݙیاں ٻیاں ڈیوائساں تے فائرفوکس وچ کوئی ٹیب کائنی کھلے ہوئے۔</string>
-    <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+    <!-- Text displayed in the synced tabs screen when a user is not signed in to LeOSium Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">آپݨیاں ساریاں ڈیوائساں کنوں ٹیباں دی تندیر ݙیکھو۔</string>
 
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">ہم وقت کرݨ کیتے سائن ان تھیوو</string>
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
     <string name="synced_tabs_no_open_tabs">کوئی کھلے ٹیب  کائنی</string>
@@ -2016,7 +2018,7 @@
     <string name="inactive_tabs_auto_close_message_snackbar">آپݨے آپ  بند تھیوݨ فعال تھی ڳیا</string>
 
     <!-- Awesome bar suggestion's headers -->
-    <!-- Search suggestions title for Firefox Suggest. -->
+    <!-- Search suggestions title for LeOSium Suggest. -->
     <string name="firefox_suggest_header">فائرفوکس تجویز</string>
 
     <!-- Title for search suggestions when Google is the default search suggestion engine. -->
@@ -2061,8 +2063,12 @@
     <!-- Snackbar button text to navigate to telemetry settings.-->
     <string name="experiments_snackbar_button">ترتیباں تے ون٘ڄو</string>
 
+    <!-- Text for learn more caption presenting a link with information about review quality. First parameter is for clickable text defined in review_quality_check_info_learn_more_link. -->
+    <string name="review_quality_check_info_learn_more">%s بارے ٻیا سِکھو۔</string>
     <!-- Text for title of settings section. -->
     <string name="review_quality_check_settings_title">ترتیباں</string>
+    <!-- Clickable text that links to review quality check recommended products support article. -->
+    <string name="review_quality_check_settings_recommended_products_learn_more" tools:ignore="UnusedResources">ٻیا سِکھو</string>
     <!-- Text for the action button from info card displayed to the user when analysis finished updating. -->
     <string name="review_quality_check_analysis_updated_confirmation_action" tools:ignore="UnusedResources">سمجھ گھدے</string>
     <!-- Clickable text from the contextual onboarding card that links to review quality check support article. -->
@@ -2104,6 +2110,6 @@
     <string name="a11y_action_label_wallpaper_collection_learn_more">ایں مجموعے بارے ٻیا سکھݨ کیتے لنک کھولو</string>
     <!-- Action label for links that point to an article. Talkback will append this to say "Double tap to read the article". -->
     <string name="a11y_action_label_read_article">مضمون پڑھو</string>
-    <!-- Action label for links to the Firefox Pocket website. Talkback will append this to say "Double tap to open link to learn more". -->
+    <!-- Action label for links to the LeOSium Pocket website. Talkback will append this to say "Double tap to open link to learn more". -->
     <string name="a11y_action_label_pocket_learn_more">ٻیا سکھݨ کیتے لنک کھولو</string>
 </resources>

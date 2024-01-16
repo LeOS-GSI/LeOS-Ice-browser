@@ -43,7 +43,7 @@
     <string name="recently_saved_menu_item_remove">Ittu</string>
 
     <!-- About content. The first parameter is the name of the application. (For example: Fenix) -->
-    <string name="about_content">Ko Mozilla jibini %1$s</string>
+    <string name="about_content">Ko Harvey186 jibini %1$s</string>
 
     <string name="private_browsing_common_myths">Tinndi goowaaɗi baɗte banngogol suturo</string>
 
@@ -232,16 +232,16 @@
     <!-- Preference for adding private browsing shortcut -->
     <string name="preferences_add_private_browsing_shortcut">Ɓeydu sodorde banngogol suturo</string>
 
-    <!-- Summary of http only preference if http only is set to off -->
+    <!-- Summary of https only preference if https only is set to off -->
     <string name="preferences_https_only_off">Ñifol</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Keɓogol</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">Heertin sarworde konte Firefox</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">Heertin sarworde konte LeOSium</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">Heertin sarworde Sync</string>
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done">Konte Firefox/ sarworde Sync waylaama. Uddugol jaaɓnirgal ngal ngam jamminde bayle…</string>
+    <string name="toast_override_fxa_sync_server_done">Konte LeOSium/ sarworde Sync waylaama. Uddugol jaaɓnirgal ngal ngam jamminde bayle…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">Konte</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -255,7 +255,7 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">Heertin</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">Konte Firefox</string>
+    <string name="preferences_account_default_name">Konte LeOSium</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">Seŋo kadi ngam fuɗɗitaade jahdingol</string>
     <!-- Preference for language -->
@@ -330,7 +330,7 @@
     <string name="wallpaper_select_error_snackbar_message">Horiima waylude ɗerol ɓalal</string>
     <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
     <string name="wallpaper_learn_more">Ɓeydu humpito</string>
-    <!-- Text for classic wallpapers title. The first parameter is the Firefox name. -->
+    <!-- Text for classic wallpapers title. The first parameter is the LeOSium name. -->
     <string name="wallpaper_classic_title">Gaadanteejo %s</string>
 
     <!-- Account Preferences -->
@@ -375,7 +375,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">Heɓii tabbe</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">Tintine ngam tabbe keɓaaɗe e kaɓirɗe Firefox goɗɗe.</string>
+    <string name="fxa_received_tab_channel_description">Tintine ngam tabbe keɓaaɗe e kaɓirɗe LeOSium goɗɗe.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Tabbere heɓaama</string>
     <!-- %s is the device name -->
@@ -798,7 +798,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">Seŋ kaɓirgol goɗngol</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">Ngam neldude tabbere, seŋo e Firefox ko famɗi fof e kaɓirgal gootal goɗngal.</string>
+    <string name="sync_connect_device_dialog">Ngam neldude tabbere, seŋo e LeOSium ko famɗi fof e kaɓirgal gootal goɗngal.</string>
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">Mi faamii</string>
     <!-- Share error message -->
@@ -904,8 +904,8 @@
     <!-- Text for the snackbar to show the user that the deletion of browsing data is in progress -->
     <string name="deleting_browsing_data_in_progress">Momtugol keɓe banngogol…</string>
 
-    <!-- Text for the button to manually sign into Firefox account. -->
-    <string name="onboarding_firefox_account_sign_in">Seŋo e Firefox</string>
+    <!-- Text for the button to manually sign into LeOSium account. -->
+    <string name="onboarding_firefox_account_sign_in">Seŋo e LeOSium</string>
     <!-- Text for the tracking protection onboarding card header -->
     <string name="onboarding_tracking_protection_header">Reen hoore maa</string>
 
@@ -939,16 +939,16 @@
     <string name="sync_scan_code">Niiwto kod oo</string>
 
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[E ordinateer maa, uddit Firefox e yah to <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[E ordinateer maa, uddit LeOSium e yah to <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Hebiima niiwtaade</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">Seŋoro kameraa maa</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">Huutoro ɗoo iimeel</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
-    <string name="sign_in_create_account_text"><![CDATA[A alaa konte? <u>Sos konte</u> ngam sanngoɗinde Firefox hakkunde kaɓirɗi.]]></string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
+    <string name="sign_in_create_account_text"><![CDATA[A alaa konte? <u>Sos konte</u> ngam sanngoɗinde LeOSium hakkunde kaɓirɗi.]]></string>
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">Maa %s dartin jahdingol e konte maa, kono momtataa hay wootere e keɓe banngogol maa e ngal kaɓirgal gal.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">Seŋtondir</string>
@@ -1036,7 +1036,7 @@
     <!-- Preference option for never saving passwords in Fenix -->
     <string name="preferences_passwords_save_logins_never_save">Hoto danndu abada</string>
 
-    <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill2">Humpit e jaajol e %1$s</string>
     <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
     <string name="preferences_android_autofill">Humpit e jaajol e jaaɓɗe goɗɗe</string>
@@ -1206,10 +1206,10 @@
     <!-- Voice search prompt description displayed after the user presses the voice search button -->
     <string name="voice_search_explainer">Haal jooni</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">http://www.yeru.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
-    <string name="add_login_hostname_invalid_text_3">Ñiiɓirde geese ena foti waɗde &quot;http://&quot; or &quot;http://&quot;</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">https://www.yeru.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
+    <string name="add_login_hostname_invalid_text_3">Ñiiɓirde geese ena foti waɗde &quot;https://&quot; or &quot;http://&quot;</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Innde lowre jaalɗunde ena waɗɗii</string>
 
@@ -1217,10 +1217,10 @@
     <!-- Text displayed to ask user to connect another device as no devices found with account -->
     <string name="synced_tabs_connect_another_device">Seŋ kaɓirgol goɗngol.</string>
 
-    <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+    <!-- Text displayed in the synced tabs screen when a user is not signed in to LeOSium Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">Yiy doggol tabbe iwɗe e kaɓirɗi maa goɗɗi.</string>
 
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">Seŋo nga sanngoɗine</string>
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
     <string name="synced_tabs_no_open_tabs">Alaa tabbe udditiiɗe</string>
@@ -1237,7 +1237,7 @@
     <!-- The header text of the auto-close message when the user is asked if they want to turn on the auto-closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Uddu e jaajol caggal lewru?</string>
     <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">Firefox ena waawi uddude tabbe ɗe a yillaaki e lewru ɓennundu nduu.</string>
+    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">LeOSium ena waawi uddude tabbe ɗe a yillaaki e lewru ɓennundu nduu.</string>
 
     <!-- Text indicating that the Pocket story that also displays this text is a sponsored story by other 3rd party entity. -->
     <string name="pocket_stories_sponsor_indication">Barjinaaɗi</string>

@@ -111,6 +111,7 @@ class IntentReceiverActivity : Activity() {
         }
 
         return components.intentProcessors.externalAppIntentProcessors +
+            components.intentProcessors.addonInstallIntentProcessor +
             components.intentProcessors.fennecPageShortcutIntentProcessor +
             components.intentProcessors.externalDeepLinkIntentProcessor +
             components.intentProcessors.webNotificationsIntentProcessor +

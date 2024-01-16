@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- This Source Code Form is subject to the terms of the Mozilla Public
+<?xml version="1.0" encoding="utf-8"?><!-- This Source Code Form is subject to the terms of the Harvey186 Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <resources>
@@ -161,12 +161,6 @@
     <string name="pref_key_https_only_in_private_tabs" translatable="false">pref_key_https_only_in_private_tabs</string>
 
     <!-- Cookie Banner Reduction Settings-->
-    <string name="pref_key_cookie_banner_settings" translatable="false">pref_key_cookie_banner_settings</string>
-    <string name="pref_key_cookie_banner_re_engage_dialog_last_interaction_in_ms" translatable="false">pref_key_cookie_banner_re_engage_dialog_last_interaction_with_dialog_in_ms</string>
-    <string name="pref_key_cookie_banner_re_engage_dialog_dismissed" translatable="false">pref_key_cookie_banner_re_engage_dialog_dismissed</string>
-    <string name="pref_key_cookie_banner_first_banner_detected" translatable="false">pref_key_cookie_banner_first_banner_detected</string>
-    <string name="pref_key_cookie_banner_v1" translatable="false">pref_key_cookie_banner_v1</string>
-    <string name="pref_key_cookie_banner_re_engagement_dialog_shows_counter" translatable="false">pref_key_cookie_banner_re_engagement_dialog_shows_counter</string>
     <string name="pref_key_cookie_banner_private_mode" translatable="false">pref_key_cookie_banner_private_mode</string>
 
     <!-- Tracking Protection Settings -->
@@ -281,6 +275,8 @@
     <string name="pref_key_should_show_total_cookie_protection_popup" translatable="false">pref_key_should_show_total_cookie_protection_popup</string>
     <!-- A value  of `true` means the erase action popup has not been shown yet -->
     <string name="pref_key_should_show_erase_action_popup" translatable="false">pref_key_should_show_erase_action_popup</string>
+    <!-- A value  of `true` means the cookie banners handling action popup has not been shown yet -->
+    <string name="pref_key_should_show_cookie_banners_action_popup" translatable="false">pref_key_should_show_cookie_banners_action_popup</string>
 
     <string name="pref_key_debug_settings" translatable="false">pref_key_debug_settings</string>
 
@@ -381,6 +377,8 @@
     <!-- System Customization Settings -->
     <string name="pref_system_behavior_settings_category" translatable="false">pref_system_behavior_settings_category</string>
     <string name="pref_key_relinquish_memory_under_pressure" translatable="false">pref_key_relinquish_memory_under_pressure</string>
+    <!-- shortcut settings -->
+    <string name="pref_key_show_top_recent_sites" translatable="false">pref_key_show_top_recent_sites</string>
     <!--Shopping -->
     <string name="pref_key_is_review_quality_check_enabled">pref_key_is_review_quality_check_enabled</string>
     <string name="pref_key_is_review_quality_check_product_recommendations_enabled">pref_key_is_review_quality_check_product_recommendations_enabled</string>

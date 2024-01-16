@@ -247,21 +247,21 @@
     <string name="preferences_https_only_title">HTTPS-మాత్రమే రీతి</string>
 
     <!-- Text displayed that links to website containing documentation about "HTTPS-Only" mode -->
-    <string name="preferences_https_only_learn_more">ఇంకా తెలుసుకోండి</string>
-    <!-- Option for the http only setting -->
+    <string name="preferences_http_only_learn_more">ఇంకా తెలుసుకోండి</string>
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_all_tabs">అన్ని ట్యాబులలోనూ చేతనించు</string>
-    <!-- Option for the http only setting -->
+    <!-- Option for the https only setting -->
     <string name="preferences_https_only_in_private_tabs">అంతరంగిక ట్యాబులలో మాత్రమే చేతనించు</string>
-    <!-- Title shown in the error page for when trying to access a http website while http only mode is enabled. -->
+    <!-- Title shown in the error page for when trying to access a http website while https only mode is enabled. -->
     <string name="errorpage_httpsonly_title">సురక్షిత సైటు అందుబాటులో లేదు</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">ప్రాప్యత</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">అభిమత Firefox ఖాతా సర్వరు</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">అభిమత LeOSium ఖాతా సర్వరు</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">అభిమత సింక్ సర్వరు</string>
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done">Firefox ఖాతా/సింక్ సర్వరు మార్చబడింది. మార్పులను వర్తింపజేయడానికి అనువర్తనం నుండి నిష్క్రమిస్తున్నాం…</string>
+    <string name="toast_override_fxa_sync_server_done">LeOSium ఖాతా/సింక్ సర్వరు మార్చబడింది. మార్పులను వర్తింపజేయడానికి అనువర్తనం నుండి నిష్క్రమిస్తున్నాం…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">ఖాతా</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -275,7 +275,7 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">అభిమతీకరణ</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">Firefox ఖాతా</string>
+    <string name="preferences_account_default_name">LeOSium ఖాతా</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">సింక్ చేయడాన్ని కొనసాగించడానికి అనుసంధానించండి</string>
     <!-- Preference for language -->
@@ -391,7 +391,7 @@
     <string name="fxa_received_tab_channel_name">అందుకన్న ట్యాబులు</string>
 
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">ఇతర Firefox పరికరాల నుంచి వచ్చిన ట్యాబుల గమనింపులు.</string>
+    <string name="fxa_received_tab_channel_description">ఇతర LeOSium పరికరాల నుంచి వచ్చిన ట్యాబుల గమనింపులు.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">ట్యాబు వచ్చింది</string>
     <!-- %s is the device name -->
@@ -874,7 +874,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">మరొక పరికరాన్ని అనుసంధానించు</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">ట్యాబును పంపడానికి, కనీసం మరొక పరికరంలో Firefox లోనికి ప్రవేశించండి.</string>
+    <string name="sync_connect_device_dialog">ట్యాబును పంపడానికి, కనీసం మరొక పరికరంలో LeOSium లోనికి ప్రవేశించండి.</string>
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">అర్థమైంది</string>
     <!-- Share error message -->
@@ -918,7 +918,7 @@
     <string name="qr_scanner_dialog_positive">అనుమతించు</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">తిరస్కరించు</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
     <string name="qr_scanner_dialog_invalid">జాల చిరునామా సరైనది కాదు.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">సరే</string>
@@ -1051,16 +1051,16 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">కోడును స్కాను చేయండి</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[మీ కంప్యూటర్‌లో Firefox తెరిచి <b>http://firefox.com/pair</b>కు వెళ్లండి]]></string>
+    <string name="sign_in_instructions"><![CDATA[మీ కంప్యూటర్‌లో LeOSium తెరిచి <b>https://firefox.com/pair</b>కు వెళ్లండి]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">స్కాన్ చేయడానికి సిద్ధంగా ఉంది</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">మీ కెమెరాతో ప్రవేశించండి</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">లేదా ఈమెయిలు వాడండి</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
-    <string name="sign_in_create_account_text"><![CDATA[ఖాతా లేదా? Firefoxను పరికరాల మధ్య సమకాలీకరించడానికి <u>ఒక ఖాతాను సృష్టించుకోండి</u>.]]></string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
+    <string name="sign_in_create_account_text"><![CDATA[ఖాతా లేదా? LeOSiumను పరికరాల మధ్య సమకాలీకరించడానికి <u>ఒక ఖాతాను సృష్టించుకోండి</u>.]]></string>
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">%s మీ ఖాతాను సింక్రనించడం ఆపివేస్తుంది, కానీ ఈ పరికరంలోని మీ విహరణ డేటాను తొలగించదు.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">అనుసంధానం తెంచు</string>
@@ -1400,7 +1400,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">వాడాల్సిన శోధన పదబంధం</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">వెతుకుడు పదాన్ని “%s”తో పూరించండి. ఉదాహరణ:\nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">వెతుకుడు పదాన్ని “%s”తో పూరించండి. ఉదాహరణ:\nhttps://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">అభిమత శోధన యంత్ర వివరాలు</string>
 
@@ -1485,21 +1485,21 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">ఆ వాడుకరి పేరుతో ఒక ప్రవేశం ఇప్పటికే ఉంది</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">http://www.example.com</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">https://www.example.com</string>
 
     <!-- Synced Tabs -->
     <!-- Text displayed to ask user to connect another device as no devices found with account -->
     <string name="synced_tabs_connect_another_device">మరొక పరికరాన్ని అనుసంధానించండి.</string>
     <!-- Text displayed asking user to re-authenticate -->
     <string name="synced_tabs_reauth">దయచేసి పునరధీకరణ చేయండి.</string>
-    <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+    <!-- Text displayed when user has disabled tab syncing in LeOSium Sync Account -->
     <string name="synced_tabs_enable_tab_syncing">దయచేసి ట్యాబు సింకింగును చేతనం చేయండి.</string>
     <!-- Text displayed when user has no tabs that have been synced -->
-    <string name="synced_tabs_no_tabs">మీ ఇతర పరికరాల్లో తెరిచివున్న Firefox ట్యాబులు ఏమీ లేవు.</string>
-    <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+    <string name="synced_tabs_no_tabs">మీ ఇతర పరికరాల్లో తెరిచివున్న LeOSium ట్యాబులు ఏమీ లేవు.</string>
+    <!-- Text displayed in the synced tabs screen when a user is not signed in to LeOSium Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">మీ ఇతర పరికరాల నుండి ట్యాబుల జాబితాను చూడండి.</string>
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">సింక్ చేయడానికి ప్రవేశించండి</string>
 
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->

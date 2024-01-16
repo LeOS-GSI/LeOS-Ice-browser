@@ -303,7 +303,7 @@ class PagedHistoryProviderTest {
             isRemote = false,
         )
         val visitInfo3 = VisitInfo(
-            url = "http://www.google.com/link?url=http://www.firefox.com",
+            url = "http://leosearch.ddns.net/link?url=http://www.firefox.com",
             title = "",
             visitTime = 1,
             visitType = VisitType.REDIRECT_TEMPORARY,
@@ -339,7 +339,7 @@ class PagedHistoryProviderTest {
             documentType = DocumentType.Regular,
             previewImageUrl = null,
         )
-        val historyMetadataKey3 = HistoryMetadataKey("http://www.google.com/link?url=http://www.firefox.com", "mozilla", null)
+        val historyMetadataKey3 = HistoryMetadataKey("http://leosearch.ddns.net/link?url=http://www.firefox.com", "mozilla", null)
         val historyEntry3 = HistoryMetadata(
             key = historyMetadataKey3,
             title = "",

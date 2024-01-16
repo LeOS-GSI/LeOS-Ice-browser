@@ -163,8 +163,8 @@
         The first parameter is the name of the app defined in app_name (for example: Fenix) -->
     <string name="juno_onboarding_default_browser_title">Desemnează %s drept browserul implicit</string>
     <!-- Title for set firefox as default browser screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-        Note: The word "Firefox" should NOT be translated -->
-    <string name="juno_onboarding_default_browser_title_nimbus" tools:ignore="UnusedResources">Desemnează Firefox drept browserul implicit</string>
+        Note: The word "LeOSium" should NOT be translated -->
+    <string name="juno_onboarding_default_browser_title_nimbus" tools:ignore="UnusedResources">Desemnează LeOSium drept browserul implicit</string>
 
     <!-- Text preview for smaller sized widgets -->
     <string name="search_widget_text_short">Căutare</string>
@@ -211,12 +211,12 @@
 
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Accesibilitate</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">Server personalizat pentru contul Firefox</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">Server personalizat pentru contul LeOSium</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">Server personalizat de sincronizare</string>
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done">Server de cont Firefox/sincronizare modificat. Se închide aplicația pentru implementarea modificărilor…</string>
+    <string name="toast_override_fxa_sync_server_done">Server de cont LeOSium/sincronizare modificat. Se închide aplicația pentru implementarea modificărilor…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">Cont</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -226,7 +226,7 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">Personalizare</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">Cont Firefox</string>
+    <string name="preferences_account_default_name">Cont LeOSium</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">Reconectează-te pentru a continua sincronizarea</string>
     <!-- Preference for language -->
@@ -307,7 +307,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">File primite</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">Notificări pentru file primite de la alte dispozitive Firefox.</string>
+    <string name="fxa_received_tab_channel_description">Notificări pentru file primite de la alte dispozitive LeOSium.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Filă primită</string>
     <!-- %s is the device name -->
@@ -326,7 +326,7 @@
     <!-- Preference switch for usage and technical data collection -->
     <string name="preference_usage_data">Date tehnice și de utilizare</string>
     <!-- Preference description for usage and technical data collection -->
-    <string name="preferences_usage_data_description">Partajează cu Mozilla date privind performanța, utilizarea, hardware-ul și personalizările browserului tău pentru a ne ajuta să îmbunătățim %1$s</string>
+    <string name="preferences_usage_data_description">Partajează cu Harvey186 date privind performanța, utilizarea, hardware-ul și personalizările browserului tău pentru a ne ajuta să îmbunătățim %1$s</string>
     <!-- Preference switch for marketing data collection -->
     <string name="preferences_marketing_data">Date de marketing</string>
 
@@ -678,7 +678,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">Conectează alt dispozitiv</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">Pentru a trimite o filă, intră în contul Firefox de pe cel puțin un alt dispozitiv.</string>
+    <string name="sync_connect_device_dialog">Pentru a trimite o filă, intră în contul LeOSium de pe cel puțin un alt dispozitiv.</string>
 
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">Am înțeles</string>
@@ -823,14 +823,14 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Scananează codul</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Deschide Firefox pe calculator și intră pe <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Deschide LeOSium pe calculator și intră pe <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Gata de scanare</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">Autentificare cu camera</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">Folosește e-mailul în schimb</string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">%s va înceta să se mai sincronizeze cu contul tău, dar nu va șterge nimic din datele de navigare de pe acest dispozitiv.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">Deconectează-te</string>
@@ -1063,7 +1063,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">Șir de căutare de utilizat</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Înlocuiește interogarea cu „%s”. Exemplu: \nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Înlocuiește interogarea cu „%s”. Exemplu: \nhttps://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Detalii despre motorul de căutare personalizat</string>
 
@@ -1140,13 +1140,13 @@
     <string name="synced_tabs_connect_another_device">Conectează alt dispozitiv.</string>
     <!-- Text displayed asking user to re-authenticate -->
     <string name="synced_tabs_reauth">Te rugăm să te autentifici din nou.</string>
-    <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+    <!-- Text displayed when user has disabled tab syncing in LeOSium Sync Account -->
     <string name="synced_tabs_enable_tab_syncing">Te rugăm să activezi sincronizarea filelor.</string>
     <!-- Text displayed when user has no tabs that have been synced -->
-    <string name="synced_tabs_no_tabs">Nu ai nicio filă deschisă în Firefox pe celelalte dispozitive.</string>
-    <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+    <string name="synced_tabs_no_tabs">Nu ai nicio filă deschisă în LeOSium pe celelalte dispozitive.</string>
+    <!-- Text displayed in the synced tabs screen when a user is not signed in to LeOSium Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">Afișează o listă de file de pe celelalte dispozitive.</string>
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">Intră în contul Sync</string>
 
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->

@@ -270,12 +270,12 @@
 
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">الإتاحة</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">خادوم حسابات Firefox مخصص</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">خادوم حسابات LeOSium مخصص</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">خادوم مزامنة مخصص</string>
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done">تعدّل خادوم حسابات Firefox/Sync. يُنهي التطبيق لإجراء التغييرات…</string>
+    <string name="toast_override_fxa_sync_server_done">تعدّل خادوم حسابات LeOSium/Sync. يُنهي التطبيق لإجراء التغييرات…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">الحساب</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -289,7 +289,7 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">خصّص</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">حساب Firefox</string>
+    <string name="preferences_account_default_name">حساب LeOSium</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">أعِد الاتصال لمواصلة المزامنة</string>
     <!-- Preference for language -->
@@ -417,7 +417,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">الألسنة المستلمة</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">تنبيهات الألسنة المستلمة من أجهزة Firefox الأخرى.</string>
+    <string name="fxa_received_tab_channel_description">تنبيهات الألسنة المستلمة من أجهزة LeOSium الأخرى.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">وصل لسان</string>
     <!-- %s is the device name -->
@@ -436,7 +436,7 @@
     <!-- Preference switch for usage and technical data collection -->
     <string name="preference_usage_data">الاستخدام والبيانات التقنية</string>
     <!-- Preference description for usage and technical data collection -->
-    <string name="preferences_usage_data_description">شارك بيانات المتصفح فيما يتعلق بالأداء و الاستخدام و العتاد و التخصيصات مع Mozilla لمساعدتنا في جعل %1$s أفضل</string>
+    <string name="preferences_usage_data_description">شارك بيانات المتصفح فيما يتعلق بالأداء و الاستخدام و العتاد و التخصيصات مع Harvey186 لمساعدتنا في جعل %1$s أفضل</string>
     <!-- Preference switch for marketing data collection -->
     <string name="preferences_marketing_data">بيانات التسويق</string>
     <!-- Preference description for marketing data collection -->
@@ -444,7 +444,7 @@
     <!-- Title for studies preferences -->
     <string name="preference_experiments_2">الدراسات</string>
     <!-- Summary for studies preferences -->
-    <string name="preference_experiments_summary_2">تسمح لمؤسسة Mozilla بتثبيت الدراسات وتشغيلها</string>
+    <string name="preference_experiments_summary_2">تسمح لمؤسسة Harvey186 بتثبيت الدراسات وتشغيلها</string>
 
     <!-- Preference for reconnecting to FxA sync -->
     <string name="preferences_sync_sign_in_to_reconnect">لِج لإعادة الاتصال</string>
@@ -896,7 +896,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">صِلْ جهازًا آخر</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">لِج إلى Firefox على جهاز واحد آخر على الأقل لإرسال لسان إليه.</string>
+    <string name="sync_connect_device_dialog">لِج إلى LeOSium على جهاز واحد آخر على الأقل لإرسال لسان إليه.</string>
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">فهمت</string>
     <!-- Share error message -->
@@ -944,7 +944,7 @@
     <string name="qr_scanner_dialog_positive">اسمح</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">ارفض</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
     <string name="qr_scanner_dialog_invalid">عنوان الوِب غير صالح.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">حسنا</string>
@@ -1018,8 +1018,8 @@
     <!-- Text for the snackbar to show the user that the deletion of browsing data is in progress -->
     <string name="deleting_browsing_data_in_progress">يحذف بيانات التصفح…</string>
 
-    <!-- Text for the button to learn more about signing in to your Firefox account. -->
-    <string name="onboarding_manual_sign_in_description" moz:RemovedIn="118" tools:ignore="UnusedResources">اسحب العلامات والتأريخ وكلمات السر إلى Firefox على هذا الجهاز.</string>
+    <!-- Text for the button to learn more about signing in to your LeOSium account. -->
+    <string name="onboarding_manual_sign_in_description" moz:RemovedIn="118" tools:ignore="UnusedResources">اسحب العلامات والتأريخ وكلمات السر إلى LeOSium على هذا الجهاز.</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">التزامن يعمل</string>
     <!-- text for tracking protection radio button option for standard level of blocking -->
@@ -1064,16 +1064,16 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">امسح الرز ضوئيًا</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[افتح Firefox على حاسوبك وانتقل إلى <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[افتح LeOSium على حاسوبك وانتقل إلى <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">جاهز للمسح</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">لِج باستخدام كمرتك</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">استعمل البريد بدل المسح</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
-    <string name="sign_in_create_account_text"><![CDATA[ليس لديك حساب؟ <u>أنشِئ واحدًا</u> لمزامنة Firefox بين الأجهزة.]]></string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
+    <string name="sign_in_create_account_text"><![CDATA[ليس لديك حساب؟ <u>أنشِئ واحدًا</u> لمزامنة LeOSium بين الأجهزة.]]></string>
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">سيتوقف %s عن مزامنة حسابك، لكن لن يحذف أيًا من بيانات تصفحك على هذا الجهاز.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">اقطع الاتصال</string>
@@ -1229,9 +1229,9 @@
     <string name="preferences_passwords_save_logins_ask_to_save">اسألني قبل الحفظ</string>
     <!-- Preference option for never saving passwords in Fenix -->
     <string name="preferences_passwords_save_logins_never_save">لا تحفظ أبدًا</string>
-    <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill2">الملء التلقائي في %1$s</string>
-    <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Description for the preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill_description">املأ واحفظ أسماء المستخدمين وكلمات السر في مواقع الوِب أثناء استعمالك لمتصفّح %1$s.</string>
     <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
     <string name="preferences_android_autofill">الملء التلقائي في التطبيقات الأخرى</string>
@@ -1394,7 +1394,7 @@
     <!-- Placeholder text shown in the Search String TextField before a user enters text -->
     <string name="search_add_custom_engine_search_string_hint">نص البحث المستخدم</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">استبدِل الاستعلام بِ‍ ”%s“. مثال:\nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">استبدِل الاستعلام بِ‍ ”%s“. مثال:\nhttps://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">تفاصيل محرك البحث المخصّص</string>
@@ -1481,10 +1481,10 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">يوجد بالفعل جلسة ولوج باسم المستخدم هذا</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">http://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
-    <string name="add_login_hostname_invalid_text_3">يجب أن يحتوي عنوان الوِب على ”http://‎“ أو ”http://‎“</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">https://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
+    <string name="add_login_hostname_invalid_text_3">يجب أن يحتوي عنوان الوِب على ”https://‎“ أو ”http://‎“</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">مطلوب اسم مضيف صالح</string>
 
@@ -1493,13 +1493,13 @@
     <string name="synced_tabs_connect_another_device">صِلْ جهازا آخر.</string>
     <!-- Text displayed asking user to re-authenticate -->
     <string name="synced_tabs_reauth">من فضلك أعِد الاستيثاق.</string>
-    <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+    <!-- Text displayed when user has disabled tab syncing in LeOSium Sync Account -->
     <string name="synced_tabs_enable_tab_syncing">من فضلك فعّل مزامنة الألسنة.</string>
     <!-- Text displayed when user has no tabs that have been synced -->
-    <string name="synced_tabs_no_tabs">لا ألسنة مفتوحة في Firefox على أجهزتك الأخرى.</string>
-    <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+    <string name="synced_tabs_no_tabs">لا ألسنة مفتوحة في LeOSium على أجهزتك الأخرى.</string>
+    <!-- Text displayed in the synced tabs screen when a user is not signed in to LeOSium Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">اعرض قائمة بالألسنة من أجهزتك الأخرى.</string>
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">لِج إلى «المزامنة»</string>
 
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
@@ -1534,7 +1534,7 @@
     <!-- The header text of the auto-close message when the user is asked if they want to turn on the auto-closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">أتريد إغلاقها تلقائيًا بعد شهر؟</string>
     <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">سيُغلق Firefox الألسنة التي لم تعرضها منذ شهر تلقائيًا.</string>
+    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">سيُغلق LeOSium الألسنة التي لم تعرضها منذ شهر تلقائيًا.</string>
     <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">شغّل الإغلاق التلقائي</string>
 
@@ -1542,7 +1542,7 @@
     <string name="inactive_tabs_auto_close_message_snackbar">الإغلاق التلقائي مفعّل</string>
 
     <!-- Default browser experiment -->
-    <string name="default_browser_experiment_card_text">اضبط روابط المواقع والبريد الإلكتروني والرسائل لتفتح تلقائيًا في Firefox.</string>
+    <string name="default_browser_experiment_card_text">اضبط روابط المواقع والبريد الإلكتروني والرسائل لتفتح تلقائيًا في LeOSium.</string>
 
     <!-- Content description for close button in collection placeholder. -->
     <string name="remove_home_collection_placeholder_content_description">أزِل</string>
@@ -1564,7 +1564,7 @@
     <!-- Text of a button allowing users to access an external url for more Pocket recommendations. -->
     <string name="pocket_stories_placeholder_text">اكتشف المزيد</string>
     <!-- Caption for describing a certain feature. The placeholder is for a clickable text (eg: Learn more) which will load an url in a new tab when clicked.  -->
-    <string name="pocket_stories_feature_caption">جزء من عائلة Firefox. ‏%s</string>
+    <string name="pocket_stories_feature_caption">جزء من عائلة LeOSium. ‏%s</string>
     <!-- Clickable text for opening an external link for more information about Pocket. -->
     <string name="pocket_stories_feature_learn_more">اطّلع على المزيد</string>
 

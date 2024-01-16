@@ -578,7 +578,7 @@ class DefaultTabsTrayControllerTest {
         val tab2 = TabSessionState(
             id = "2",
             content = ContentState(
-                url = "www.google.com",
+                url = "leosearch.ddns.net",
             ),
         )
         trayStore.dispatch(TabsTrayAction.ExitSelectMode)
@@ -603,7 +603,7 @@ class DefaultTabsTrayControllerTest {
         val tab2 = TabSessionState(
             id = "2",
             content = ContentState(
-                url = "www.google.com",
+                url = "leosearch.ddns.net",
             ),
         )
         val controller = spyk(createController())
@@ -635,7 +635,7 @@ class DefaultTabsTrayControllerTest {
         val tab2 = TabSessionState(
             id = "2",
             content = ContentState(
-                url = "www.google.com",
+                url = "leosearch.ddns.net",
             ),
         )
 
@@ -666,7 +666,7 @@ class DefaultTabsTrayControllerTest {
         val inactiveTab = TabSessionState(
             id = "2",
             content = ContentState(
-                url = "www.google.com",
+                url = "leosearch.ddns.net",
             ),
         )
 

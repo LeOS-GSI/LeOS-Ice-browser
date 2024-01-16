@@ -41,7 +41,7 @@
     <string moz:removedIn="101" name="recently_saved_show_all" tools:ignore="UnusedResources">সব দেখান</string>
 
     <!-- About content. The first parameter is the name of the application. (For example: Fenix) -->
-    <string name="about_content">%1$s হচ্ছে Mozilla দ্বারা তৈরি।</string>
+    <string name="about_content">%1$s হচ্ছে Harvey186 দ্বারা তৈরি।</string>
 
     <string name="private_browsing_common_myths">
        ব্যাক্তিগত ব্রাউজিং সম্পর্কে কিছু ভুল ধারণা
@@ -206,12 +206,12 @@
     <string name="preferences_add_private_browsing_shortcut">ব্যক্তিগত ব্রাউজিং শর্টকাটে যুক্ত করুন</string>
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">প্রবেশযোগ্যতা</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">কাস্টম Firefox Account সার্ভার</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">কাস্টম LeOSium Account সার্ভার</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">কাস্টম Sync সার্ভার</string>
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done">Firefox Account/Sync সার্ভার সংশোধিত হয়েছে। পরিবর্তনগুলি প্রয়োগ করতে অ্যাপ্লিকেশন বন্ধ করুন…</string>
+    <string name="toast_override_fxa_sync_server_done">LeOSium Account/Sync সার্ভার সংশোধিত হয়েছে। পরিবর্তনগুলি প্রয়োগ করতে অ্যাপ্লিকেশন বন্ধ করুন…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">অ্যাকাউন্ট</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -221,9 +221,9 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">কাস্টমাইজ</string>
     <!-- Preference description for banner about signing in -->
-    <string name="preferences_sign_in_description">আপনার Firefox অ্যাকাউন্ট দিয়ে বুকমার্কগুলো, পাসওয়ার্ড এবং আরও অনেক কিছু Sync করুন</string>
+    <string name="preferences_sign_in_description">আপনার LeOSium অ্যাকাউন্ট দিয়ে বুকমার্কগুলো, পাসওয়ার্ড এবং আরও অনেক কিছু Sync করুন</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">Firefox অ্যাকাউন্ট</string>
+    <string name="preferences_account_default_name">LeOSium অ্যাকাউন্ট</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">সিঙ্ক শুরু করতে পুনরায় সংযোগ দিন</string>
     <!-- Preference for language -->
@@ -304,7 +304,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">প্রাপ্ত ট্যাবগুলো</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">অন্যান্য Firefox ডিভাইস থেকে প্রাপ্ত ট্যাবগুলির জন্য নোটিফিকেশন।</string>
+    <string name="fxa_received_tab_channel_description">অন্যান্য LeOSium ডিভাইস থেকে প্রাপ্ত ট্যাবগুলির জন্য নোটিফিকেশন।</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">ট্যাব এসেছে</string>
     <!-- %s is the device name -->
@@ -322,7 +322,7 @@
     <!-- Preference switch for usage and technical data collection -->
     <string name="preference_usage_data">ব্যবহার এবং প্রযুক্তিগত তথ্য</string>
     <!-- Preference description for usage and technical data collection -->
-    <string name="preferences_usage_data_description">আমাদের %1$s আরও উন্নত করতে সহায়তা করতে Mozilla -র সাথে আপনার ব্রাউজার সম্পর্কিত কর্মক্ষমতা, ব্যবহার, হার্ডওয়্যার এবং কাস্টমাইজেশন তথ্য শেয়ার করুন</string>
+    <string name="preferences_usage_data_description">আমাদের %1$s আরও উন্নত করতে সহায়তা করতে Harvey186 -র সাথে আপনার ব্রাউজার সম্পর্কিত কর্মক্ষমতা, ব্যবহার, হার্ডওয়্যার এবং কাস্টমাইজেশন তথ্য শেয়ার করুন</string>
     <!-- Preference switch for marketing data collection -->
     <string name="preferences_marketing_data">বিপণন তথ্য</string>
 
@@ -661,7 +661,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">অন্য ডিভাইস সংযুক্ত করুন</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">একটি ট্যাব পাঠাতে, কমপক্ষে অন্য একটি ডিভাইসে Firefox সাইন ইন করুন।</string>
+    <string name="sync_connect_device_dialog">একটি ট্যাব পাঠাতে, কমপক্ষে অন্য একটি ডিভাইসে LeOSium সাইন ইন করুন।</string>
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">বুঝেছি</string>
     <!-- Share error message -->
@@ -770,7 +770,7 @@
 
     <!-- Onboarding -->
     <!-- Text for onboarding welcome message
-    The first parameter is the name of the app (e.g. Firefox Preview) -->
+    The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="onboarding_header">%s এ আপনাকে স্বাগতম!</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">Sync চালু আছে</string>
@@ -802,7 +802,7 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">কোডটি স্ক্যান করুন</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[আপনার কম্পিউটারে Firefox খুলুন এবং <b>http://firefox.com/pair</b> এ যান]]></string>
+    <string name="sign_in_instructions"><![CDATA[আপনার কম্পিউটারে LeOSium খুলুন এবং <b>https://firefox.com/pair</b> এ যান]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">স্ক্যান করতে প্রস্তুত</string>
     <!-- Text shown for settings option for sign with pairing -->
@@ -967,7 +967,7 @@
     <!-- Placeholder text shown in the Search Engine Name TextField before a user enters text -->
     <string name="search_add_custom_engine_name_hint">নাম</string>
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string formatted="false" name="search_add_custom_engine_search_string_example">&quot;%s&quot; দিয়ে কোয়েরি প্রতিস্থাপন করুন। উদাহরণ: \nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string formatted="false" name="search_add_custom_engine_search_string_example">&quot;%s&quot; দিয়ে কোয়েরি প্রতিস্থাপন করুন। উদাহরণ: \nhttps://leosearch.ddns.net/search?q=%s</string>
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">কাস্টম সার্চ ইঞ্জিনের খুঁটিনাটি</string>
 

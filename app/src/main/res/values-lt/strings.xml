@@ -295,12 +295,12 @@
 
     <!-- Preference for accessibility -->
     <string name="preferences_accessibility">Pritaikymas neįgaliesiems</string>
-    <!-- Preference to override the Firefox Account server -->
-    <string name="preferences_override_fxa_server">Kitas „Firefox“ paskyrų serveris</string>
+    <!-- Preference to override the LeOSium Account server -->
+    <string name="preferences_override_fxa_server">Kitas „LeOSium“ paskyrų serveris</string>
     <!-- Preference to override the Sync token server -->
     <string name="preferences_override_sync_tokenserver">Kitas „Sync“ serveris</string>
     <!-- Toast shown after updating the FxA/Sync server override preferences -->
-    <string name="toast_override_fxa_sync_server_done">Pakeistas „Firefox“ paskyrų/sinchronizavimo serveris. Išeinama iš programos, kad būtų pritaikyti pakeitimai…</string>
+    <string name="toast_override_fxa_sync_server_done">Pakeistas „LeOSium“ paskyrų/sinchronizavimo serveris. Išeinama iš programos, kad būtų pritaikyti pakeitimai…</string>
     <!-- Preference category for account information -->
     <string name="preferences_category_account">Paskyra</string>
     <!-- Preference for changing where the toolbar is positioned -->
@@ -314,7 +314,7 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">Tinkinimas</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
-    <string name="preferences_account_default_name">„Firefox“ paskyra</string>
+    <string name="preferences_account_default_name">„LeOSium“ paskyra</string>
     <!-- Preference text for account title when there was an error syncing FxA -->
     <string name="preferences_account_sync_error">Prisijunkite, norėdami tęsti sinchronizavimą</string>
     <!-- Preference for language -->
@@ -443,7 +443,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">Gautos kortelės</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description">Pranešimai apie korteles, gautas iš kitų „Firefox“ įrenginių.</string>
+    <string name="fxa_received_tab_channel_description">Pranešimai apie korteles, gautas iš kitų „LeOSium“ įrenginių.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Gauta kortelė</string>
     <!-- %s is the device name -->
@@ -925,7 +925,7 @@
     <!-- An option to connect additional devices -->
     <string name="sync_connect_device">Susieti kitą įrenginį</string>
     <!-- The dialog text shown when additional devices are not available -->
-    <string name="sync_connect_device_dialog">Norėdami persiųsti kortelę, turite prisijungti prie „Firefox“ bent viename kitame įrenginyje.</string>
+    <string name="sync_connect_device_dialog">Norėdami persiųsti kortelę, turite prisijungti prie „LeOSium“ bent viename kitame įrenginyje.</string>
     <!-- Confirmation dialog button -->
     <string name="sync_confirmation_button">Supratau</string>
     <!-- Share error message -->
@@ -972,7 +972,7 @@
     <string name="qr_scanner_dialog_positive">Leisti</string>
     <!-- QR code scanner prompt dialog positive option to deny navigation to scanned link -->
     <string name="qr_scanner_dialog_negative">Drausti</string>
-    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or http. -->
+    <!-- QR code scanner prompt dialog error message shown when a hostname does not contain http or https. -->
     <string name="qr_scanner_dialog_invalid">Neteisingas saityno adresas.</string>
     <!-- QR code scanner prompt dialog positive option when there is an error -->
     <string name="qr_scanner_dialog_invalid_ok">Gerai</string>
@@ -1046,8 +1046,8 @@
     <!-- Text for the snackbar to show the user that the deletion of browsing data is in progress -->
     <string name="deleting_browsing_data_in_progress">Šalinami naršymo duomenys…</string>
 
-    <!-- Text for the button to learn more about signing in to your Firefox account. -->
-    <string name="onboarding_manual_sign_in_description">Turėkite savo „Firefox“ adresyną, žurnalą, ir slaptažodžius šiame įrenginyje.</string>
+    <!-- Text for the button to learn more about signing in to your LeOSium account. -->
+    <string name="onboarding_manual_sign_in_description">Turėkite savo „LeOSium“ adresyną, žurnalą, ir slaptažodžius šiame įrenginyje.</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">„Sync“ įjungta</string>
 
@@ -1095,16 +1095,16 @@
     <!-- Title of QR Pairing Fragment -->
     <string name="sync_scan_code">Nuskaityti kodą</string>
     <!-- Instructions on how to access pairing -->
-    <string name="sign_in_instructions"><![CDATA[Atverkite „Firefox“ savo kompiuteryje, ir eikite į <b>http://firefox.com/pair</b>]]></string>
+    <string name="sign_in_instructions"><![CDATA[Atverkite „LeOSium“ savo kompiuteryje, ir eikite į <b>https://firefox.com/pair</b>]]></string>
     <!-- Text shown for sign in pairing when ready -->
     <string name="sign_in_ready_for_scan">Pasiruošti nuskaitymui</string>
     <!-- Text shown for settings option for sign with pairing -->
     <string name="sign_in_with_camera">Prisijunkite su savo kamera</string>
     <!-- Text shown for settings option for sign with email -->
     <string name="sign_in_with_email">Naudoti el. paštą</string>
-    <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here.-->
-    <string name="sign_in_create_account_text"><![CDATA[Neturite paskyros? <u>Susikurkite</u>, norėdami sinchronizuoti „Firefox“ tarp įrenginių.]]></string>
-    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. Firefox Preview) -->
+    <!-- Text shown for settings option for create new account text.'LeOSium' intentionally hardcoded here.-->
+    <string name="sign_in_create_account_text"><![CDATA[Neturite paskyros? <u>Susikurkite</u>, norėdami sinchronizuoti „LeOSium“ tarp įrenginių.]]></string>
+    <!-- Text shown in confirmation dialog to sign out of account. The first parameter is the name of the app (e.g. LeOSium Preview) -->
     <string name="sign_out_confirmation_message_2">„%s“ nebesinchronizuos duomenų su jūsų paskyra, tačiau šiame įrenginyje esančių naršymo duomenų nepašalins.</string>
     <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
     <string name="sign_out_disconnect">Atsijungti</string>
@@ -1267,9 +1267,9 @@
     <string name="preferences_passwords_save_logins_ask_to_save">Pasiūlyti įrašyti</string>
     <!-- Preference option for never saving passwords in Fenix -->
     <string name="preferences_passwords_save_logins_never_save">Niekada neįrašyti</string>
-    <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill2">Automatinis užpildymas per „%1$s“</string>
-    <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+    <!-- Description for the preference for autofilling saved logins in LeOSium (in web content), %1$s will be replaced with the app name -->
     <string name="preferences_passwords_autofill_description">Užpildyti ir įsiminti prisijungimus svetainėse, naudojantis „%1$s“.</string>
     <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
     <string name="preferences_android_autofill">Automatinis užpildymas kitose programose</string>
@@ -1439,7 +1439,7 @@
     <string name="search_add_custom_engine_search_string_hint">Paieškos eilutės struktūra</string>
 
     <!-- Description text for the Search String TextField. The %s is part of the string -->
-    <string name="search_add_custom_engine_search_string_example" formatted="false">Vietoje užklausos įrašykite „%s“. Pvz.:\nhttp://leosearch.ddns.net/search?q=%s</string>
+    <string name="search_add_custom_engine_search_string_example" formatted="false">Vietoje užklausos įrašykite „%s“. Pvz.:\nhttps://leosearch.ddns.net/search?q=%s</string>
 
     <!-- Accessibility description for the form in which details about the custom search engine are entered -->
     <string name="search_add_custom_engine_form_description">Informacija apie tinkinamą ieškyklę</string>
@@ -1526,10 +1526,10 @@
     <!--  The error message in edit login view when a duplicate username exists. -->
     <string name="saved_login_duplicate">Prisijungimas su tokiu naudotojo vardu jau yra</string>
 
-    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'http://www.example.com' intentionally hardcoded here -->
-    <string name="add_login_hostname_hint_text">http://www.example.com</string>
-    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or http. -->
-    <string name="add_login_hostname_invalid_text_3">Svetainės adresas privalo turėti „http://“ arba „http://“</string>
+    <!-- This is the hint text that is shown inline on the hostname field of the create new login page. 'https://www.example.com' intentionally hardcoded here -->
+    <string name="add_login_hostname_hint_text">https://www.example.com</string>
+    <!-- This is an error message shown below the hostname field of the add login page when a hostname does not contain http or https. -->
+    <string name="add_login_hostname_invalid_text_3">Svetainės adresas privalo turėti „https://“ arba „http://“</string>
     <!-- This is an error message shown below the hostname field of the add login page when a hostname is invalid. -->
     <string name="add_login_hostname_invalid_text_2">Privalomas tinkamas serverio vardas</string>
 
@@ -1538,14 +1538,14 @@
     <string name="synced_tabs_connect_another_device">Susiekite kitą įrenginį.</string>
     <!-- Text displayed asking user to re-authenticate -->
     <string name="synced_tabs_reauth">Prisijunkite iš naujo.</string>
-    <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+    <!-- Text displayed when user has disabled tab syncing in LeOSium Sync Account -->
     <string name="synced_tabs_enable_tab_syncing">Įjunkite kortelių sinchronizavimą.</string>
 
     <!-- Text displayed when user has no tabs that have been synced -->
-    <string name="synced_tabs_no_tabs">Kituose savo įrenginiuose su „Firefox“ neturite atvertų kortelių.</string>
-    <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+    <string name="synced_tabs_no_tabs">Kituose savo įrenginiuose su „LeOSium“ neturite atvertų kortelių.</string>
+    <!-- Text displayed in the synced tabs screen when a user is not signed in to LeOSium Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">Peržiūrėkite kituose įrenginiuose esančias korteles.</string>
-    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+    <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to LeOSium Sync -->
     <string name="synced_tabs_sign_in_button">Prisijungti prie „Sync“</string>
 
     <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
@@ -1580,7 +1580,7 @@
     <!-- The header text of the auto-close message when the user is asked if they want to turn on the auto-closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Užverti automatiškai po mėnesio?</string>
     <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">„Firefox“ gali užverti korteles, kuriomis paskutinį mėnesį nesinaudojote.</string>
+    <string name="inactive_tabs_auto_close_message_description" tools:ignore="UnusedResources">„LeOSium“ gali užverti korteles, kuriomis paskutinį mėnesį nesinaudojote.</string>
     <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">ĮJUNGTI AUTOMATINĮ UŽVĖRIMĄ</string>
 
@@ -1588,7 +1588,7 @@
     <string name="inactive_tabs_auto_close_message_snackbar">Automatinis užvėrimas įjungtas</string>
 
     <!-- Default browser experiment -->
-    <string name="default_browser_experiment_card_text">Leiskite saitams iš svetainių, el. laiškų, ir žinučių būti automatiškai atvertiems per „Firefox“.</string>
+    <string name="default_browser_experiment_card_text">Leiskite saitams iš svetainių, el. laiškų, ir žinučių būti automatiškai atvertiems per „LeOSium“.</string>
 
     <!-- Content description for close button in collection placeholder. -->
     <string name="remove_home_collection_placeholder_content_description">Pašalinti</string>
@@ -1610,7 +1610,7 @@
     <!-- Text of a button allowing users to access an external url for more Pocket recommendations. -->
     <string name="pocket_stories_placeholder_text">Atrasti daugiau</string>
     <!-- Caption for describing a certain feature. The placeholder is for a clickable text (eg: Learn more) which will load an url in a new tab when clicked.  -->
-    <string name="pocket_stories_feature_caption">„Firefox“ šeimos dalis. %s</string>
+    <string name="pocket_stories_feature_caption">„LeOSium“ šeimos dalis. %s</string>
     <!-- Clickable text for opening an external link for more information about Pocket. -->
     <string name="pocket_stories_feature_learn_more">Sužinoti daugiau</string>
 
